@@ -18,3 +18,11 @@
 | Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes RAW 8.1K Full Frame | 8192x4320 | 25p | 422 MB/s（官方摄录规格表 @ 25p） | 402.45 | 1414.9 | 23.58 | 39 min | ★ 训练数据未覆盖（新增） | — | N24 |
 | Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes 422 HQ 8.1K Full Frame | 8192x4320 | 25p | 375 MB/s（官方摄录规格表 @ 25p） | 357.63 | 1257.3 | 20.95 | 44 min | ★ 训练数据未覆盖（新增） | — | N24 |
 | Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | H.264 4.1K Full Frame | 4096x2160 | 25p | 18 MB/s（官方摄录规格表 @ 25p） | 17.17 | 60.3 | 1.01 | 15h 25m | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | CinemaDNG 8K Full Frame | 8192x4324 | 25p | 791 MB/s（官方摄录规格表 @ 25p） | 754.36 | 2652.0 | 44.2 | 23 min | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes RAW 8K Full Frame | 8192x4324 | 25p | 396 MB/s（官方摄录规格表 @ 25p） | 377.65 | 1327.7 | 22.13 | 45 min | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes 422 HQ 8K Full Frame | 8192x4324 | 25p | 336 MB/s（官方摄录规格表 @ 25p） | 320.43 | 1126.5 | 18.77 | 53 min | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | CinemaDNG 5.5K S35 | 5568x2952 | 25p | 392 MB/s（官方摄录规格表 @ 25p） | 373.84 | 1314.3 | 21.9 | 46 min | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes RAW 5.5K S35 | 5568x2952 | 25p | 196 MB/s（官方摄录规格表 @ 25p） | 186.92 | 657.1 | 10.95 | 1h 31m | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | CinemaDNG 4K Full Frame | 4096x2160 | 25p | 197 MB/s（官方摄录规格表 @ 25p） | 187.87 | 660.5 | 11.01 | 1h 31m | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes RAW 4K Full Frame | 4096x2160 | 25p | 99 MB/s（官方摄录规格表 @ 25p） | 94.41 | 331.9 | 5.53 | 3h 01m | ★ 训练数据未覆盖（新增） | — | N24 |
+| Inspire 3 / X9-8K Air | 悟3 / 大疆 Inspire 3 | ProRes 422 HQ 4K Full Frame | 4096x2160 | 25p | 88 MB/s（官方摄录规格表 @ 25p） | 83.92 | 295.0 | 4.92 | 3h 23m | ★ 训练数据未覆盖（新增） | — | N24 |
