@@ -1,53 +1,53 @@
 序号,品牌,机型,别名,分辨率,传感器帧率,素材帧率,编码,编码核对状态,码流MB/s,码流Mbps,GB/h,GB/min,封装,色彩空间,样本数
 1,ARRI,ARRI,阿莱 / ARRI（品牌，未记录机型）,3840x2160,25 fps,25 fps,ProRes 4444,—,121.57,972.60,427.40,7.12,mov,LOG-C,183
 2,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,25 fps,25 fps,"ARRIRAW (13bit, HDE)",—,233.84,"1,870.70",822.10,13.70,mxf,"LogC4, AWG4",5
-3,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,"ARRIRAW (13bit, HDE)",—,228.20,"1,825.60",802.30,13.37,mxf,"LogC4, AWG4",51
-4,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,"ARRIRAW (13bit, HDE)",—,224.68,"1,797.50",789.90,13.17,mxf,"LogC4, AWG4",46
-5,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,120 fps,25 fps,"ARRIRAW (13bit, HDE)",—,225.36,"1,802.90",792.30,13.20,mxf,"LogC4, AWG4",52
-6,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,ProRes 4444 (XQ),—,172.95,"1,383.60",608.00,10.13,mxf,"LogC4, AWG4",12
-7,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,60 fps,25 fps,ProRes 4444 (XQ),—,201.52,"1,612.20",708.50,11.81,mxf,"LogC4, AWG4",5
-8,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,75 fps,25 fps,ProRes 4444 (XQ),—,202.75,"1,622.00",712.80,11.88,mxf,"LogC4, AWG4",5
-9,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,ProRes 4444 (XQ),—,202.38,"1,619.10",711.50,11.86,mxf,"LogC4, AWG4",25
+3,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,"ARRIRAW (13bit, HDE)",慢动作·传感器≠交付·异模式·勿线性外推,228.20,"1,825.60",802.30,13.37,mxf,"LogC4, AWG4",51
+4,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,"ARRIRAW (13bit, HDE)",慢动作·传感器≠交付·异模式·勿线性外推,224.68,"1,797.50",789.90,13.17,mxf,"LogC4, AWG4",46
+5,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,120 fps,25 fps,"ARRIRAW (13bit, HDE)",慢动作·传感器≠交付·异模式·勿线性外推,225.36,"1,802.90",792.30,13.20,mxf,"LogC4, AWG4",52
+6,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,172.95,"1,383.60",608.00,10.13,mxf,"LogC4, AWG4",12
+7,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,60 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,201.52,"1,612.20",708.50,11.81,mxf,"LogC4, AWG4",5
+8,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,75 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,202.75,"1,622.00",712.80,11.88,mxf,"LogC4, AWG4",5
+9,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,202.38,"1,619.10",711.50,11.86,mxf,"LogC4, AWG4",25
 10,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,24 fps,24 fps,ARRIRAW (13bit),—,586.99,"4,695.90","2,063.60",34.39,mxf,"LogC4, AWG4",55
-11,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,8 fps,25 fps,ARRIRAW (13bit),—,607.18,"4,857.50","2,134.60",35.58,mxf,"LogC4, AWG4",7
+11,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,8 fps,25 fps,ARRIRAW (13bit),慢动作·传感器≠交付·异模式·勿线性外推,607.18,"4,857.50","2,134.60",35.58,mxf,"LogC4, AWG4",7
 12,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,25 fps,25 fps,ARRIRAW (13bit),—,611.76,"4,894.10","2,150.70",35.85,mxf,"LogC4, AWG4",429
-13,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,ARRIRAW (13bit),—,612.09,"4,896.70","2,151.90",35.86,mxf,"LogC4, AWG4",50
-14,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,60 fps,25 fps,ARRIRAW (13bit),—,612.73,"4,901.80","2,154.10",35.90,mxf,"LogC4, AWG4",3
+13,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,ARRIRAW (13bit),慢动作·传感器≠交付·异模式·勿线性外推,612.09,"4,896.70","2,151.90",35.86,mxf,"LogC4, AWG4",50
+14,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,60 fps,25 fps,ARRIRAW (13bit),慢动作·传感器≠交付·异模式·勿线性外推,612.73,"4,901.80","2,154.10",35.90,mxf,"LogC4, AWG4",3
 15,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,24 fps,24 fps,"ARRIRAW (13bit, HDE)",—,291.18,"2,329.40","1,023.70",17.06,mxf,"LogC4, AWG4",33
-16,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,10 fps,25 fps,"ARRIRAW (13bit, HDE)",—,347.23,"2,777.80","1,220.70",20.35,mxf,"LogC4, AWG4",1
+16,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,10 fps,25 fps,"ARRIRAW (13bit, HDE)",慢动作·传感器≠交付·异模式·勿线性外推,347.23,"2,777.80","1,220.70",20.35,mxf,"LogC4, AWG4",1
 17,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,25 fps,25 fps,"ARRIRAW (13bit, HDE)",—,336.17,"2,689.40","1,181.90",19.70,mxf,"LogC4, AWG4",72
-18,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,"ARRIRAW (13bit, HDE)",—,320.33,"2,562.70","1,126.20",18.77,mxf,"LogC4, AWG4",684
-19,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3200x1800,50 fps,25 fps,ProRes 4444,—,96.00,768.00,337.50,5.62,mov,LOG-C,39
-20,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,6 fps,25 fps,ProRes 4444,—,121.29,970.30,426.40,7.11,mov,LOG-C,1
-21,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,15 fps,25 fps,ProRes 4444,—,117.66,941.20,413.60,6.89,mov,LOG-C,4
-22,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,50 fps,25 fps,ProRes 4444,—,136.55,"1,092.40",480.00,8.00,mov,LOG-C,39
-23,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,60 fps,30 fps,ProRes 4444,—,41.30,330.40,145.20,2.42,mxf,"LogC3, AWG3",1
-24,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,90 fps,30 fps,ProRes 4444,—,40.78,326.30,143.40,2.39,mxf,"LogC3, AWG3",8
-25,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,100 fps,25 fps,ProRes 4444 (XQ),—,42.92,343.40,150.90,2.52,mxf,"LogC3, AWG3",5
-26,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3200x1800,75 fps,25 fps,ProRes 4444,—,92.90,743.20,326.60,5.44,mxf,"LogC3, AWG3",2
-27,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,9 fps,25 fps,ProRes 4444,—,125.25,"1,002.00",440.30,7.34,mxf,"LogC3, AWG3",7
+18,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,"ARRIRAW (13bit, HDE)",慢动作·传感器≠交付·异模式·勿线性外推,320.33,"2,562.70","1,126.20",18.77,mxf,"LogC4, AWG4",684
+19,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3200x1800,50 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,96.00,768.00,337.50,5.62,mov,LOG-C,39
+20,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,6 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,121.29,970.30,426.40,7.11,mov,LOG-C,1
+21,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,15 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,117.66,941.20,413.60,6.89,mov,LOG-C,4
+22,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,50 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,136.55,"1,092.40",480.00,8.00,mov,LOG-C,39
+23,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,60 fps,30 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,41.30,330.40,145.20,2.42,mxf,"LogC3, AWG3",1
+24,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,90 fps,30 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,40.78,326.30,143.40,2.39,mxf,"LogC3, AWG3",8
+25,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,100 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,42.92,343.40,150.90,2.52,mxf,"LogC3, AWG3",5
+26,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3200x1800,75 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,92.90,743.20,326.60,5.44,mxf,"LogC3, AWG3",2
+27,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,9 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,125.25,"1,002.00",440.30,7.34,mxf,"LogC3, AWG3",7
 28,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,25 fps,25 fps,ProRes 4444,—,122.54,980.40,430.80,7.18,mxf,"LogC3, AWG3",52
-29,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,30 fps,25 fps,ProRes 4444,—,137.28,"1,098.30",482.60,8.04,mxf,"LogC3, AWG3",3
-30,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,48 fps,25 fps,ProRes 4444,—,137.70,"1,101.60",484.10,8.07,mxf,"LogC3, AWG3",445
-31,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444,—,121.25,970.00,426.30,7.10,mxf,"LogC3, AWG3",243
-32,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,30 fps,ProRes 4444,—,160.95,"1,287.60",565.80,9.43,mxf,"LogC3, AWG3",34
+29,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,30 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,137.28,"1,098.30",482.60,8.04,mxf,"LogC3, AWG3",3
+30,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,48 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,137.70,"1,101.60",484.10,8.07,mxf,"LogC3, AWG3",445
+31,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,121.25,970.00,426.30,7.10,mxf,"LogC3, AWG3",243
+32,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,30 fps,ProRes 4444,慢动作·传感器≠交付·异模式·勿线性外推,160.95,"1,287.60",565.80,9.43,mxf,"LogC3, AWG3",34
 33,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,48 fps,48 fps,ProRes 4444,—,252.08,"2,016.60",886.20,14.77,mxf,"LogC3, AWG3",428
-34,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,12 fps,25 fps,ProRes 4444 (XQ),—,183.49,"1,468.00",645.10,10.75,mxf,"LogC3, AWG3",9
+34,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,12 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,183.49,"1,468.00",645.10,10.75,mxf,"LogC3, AWG3",9
 35,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,25 fps,25 fps,ProRes 4444 (XQ),—,176.21,"1,409.70",619.50,10.32,mxf,"LogC3, AWG3",17
-36,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444 (XQ),—,191.24,"1,529.90",672.30,11.21,mxf,"LogC3, AWG3",95
-37,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,25 fps,ProRes 4444 (XQ),—,195.65,"1,565.20",687.80,11.46,mxf,"LogC3, AWG3",415
+36,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,191.24,"1,529.90",672.30,11.21,mxf,"LogC3, AWG3",95
+37,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,25 fps,ProRes 4444 (XQ),慢动作·传感器≠交付·异模式·勿线性外推,195.65,"1,565.20",687.80,11.46,mxf,"LogC3, AWG3",415
 38,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,24 fps,24 fps,ARRIRAW (12bit reverse),—,509.52,"4,076.10","1,791.30",29.85,mxf,"LogC3, AWG3",50
-39,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,5 fps,25 fps,ARRIRAW (12bit reverse),—,515.66,"4,125.30","1,812.90",30.21,mxf,"LogC3, AWG3",3
-40,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,8 fps,25 fps,ARRIRAW (12bit reverse),—,543.56,"4,348.50","1,910.90",31.85,mxf,"LogC3, AWG3",3
+39,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,5 fps,25 fps,ARRIRAW (12bit reverse),慢动作·传感器≠交付·异模式·勿线性外推,515.66,"4,125.30","1,812.90",30.21,mxf,"LogC3, AWG3",3
+40,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,8 fps,25 fps,ARRIRAW (12bit reverse),慢动作·传感器≠交付·异模式·勿线性外推,543.56,"4,348.50","1,910.90",31.85,mxf,"LogC3, AWG3",3
 41,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,25 fps,25 fps,ARRIRAW (12bit reverse),—,528.38,"4,227.00","1,857.60",30.96,mxf,"LogC3, AWG3",50
-42,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,40 fps,25 fps,ARRIRAW (12bit reverse),—,530.82,"4,246.60","1,866.20",31.10,mxf,"LogC3, AWG3",122
+42,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,40 fps,25 fps,ARRIRAW (12bit reverse),慢动作·传感器≠交付·异模式·勿线性外推,530.82,"4,246.60","1,866.20",31.10,mxf,"LogC3, AWG3",122
 43,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,30 fps,30 fps,ARRIRAW (12bit reverse),—,633.36,"5,066.90","2,226.70",37.11,mxf,"LogC3, AWG3",111
 44,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,25 fps,25 fps,ProRes 4444,—,215.71,"1,725.70",758.40,12.64,mxf,"LogC3, AWG3",175
 45,RED,DSMC2 GEMINI 5K S35,双子座 / GEMINI / RED Gemini 5K S35,5120x2560,25 fps,25 fps,REDcode 6:1,—,97.51,780.10,342.80,5.71,r3d,RED WideGamut RGB with Log3G10 gamma curve,136
-46,RED,DSMC2 GEMINI 5K S35,双子座 / GEMINI / RED Gemini 5K S35,5120x2560,100 fps,25 fps,REDcode 8:1,—,78.39,627.20,275.60,4.59,r3d,RED WideGamut RGB with Log3G10 gamma curve,2
+46,RED,DSMC2 GEMINI 5K S35,双子座 / GEMINI / RED Gemini 5K S35,5120x2560,100 fps,25 fps,REDcode 8:1,慢动作·传感器≠交付·异模式·勿线性外推,78.39,627.20,275.60,4.59,r3d,RED WideGamut RGB with Log3G10 gamma curve,2
 47,RED,KOMODO-X 6K S35,科莫多-X / KOMODO-X / Komodo X / 6K S35,6144x3240,24 fps,24 fps,HQ,—,208.33,"1,666.60",732.40,12.21,r3d,RED WideGamut RGB with Log3G10 gamma curve,70
 48,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,25 fps,25 fps,LQ,—,262.11,"2,096.90",921.50,15.36,r3d,RED WideGamut RGB with Log3G10 gamma curve,53
-49,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,50 fps,25 fps,LQ,—,199.68,"1,597.40",702.00,11.70,r3d,RED WideGamut RGB with Log3G10 gamma curve,4
+49,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,50 fps,25 fps,LQ,慢动作·传感器≠交付·异模式·勿线性外推,199.68,"1,597.40",702.00,11.70,r3d,RED WideGamut RGB with Log3G10 gamma curve,4
 50,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,50 fps,50 fps,LQ,—,401.35,"3,210.80","1,411.00",23.52,r3d,RED WideGamut RGB with Log3G10 gamma curve,2
 51,Sony,ILCE-7M3,A7M3 / A7 III / α7 III / M3,3840x2160,（未记录）,25 fps,XAVC-S (H.264 8-bit),—,12.21,97.60,42.90,0.72,mp4,—,1148
 52,Sony,ILCE-7M4,A7M4 / A7 IV / α7 IV / M4,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,20.66,165.30,72.60,1.21,mp4,—,533
@@ -66,16 +66,16 @@
 66,Sony,ILME-FX5,FX5 / 报告代号（官方 Cinema Line 未见此型号，待核）,4992x2808,50 fps,50 fps,FX5 X-OCN,,165.06,"1,320.50",580.30,9.67,mxf,S-Gamut3.Cine/S-Log3,99
 67,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,25 fps,25 fps,XAVC,—,32.94,263.50,115.80,1.93,mxf,S-Cinetone/Rec.709,18
 68,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,50 fps,50 fps,XAVC,—,64.59,516.70,227.10,3.78,mxf,S-Cinetone/Rec.709,192
-69,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,100 fps,50 fps,XAVC,—,64.08,512.70,225.30,3.75,mxf,S-Cinetone/Rec.709,9
+69,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,100 fps,50 fps,XAVC,慢动作·传感器≠交付·异模式·勿线性外推,64.08,512.70,225.30,3.75,mxf,S-Cinetone/Rec.709,9
 70,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,4096x2160,24 fps,24 fps,XAVC,—,31.57,252.50,111.00,1.85,mxf,S-Gamut3.Cine/S-Log3,164
-71,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,12 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,358.92,"2,871.40","1,261.80",21.03,mxf,S-Gamut3.Cine/S-Log3,4
-72,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,18 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,352.92,"2,823.40","1,240.70",20.68,mxf,S-Gamut3.Cine/S-Log3,5
+71,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,12 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",慢动作·传感器≠交付·异模式·勿线性外推,358.92,"2,871.40","1,261.80",21.03,mxf,S-Gamut3.Cine/S-Log3,4
+72,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,18 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",慢动作·传感器≠交付·异模式·勿线性外推,352.92,"2,823.40","1,240.70",20.68,mxf,S-Gamut3.Cine/S-Log3,5
 73,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,354.58,"2,836.70","1,246.60",20.78,mxf,S-Gamut3.Cine/S-Log3,33
-74,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,353.99,"2,831.90","1,244.50",20.74,mxf,S-Gamut3.Cine/S-Log3,175
+74,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",慢动作·传感器≠交付·异模式·勿线性外推,353.99,"2,831.90","1,244.50",20.74,mxf,S-Gamut3.Cine/S-Log3,175
 75,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8192x4320,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,354.15,"2,833.20","1,245.00",20.75,mxf,S-Gamut3/S-Log3,11
-76,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8192x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,353.77,"2,830.10","1,243.70",20.73,mxf,S-Gamut3/S-Log3,88
+76,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8192x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",慢动作·传感器≠交付·异模式·勿线性外推,353.77,"2,830.10","1,243.70",20.73,mxf,S-Gamut3/S-Log3,88
 77,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x4556,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,565.12,"4,521.00","1,986.80",33.11,mxf,S-Gamut3.Cine/S-Log3,9
-78,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x4556,48 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,393.18,"3,145.40","1,382.30",23.04,mxf,S-Gamut3.Cine/S-Log3,3
+78,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x4556,48 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",慢动作·传感器≠交付·异模式·勿线性外推,393.18,"3,145.40","1,382.30",23.04,mxf,S-Gamut3.Cine/S-Log3,3
 79,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x5760,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,713.70,"5,709.60","2,509.10",41.82,mxf,S-Gamut3.Cine/S-Log3 / S-Gamut3/S-Log3,234
 80,Sony,A7,α7 系列 / A7 系列 / Sony A7,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,21.57,172.60,75.80,1.26,mp4,—,42
 82,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,1920x1080,25 fps,25 fps,Apple ProRes 422 (HQ),—,24.83,198.60,87.30,1.45,mov,—,2
