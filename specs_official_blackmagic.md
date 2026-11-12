@@ -28,3 +28,10 @@
 | PYXIS 6K | PYXIS 6K / 盒子机 | BRAW 12:1 | 6048x4032 | 30p | 94 MB/s（官方 Tech Specs，30fps 基准） | 89.65 | 315.2 | 5.25 | 2h 57m | ★ 训练数据未覆盖（新增） | — | N22 |
 | PYXIS 6K | PYXIS 6K / 盒子机 | BRAW 3:1 | 4096x2160 | 30p | 136 MB/s（官方 Tech Specs，30fps 基准） | 129.7 | 456.0 | 7.6 | 2h 02m | ★ 训练数据未覆盖（新增） | — | N22 |
 | PYXIS 6K | PYXIS 6K / 盒子机 | BRAW 5:1 | 4096x2160 | 30p | 82 MB/s（官方 Tech Specs，30fps 基准） | 78.2 | 274.9 | 4.58 | 3h 23m | ★ 训练数据未覆盖（新增） | — | N22 |
+| Pocket Cinema Camera 4K | 口袋机 4K / BMPCC 4K | BRAW 3:1 4K DCI | 4096x2160 | 30p | BMD 官方 Pocket 4K BRAW 3:1 4K DCI @30p 码率 136 MB/s（十进制） | 129.70 | 456.0 | 7.60 | 2h02m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 4K | 口袋机 4K / BMPCC 4K | BRAW 5:1 4K DCI | 4096x2160 | 30p | BMD 官方 Pocket 4K BRAW 5:1 4K DCI @30p 码率 82 MB/s（十进制） | 78.20 | 274.9 | 4.58 | 3h23m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 4K | 口袋机 4K / BMPCC 4K | BRAW 3:1 6K | 6144x3456 | 30p | BMD 官方 Pocket 4K BRAW 3:1 6K @30p 码率 323 MB/s（十进制） | 308.04 | 1082.9 | 18.05 | 51 min（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 4K | 口袋机 4K / BMPCC 4K | ProRes 422 HQ 4K DCI | 4096x2160 | 30p | BMD 官方 Pocket 4K ProRes 422 HQ 4K DCI @30p 码率 117.88 MB/s（十进制） | 112.42 | 395.2 | 6.59 | 2h21m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 6K | 口袋机 6K / BMPCC 6K | BRAW 3:1 6K | 6144x3456 | 30p | BMD 官方 Pocket 6K BRAW 3:1 6K @30p 码率 323 MB/s（十进制） | 308.04 | 1082.9 | 18.05 | 51 min（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 6K | 口袋机 6K / BMPCC 6K | BRAW 5:1 6K | 6144x3456 | 30p | BMD 官方 Pocket 6K BRAW 5:1 6K @30p 码率 194 MB/s（十进制） | 185.01 | 650.4 | 10.84 | 1h25m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
+| Pocket Cinema Camera 6K | 口袋机 6K / BMPCC 6K | ProRes 422 HQ 4K DCI | 4096x2160 | 30p | BMD 官方 Pocket 6K ProRes 422 HQ 4K DCI @30p 码率 117.88 MB/s（十进制） | 112.42 | 395.2 | 6.59 | 2h21m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N22 |
