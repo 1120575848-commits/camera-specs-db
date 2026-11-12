@@ -3,7 +3,7 @@
 本仓库是给 AI 索引的**公开拍摄格式 / 码率 / 数据量资料库**。详见 [README.md](README.md)（含使用说明与客户回复口径）。
 
 ## 文件导航
-- `specs_official.csv` / `specs_official.json`：官网公开规格全集（243 条），含 MB/s、GB/h、GB/min、1TB 时长、实测对照、来源。
+- `specs_official.csv` / `specs_official.json`：官网公开规格全集（276 条），含 MB/s、GB/h、GB/min、1TB 时长、实测对照、来源。
 - `specs_measured.csv`：本项目 26 份报告的**实测格式**（品牌/机型/分辨率/双帧率/编码/码流/GB/h/样本数）。
 - `measured_anchors.csv`：客户回复区间锚点（项目级每日数据量中位/平均/P90/最大 + 各机型满格式 GB/h）。
 - `README.md`：使用说明 + 客户回复口径（单位TB化、三数区间、区间失效反问、默认小时假设、必带2TB换算）+ few-shot 示例。
@@ -12,14 +12,14 @@
 - [ARRI（52 条）](specs_official_arri.md)
 - [Apple（67 条）](specs_official_apple.md)
 - [Atomos（2 条）](specs_official_atomos.md)
-- [Blackmagic（23 条）](specs_official_blackmagic.md)
-- [Canon（15 条）](specs_official_canon.md)
-- [DJI（13 条）](specs_official_dji.md)
+- [Blackmagic（30 条）](specs_official_blackmagic.md)
+- [Canon（22 条）](specs_official_canon.md)
+- [DJI（24 条）](specs_official_dji.md)
 - [GoPro（2 条）](specs_official_gopro.md)
-- [Nikon（8 条）](specs_official_nikon.md)
+- [Nikon（14 条）](specs_official_nikon.md)
 - [Panasonic（6 条）](specs_official_panasonic.md)
 - [RED（15 条）](specs_official_red.md)
-- [Sony（32 条）](specs_official_sony.md)
+- [Sony（42 条）](specs_official_sony.md)
 
 ## 常见问法 → 去哪查
 - 某格式一小时多少 G → `specs_official.csv`（GB/h 列）或对应品牌分片。
