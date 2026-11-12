@@ -1,0 +1,130 @@
+序号,品牌,机型,别名,分辨率,传感器帧率,素材帧率,编码,编码核对状态,码流MB/s,码流Mbps,GB/h,GB/min,封装,色彩空间,样本数
+1,ARRI,ARRI,阿莱 / ARRI（品牌，未记录机型）,3840x2160,25 fps,25 fps,ProRes 4444,—,121.57,972.60,427.40,7.12,mov,LOG-C,183
+2,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,25 fps,25 fps,"ARRIRAW (13bit, HDE)",—,233.84,"1,870.70",822.10,13.70,mxf,"LogC4, AWG4",5
+3,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,"ARRIRAW (13bit, HDE)",—,228.20,"1,825.60",802.30,13.37,mxf,"LogC4, AWG4",51
+4,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,"ARRIRAW (13bit, HDE)",—,224.68,"1,797.50",789.90,13.17,mxf,"LogC4, AWG4",46
+5,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,120 fps,25 fps,"ARRIRAW (13bit, HDE)",—,225.36,"1,802.90",792.30,13.20,mxf,"LogC4, AWG4",52
+6,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,50 fps,25 fps,ProRes 4444 (XQ),—,172.95,"1,383.60",608.00,10.13,mxf,"LogC4, AWG4",12
+7,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,60 fps,25 fps,ProRes 4444 (XQ),—,201.52,"1,612.20",708.50,11.81,mxf,"LogC4, AWG4",5
+8,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,75 fps,25 fps,ProRes 4444 (XQ),—,202.75,"1,622.00",712.80,11.88,mxf,"LogC4, AWG4",5
+9,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4096x2304,100 fps,25 fps,ProRes 4444 (XQ),—,202.38,"1,619.10",711.50,11.86,mxf,"LogC4, AWG4",25
+10,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,24 fps,24 fps,ARRIRAW (13bit),—,586.99,"4,695.90","2,063.60",34.39,mxf,"LogC4, AWG4",55
+11,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,8 fps,25 fps,ARRIRAW (13bit),—,607.18,"4,857.50","2,134.60",35.58,mxf,"LogC4, AWG4",7
+12,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,25 fps,25 fps,ARRIRAW (13bit),—,611.76,"4,894.10","2,150.70",35.85,mxf,"LogC4, AWG4",429
+13,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,ARRIRAW (13bit),—,612.09,"4,896.70","2,151.90",35.86,mxf,"LogC4, AWG4",50
+14,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,60 fps,25 fps,ARRIRAW (13bit),—,612.73,"4,901.80","2,154.10",35.90,mxf,"LogC4, AWG4",3
+15,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,24 fps,24 fps,"ARRIRAW (13bit, HDE)",—,291.18,"2,329.40","1,023.70",17.06,mxf,"LogC4, AWG4",33
+16,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,10 fps,25 fps,"ARRIRAW (13bit, HDE)",—,347.23,"2,777.80","1,220.70",20.35,mxf,"LogC4, AWG4",1
+17,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,25 fps,25 fps,"ARRIRAW (13bit, HDE)",—,336.17,"2,689.40","1,181.90",19.70,mxf,"LogC4, AWG4",72
+18,ARRI,ARRI ALEXA 35,阿莱 A35 / Alexa 35 / 艾丽莎 35 / ALEXA 35,4608x3164,50 fps,25 fps,"ARRIRAW (13bit, HDE)",—,320.33,"2,562.70","1,126.20",18.77,mxf,"LogC4, AWG4",684
+19,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3200x1800,50 fps,25 fps,ProRes 4444,—,96.00,768.00,337.50,5.62,mov,LOG-C,39
+20,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,6 fps,25 fps,ProRes 4444,—,121.29,970.30,426.40,7.11,mov,LOG-C,1
+21,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,15 fps,25 fps,ProRes 4444,—,117.66,941.20,413.60,6.89,mov,LOG-C,4
+22,ARRI,ARRI ALEXA Mini,阿莱 Mini / AM / Alexa Mini,3840x2160,50 fps,25 fps,ProRes 4444,—,136.55,"1,092.40",480.00,8.00,mov,LOG-C,39
+23,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,60 fps,30 fps,ProRes 4444,—,41.30,330.40,145.20,2.42,mxf,"LogC3, AWG3",1
+24,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,90 fps,30 fps,ProRes 4444,—,40.78,326.30,143.40,2.39,mxf,"LogC3, AWG3",8
+25,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,1920x1080,100 fps,25 fps,ProRes 4444 (XQ),—,42.92,343.40,150.90,2.52,mxf,"LogC3, AWG3",5
+26,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3200x1800,75 fps,25 fps,ProRes 4444,—,92.90,743.20,326.60,5.44,mxf,"LogC3, AWG3",2
+27,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,9 fps,25 fps,ProRes 4444,—,125.25,"1,002.00",440.30,7.34,mxf,"LogC3, AWG3",7
+28,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,25 fps,25 fps,ProRes 4444,—,122.54,980.40,430.80,7.18,mxf,"LogC3, AWG3",52
+29,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,30 fps,25 fps,ProRes 4444,—,137.28,"1,098.30",482.60,8.04,mxf,"LogC3, AWG3",3
+30,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,48 fps,25 fps,ProRes 4444,—,137.70,"1,101.60",484.10,8.07,mxf,"LogC3, AWG3",445
+31,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444,—,121.25,970.00,426.30,7.10,mxf,"LogC3, AWG3",243
+32,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,30 fps,ProRes 4444,—,160.95,"1,287.60",565.80,9.43,mxf,"LogC3, AWG3",34
+33,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,48 fps,48 fps,ProRes 4444,—,252.08,"2,016.60",886.20,14.77,mxf,"LogC3, AWG3",428
+34,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,12 fps,25 fps,ProRes 4444 (XQ),—,183.49,"1,468.00",645.10,10.75,mxf,"LogC3, AWG3",9
+35,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,25 fps,25 fps,ProRes 4444 (XQ),—,176.21,"1,409.70",619.50,10.32,mxf,"LogC3, AWG3",17
+36,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,50 fps,25 fps,ProRes 4444 (XQ),—,191.24,"1,529.90",672.30,11.21,mxf,"LogC3, AWG3",95
+37,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,3840x2160,60 fps,25 fps,ProRes 4444 (XQ),—,195.65,"1,565.20",687.80,11.46,mxf,"LogC3, AWG3",415
+38,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,24 fps,24 fps,ARRIRAW (12bit reverse),—,509.52,"4,076.10","1,791.30",29.85,mxf,"LogC3, AWG3",50
+39,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,5 fps,25 fps,ARRIRAW (12bit reverse),—,515.66,"4,125.30","1,812.90",30.21,mxf,"LogC3, AWG3",3
+40,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,8 fps,25 fps,ARRIRAW (12bit reverse),—,543.56,"4,348.50","1,910.90",31.85,mxf,"LogC3, AWG3",3
+41,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,25 fps,25 fps,ARRIRAW (12bit reverse),—,528.38,"4,227.00","1,857.60",30.96,mxf,"LogC3, AWG3",50
+42,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,40 fps,25 fps,ARRIRAW (12bit reverse),—,530.82,"4,246.60","1,866.20",31.10,mxf,"LogC3, AWG3",122
+43,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,30 fps,30 fps,ARRIRAW (12bit reverse),—,633.36,"5,066.90","2,226.70",37.11,mxf,"LogC3, AWG3",111
+44,ARRI,ARRI ALEXA Mini LF,阿莱 Mini LF / MLF / 大画幅 Mini / Alexa Mini LF,4448x3096,25 fps,25 fps,ProRes 4444,—,215.71,"1,725.70",758.40,12.64,mxf,"LogC3, AWG3",175
+45,RED,DSMC2 GEMINI 5K S35,双子座 / GEMINI / RED Gemini 5K S35,5120x2560,25 fps,25 fps,REDcode 6:1,—,97.51,780.10,342.80,5.71,r3d,RED WideGamut RGB with Log3G10 gamma curve,136
+46,RED,DSMC2 GEMINI 5K S35,双子座 / GEMINI / RED Gemini 5K S35,5120x2560,100 fps,25 fps,REDcode 8:1,—,78.39,627.20,275.60,4.59,r3d,RED WideGamut RGB with Log3G10 gamma curve,2
+47,RED,KOMODO-X 6K S35,科莫多-X / KOMODO-X / Komodo X / 6K S35,6144x3240,24 fps,24 fps,HQ,—,208.33,"1,666.60",732.40,12.21,r3d,RED WideGamut RGB with Log3G10 gamma curve,70
+48,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,25 fps,25 fps,LQ,—,262.11,"2,096.90",921.50,15.36,r3d,RED WideGamut RGB with Log3G10 gamma curve,53
+49,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,50 fps,25 fps,LQ,—,199.68,"1,597.40",702.00,11.70,r3d,RED WideGamut RGB with Log3G10 gamma curve,4
+50,RED,V-RAPTOR [X] 8K VV,RED 猛禽 X / V-RAPTOR X / Raptor X 8K VV / 8K VV,8192x4320,50 fps,50 fps,LQ,—,401.35,"3,210.80","1,411.00",23.52,r3d,RED WideGamut RGB with Log3G10 gamma curve,2
+51,Sony,ILCE-7M3,A7M3 / A7 III / α7 III / M3,3840x2160,（未记录）,25 fps,XAVC-S (H.264 8-bit),—,12.21,97.60,42.90,0.72,mp4,—,1148
+52,Sony,ILCE-7M4,A7M4 / A7 IV / α7 IV / M4,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,20.66,165.30,72.60,1.21,mp4,—,533
+53,Sony,ILCE-7M4,A7M4 / A7 IV / α7 IV / M4,3840x2160,（未记录）,50 fps,XAVC-S (HEVC 10-bit),—,13.23,105.90,46.50,0.78,mp4,—,19
+54,Sony,ILCE-7SM3,A7S3 / S3 / A7S III / α7S III,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,19.92,159.40,70.00,1.17,mp4,—,244
+55,Sony,ILCE-7SM3,A7S3 / S3 / A7S III / α7S III,3840x2160,（未记录）,59.94 fps,XAVC-S (HEVC 10-bit),—,16.27,130.20,57.20,0.95,mp4,—,257
+56,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,1920x1080,（未记录）,59.94 fps,XAVC-S (H.264 10-bit),—,6.98,55.80,24.50,0.41,mp4,—,10
+57,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,26.58,212.70,93.50,1.56,mp4,—,66
+58,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,3840x2160,（未记录）,50 fps,XAVC-S (H.264 10-bit),—,28.89,231.10,101.50,1.69,mp4,—,973
+59,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,3840x2160,（未记录）,59.94 fps,XAVC-S (HEVC 10-bit),—,13.78,110.20,48.40,0.81,mp4,—,28
+60,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,4096x2160,（未记录）,24 fps,XAVC-S (H.264 10-bit),—,31.01,248.10,109.00,1.82,mp4,—,21
+61,Sony,ILME-FX3,FX3 / Sony FX3 / Cinema Line FX3,4096x2160,（未记录）,50 fps,XAVC-S (H.264 10-bit),—,65.15,521.20,229.10,3.82,mp4,—,5
+62,Sony,ILME-FX30,FX30 / Sony FX30 / Super35 电影机,3840x2160,（未记录）,50 fps,XAVC-S (HEVC 10-bit),—,13.64,109.10,47.90,0.80,mp4,—,4
+63,Sony,ILME-FX3A,FX3A / FX3 改进款（2025）/ Cinema Line FX3A,3840x2160,（未记录）,50 fps,XAVC-S (H.264 10-bit),—,29.31,234.50,103.00,1.72,mp4,—,123
+65,Sony,ILME-FX5,FX5 / 报告代号（官方 Cinema Line 未见此型号，待核）,3840x2160,25 fps,25 fps,H.264,,28.08,224.60,98.70,1.65,mp4,—,1
+66,Sony,ILME-FX5,FX5 / 报告代号（官方 Cinema Line 未见此型号，待核）,4992x2808,50 fps,50 fps,FX5 X-OCN,,165.06,"1,320.50",580.30,9.67,mxf,S-Gamut3.Cine/S-Log3,99
+67,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,25 fps,25 fps,XAVC,—,32.94,263.50,115.80,1.93,mxf,S-Cinetone/Rec.709,18
+68,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,50 fps,50 fps,XAVC,—,64.59,516.70,227.10,3.78,mxf,S-Cinetone/Rec.709,192
+69,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,3840x2160,100 fps,50 fps,XAVC,—,64.08,512.70,225.30,3.75,mxf,S-Cinetone/Rec.709,9
+70,Sony,ILME-FX6V,FX6 / Sony FX6 / Cinema Line FX6（V = 单机）,4096x2160,24 fps,24 fps,XAVC,—,31.57,252.50,111.00,1.85,mxf,S-Gamut3.Cine/S-Log3,164
+71,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,12 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,358.92,"2,871.40","1,261.80",21.03,mxf,S-Gamut3.Cine/S-Log3,4
+72,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,18 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,352.92,"2,823.40","1,240.70",20.68,mxf,S-Gamut3.Cine/S-Log3,5
+73,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,354.58,"2,836.70","1,246.60",20.78,mxf,S-Gamut3.Cine/S-Log3,33
+74,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,7680x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,353.99,"2,831.90","1,244.50",20.74,mxf,S-Gamut3.Cine/S-Log3,175
+75,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8192x4320,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,354.15,"2,833.20","1,245.00",20.75,mxf,S-Gamut3/S-Log3,11
+76,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8192x4320,50 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,353.77,"2,830.10","1,243.70",20.73,mxf,S-Gamut3/S-Log3,88
+77,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x4556,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,565.12,"4,521.00","1,986.80",33.11,mxf,S-Gamut3.Cine/S-Log3,9
+78,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x4556,48 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,393.18,"3,145.40","1,382.30",23.04,mxf,S-Gamut3.Cine/S-Log3,3
+79,Sony,MPC-3628,CineAlta VENICE 2 8K / 威尼斯2 / 威尼斯 / CineAltaV 2 8K / VENICE 2 8K / 8.6K 全画幅,8640x5760,25 fps,25 fps,"Sony RAW, CV8K, SQ, X-OCN",—,713.70,"5,709.60","2,509.10",41.82,mxf,S-Gamut3.Cine/S-Log3 / S-Gamut3/S-Log3,234
+80,Sony,A7,α7 系列 / A7 系列 / Sony A7,3840x2160,（未记录）,25 fps,XAVC-S (H.264 10-bit),—,21.57,172.60,75.80,1.26,mp4,—,42
+82,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,1920x1080,25 fps,25 fps,Apple ProRes 422 (HQ),—,24.83,198.60,87.30,1.45,mov,—,2
+83,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,3840x2160,23.98 fps,23.98 fps,Apple ProRes 422 (HQ),—,67.23,537.80,236.40,3.94,mov,—,25
+84,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,3840x2160,25 fps,25 fps,Apple ProRes 422 (HQ),—,84.95,679.60,298.60,4.98,mov,—,450
+85,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,3840x2160,50 fps,50 fps,Apple ProRes 422 (HQ),—,144.56,"1,156.50",508.20,8.47,mov,—,171
+86,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,3840x2160,25 fps,25 fps,Apple ProRes 4444 XQ,—,228.75,"1,830.00",804.20,13.40,mov,—,3
+87,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,4096x2160,25 fps,25 fps,Apple ProRes 422 (HQ),—,105.60,844.80,371.30,6.19,mov,—,2
+88,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,4096x2160,24 fps,24 fps,Apple ProRes RAW HQ,—,93.54,748.30,328.90,5.48,mov,—,179
+89,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,5568x2952,24 fps,24 fps,Apple ProRes RAW HQ,—,169.72,"1,357.80",596.70,9.94,mov,—,11
+90,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,5568x2952,25 fps,25 fps,Apple ProRes RAW HQ,—,164.61,"1,316.90",578.70,9.64,mov,—,4
+91,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,5568x3136,25 fps,25 fps,Apple ProRes 422 (HQ),—,205.88,"1,647.00",723.80,12.06,mov,—,2
+92,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,5632x3168,25 fps,25 fps,Apple ProRes 422 (HQ),—,205.60,"1,644.80",722.80,12.05,mov,—,13
+93,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,5632x3168,25 fps,25 fps,Apple ProRes 4444 XQ,—,470.97,"3,767.80","1,655.80",27.60,mov,—,42
+94,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,7680x4320,25 fps,25 fps,Apple ProRes 422 (HQ),—,344.51,"2,756.10","1,211.20",20.19,mov,—,104
+95,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,7680x4320,50 fps,50 fps,Apple ProRes RAW,—,447.37,"3,579.00","1,572.80",26.21,mov,—,17
+96,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,7680x4320,24 fps,24 fps,Apple ProRes RAW HQ,—,374.15,"2,993.20","1,315.40",21.92,mov,—,1
+97,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,7680x4320,25 fps,25 fps,Apple ProRes RAW HQ,—,412.05,"3,296.40","1,448.60",24.14,mov,—,18
+98,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,8192x4320,25 fps,25 fps,Apple ProRes RAW,—,133.56,"1,068.50",469.60,7.83,mov,—,19
+99,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,8192x4320,24 fps,24 fps,Apple ProRes RAW HQ,—,363.16,"2,905.30","1,276.70",21.28,mov,—,25
+100,DJI,RONIN 4D,大疆如影 4D / 如影4D / Ronin 4D / 禅思 X9,8192x4320,25 fps,25 fps,Apple ProRes RAW HQ,—,273.50,"2,188.00",961.50,16.03,mov,—,4
+101,Nikon,NIKON ZR,尼康 ZR / ZR / Nikon ZR 电影机,1920x1080,25 fps,25 fps,H.264,—,2.93,23.50,10.30,0.17,mp4,—,14
+102,Atomos,ShogunStudio2,Shogun Studio 2 / 阿童木 将军 2 / Atomos 录机,1920x1080,25 fps,25 fps,Apple ProRes 422,—,15.09,120.70,53.00,0.88,mov,—,4
+103,GoPro,HERO13 Black,狗13 / GoPro 13 / HERO13 / HERO13 Black,3840x2160,59.94 fps,59.94 fps,HEVC 10-bit,—,15.01,120.10,52.80,0.88,mp4,—,6
+104,GoPro,HERO13 Black,狗13 / GoPro 13 / HERO13 / HERO13 Black,3840x2160,120 fps,120 fps,HEVC 10-bit,—,7.09,56.80,24.90,0.42,mp4,—,5
+105,GoPro,HERO13 Black,狗13 / GoPro 13 / HERO13 / HERO13 Black,5312x2988,23.98 fps,23.98 fps,HEVC 10-bit,—,10.59,84.70,37.20,0.62,mp4,—,1
+106,（未记录）,（未记录）,—（报告未记录机型）,1728x3072,25 fps,25 fps,HEVC 10-bit,—,10.27,82.10,36.10,0.60,mp4,—,1
+107,（未记录）,（未记录）,—（报告未记录机型）,1920x1080,25 fps,25 fps,Apple ProRes 422,—,16.53,132.20,58.10,0.97,mov,—,1
+108,（未记录）,（未记录）,—（报告未记录机型）,1920x1080,25 fps,25 fps,Apple ProRes 422 (LT),—,10.09,80.70,35.50,0.59,mov,—,53
+109,（未记录）,（未记录）,—（报告未记录机型）,1920x1080,（未记录）,50 fps,ProRes 422,—,29.62,236.90,104.10,1.74,mxf,—,23
+110,（未记录）,（未记录）,—（报告未记录机型）,2688x1512,25 fps,25 fps,HEVC 8-bit,—,7.57,60.60,26.60,0.44,mp4,—,1
+111,（未记录）,（未记录）,—（报告未记录机型）,3384x6016,25 fps,25 fps,H.264,—,77.70,621.60,273.20,4.55,mp4,—,1
+112,（未记录）,（未记录）,—（报告未记录机型）,3384x6016,50 fps,50 fps,H.264,—,156.02,"1,248.20",548.50,9.14,mp4,—,17
+113,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,25 fps,25 fps,H.264,—,33.22,265.80,116.80,1.95,mp4,—,4
+114,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,50 fps,50 fps,H.264,—,66.04,528.40,232.20,3.87,mp4,—,88
+115,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,59.94 fps,59.94 fps,H.264,—,20.64,165.10,72.60,1.21,mov,—,13
+116,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,23.98 fps,23.98 fps,HEVC 10-bit,—,12.83,102.70,45.10,0.75,mov,—,5
+117,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,25 fps,25 fps,HEVC 10-bit,—,10.43,83.40,36.70,0.61,mp4,—,84
+118,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,29.97 fps,29.97 fps,HEVC 10-bit,—,10.55,84.40,37.10,0.62,mp4,—,39
+119,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,50 fps,50 fps,HEVC 10-bit,—,16.95,135.60,59.60,0.99,mp4,—,229
+120,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,59.94 fps,59.94 fps,HEVC 10-bit,—,15.52,124.20,54.60,0.91,mp4,—,3
+121,（未记录）,（未记录）,—（报告未记录机型）,3840x2160,29.97 fps,29.97 fps,HEVC 8-bit,—,5.75,46.00,20.20,0.34,mp4,—,3
+122,（未记录）,（未记录）,—（报告未记录机型）,3840x2880,50 fps,50 fps,HEVC 10-bit,—,15.79,126.30,55.50,0.93,mp4,—,15
+123,（未记录）,（未记录）,—（报告未记录机型）,5120x2700,25 fps,25 fps,HEVC 10-bit,—,17.83,142.70,62.70,1.04,mp4,—,7
+124,（未记录）,（未记录）,—（报告未记录机型）,7680x4050,25 fps,25 fps,Apple ProRes 4444,—,438.31,"3,506.50","1,540.90",25.68,mov,—,1
+125,（未记录）,（未记录）,—（报告未记录机型）,7680x4320,25 fps,25 fps,Apple ProRes 4444,—,570.79,"4,566.30","2,006.70",33.44,mov,—,18
+126,（未记录）,（未记录）,—（报告未记录机型）,7680x4320,50 fps,50 fps,Apple ProRes 4444,—,"1,159.58","9,276.60","4,076.60",67.94,mov,—,17
+127,剪辑代理小档,剪辑代理小档,Proxy / 代理文件 / 小档 / 离线剪辑文件 / Apple ProRes Proxy,1920x1080,25 fps,25 fps,Apple ProRes 422 (Proxy),—,3.01,24.10,10.60,0.18,mov,—,864
+128,剪辑代理小档,剪辑代理小档,Proxy / 代理文件 / 小档 / 离线剪辑文件 / Apple ProRes Proxy,2304x1296,25 fps,25 fps,Apple ProRes 422 (Proxy),—,4.53,36.20,15.90,0.27,mov,—,27
+129,剪辑代理小档,剪辑代理小档,Proxy / 代理文件 / 小档 / 离线剪辑文件 / Apple ProRes Proxy,2304x1296,50 fps,50 fps,Apple ProRes 422 (Proxy),—,9.23,73.80,32.40,0.54,mov,—,4
+130,剪辑代理小档,剪辑代理小档,Proxy / 代理文件 / 小档 / 离线剪辑文件 / Apple ProRes Proxy,2304x1582,25 fps,25 fps,Apple ProRes 422 (Proxy),—,3.58,28.70,12.60,0.21,mov,—,399
+131,剪辑代理小档,剪辑代理小档,Proxy / 代理文件 / 小档 / 离线剪辑文件 / Apple ProRes Proxy,2496x1664,25 fps,25 fps,Apple ProRes 422 (Proxy),—,9.53,76.20,33.50,0.56,mov,—,6

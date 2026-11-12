@@ -1,0 +1,203 @@
+no,brand,model,alias,codec,resolution,fps,official_rate,mbs_binary,gbh_binary,gbm_binary,tb_record_time,covered,measured_cmp,source,note,trained
+1,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,1920x1080,25p,38 Mbps（白皮书 17 GB/hr）,4.53,15.9,0.27,58h 28m,✓ 有实测,10.6（-33.3%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 864 条 / 1 组，✓ 合理偏低（Proxy 离线代理特性）,
+2,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,1920x1080,25p,85 Mbps（白皮书 38 GB/hr）,10.13,35.6,0.59,26h 08m,✓ 有实测,35.5（-0.3%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 53 条 / 1 组，✓ 实测吻合,
+3,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,1920x1080,25p,122 Mbps（白皮书 55 GB/hr）,14.54,51.1,0.85,18h 12m,✓ 有实测,55.3（+8.2%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 5 条 / 2 组，✓ 实测吻合,
+4,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,1920x1080,25p,184 Mbps（白皮书 83 GB/hr）,21.93,77.1,1.29,12h 04m,✓ 有实测,88.6（+14.9%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 2 条 / 1 组，✓ 实测吻合,
+5,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,1920x1080,25p,275 Mbps（白皮书 124 GB/hr）,32.78,115.3,1.92,8h 04m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+6,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,1920x1080,25p,413 Mbps（白皮书 186 GB/hr）,49.23,173.1,2.88,5h 22m,✓ 有实测,150.5（-13.1%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 5 条 / 1 组，✓ 实测吻合,
+7,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,1920x1080,50p,76 Mbps（白皮书 34 GB/hr）,9.06,31.9,0.53,29h 14m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+8,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,1920x1080,50p,170 Mbps（白皮书 77 GB/hr）,20.27,71.2,1.19,13h 04m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+9,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,1920x1080,50p,245 Mbps（白皮书 110 GB/hr）,29.21,102.7,1.71,9h 04m,✓ 有实测,104.2（+1.5%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 23 条 / 1 组，✓ 实测吻合,
+10,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,1920x1080,50p,367 Mbps（白皮书 165 GB/hr）,43.75,153.8,2.56,6h 03m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+11,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,1920x1080,50p,551 Mbps（白皮书 248 GB/hr）,65.68,230.9,3.85,4h 01m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+12,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,1920x1080,50p,826 Mbps（白皮书 372 GB/hr）,98.47,346.2,5.77,2h 41m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+13,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,2048x1080,25p,43 Mbps（白皮书 19 GB/hr）,5.13,18.0,0.3,51h 40m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+14,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,2048x1080,25p,97 Mbps（白皮书 44 GB/hr）,11.56,40.7,0.68,22h 54m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+15,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,2048x1080,25p,140 Mbps（白皮书 63 GB/hr）,16.69,58.7,0.98,15h 52m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+16,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,2048x1080,25p,210 Mbps（白皮书 94 GB/hr）,25.03,88.0,1.47,10h 34m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+17,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,2048x1080,25p,315 Mbps（白皮书 142 GB/hr）,37.55,132.0,2.2,7h 03m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+18,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,2048x1080,25p,472 Mbps（白皮书 212 GB/hr）,56.27,197.8,3.3,4h 42m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+19,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,3840x2160,25p,151 Mbps（白皮书 68 GB/hr）,18.0,63.3,1.05,14h 43m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+20,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,3840x2160,25p,342 Mbps（白皮书 154 GB/hr）,40.77,143.3,2.39,6h 29m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+21,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,3840x2160,25p,492 Mbps（白皮书 221 GB/hr）,58.65,206.2,3.44,4h 31m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+22,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,3840x2160,25p,737 Mbps（白皮书 332 GB/hr）,87.86,308.9,5.15,3h 00m,✓ 有实测,298.6（-3.3%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 450 条 / 1 组，✓ 实测吻合,
+23,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,3840x2160,25p,1106 Mbps（白皮书 498 GB/hr）,131.85,463.5,7.73,2h 00m,✓ 有实测,461.4（-0.5%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 977 条 / 9 组，✓ 实测吻合,
+24,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,3840x2160,25p,1659 Mbps（白皮书 746 GB/hr）,197.77,695.3,11.59,1h 20m,✓ 有实测,685.5（-1.4%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 539 条 / 5 组，✓ 实测吻合,
+25,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,3840x2160,50p,303 Mbps（白皮书 136 GB/hr）,36.12,127.0,2.12,7h 20m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+26,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,3840x2160,50p,684 Mbps（白皮书 308 GB/hr）,81.54,286.7,4.78,3h 14m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+27,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,3840x2160,50p,983 Mbps（白皮书 442 GB/hr）,117.18,412.0,6.87,2h 15m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+28,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,3840x2160,50p,1475 Mbps（白皮书 664 GB/hr）,175.83,618.2,10.3,1h 30m,✓ 有实测,508.3（-17.8%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 171 条 / 1 组，✓ 实测吻合,
+29,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,3840x2160,50p,2212 Mbps（白皮书 995 GB/hr）,263.69,927.0,15.45,1h 00m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+30,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,3840x2160,50p,3318 Mbps（白皮书 1493 GB/hr）,395.54,1390.6,23.18,40 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+31,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,4096x2160,24p,155 Mbps（白皮书 70 GB/hr）,18.48,65.0,1.08,14h 20m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+32,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,4096x2160,24p,350 Mbps（白皮书 157 GB/hr）,41.72,146.7,2.44,6h 20m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+33,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,4096x2160,24p,503 Mbps（白皮书 226 GB/hr）,59.96,210.8,3.51,4h 25m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+34,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,4096x2160,24p,754 Mbps（白皮书 339 GB/hr）,89.88,316.0,5.27,2h 56m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+35,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,4096x2160,24p,1131 Mbps（白皮书 509 GB/hr）,134.83,474.0,7.9,1h 57m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+36,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,4096x2160,24p,1697 Mbps（白皮书 764 GB/hr）,202.3,711.2,11.85,1h 18m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+37,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,4096x2160,25p,162 Mbps（白皮书 73 GB/hr）,19.31,67.9,1.13,13h 43m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+38,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,4096x2160,25p,365 Mbps（白皮书 164 GB/hr）,43.51,153.0,2.55,6h 05m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+39,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,4096x2160,25p,524 Mbps（白皮书 236 GB/hr）,62.47,219.6,3.66,4h 14m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+40,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,4096x2160,25p,786 Mbps（白皮书 354 GB/hr）,93.7,329.4,5.49,2h 49m,✓ 有实测,382.9（+16.2%）,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径 ｜ 报告 2 条 / 1 组，✓ 实测吻合,
+41,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,4096x2160,25p,1180 Mbps（白皮书 531 GB/hr）,140.67,494.5,8.24,1h 52m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+42,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,4096x2160,25p,1769 Mbps（白皮书 796 GB/hr）,210.88,741.4,12.36,1h 15m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+43,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,5120x2700,25p,253 Mbps（白皮书 114 GB/hr）,30.16,106.0,1.77,8h 47m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+44,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,5120x2700,25p,570 Mbps（白皮书 257 GB/hr）,67.95,238.9,3.98,3h 53m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+45,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,5120x2700,25p,819 Mbps（白皮书 369 GB/hr）,97.63,343.2,5.72,2h 42m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+46,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,5120x2700,25p,1229 Mbps（白皮书 553 GB/hr）,146.51,515.1,8.58,1h 48m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+47,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,5120x2700,25p,1843 Mbps（白皮书 829 GB/hr）,219.7,772.4,12.87,1h 12m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+48,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,5120x2700,25p,2765 Mbps（白皮书 1244 GB/hr）,329.61,1158.8,19.31,48 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+49,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,6144x3240,25p,365 Mbps（白皮书 164 GB/hr）,43.51,153.0,2.55,6h 05m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+50,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,6144x3240,25p,821 Mbps（白皮书 370 GB/hr）,97.87,344.1,5.73,2h 42m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+51,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,6144x3240,25p,1180 Mbps（白皮书 531 GB/hr）,140.67,494.5,8.24,1h 52m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+52,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,6144x3240,25p,1769 Mbps（白皮书 796 GB/hr）,210.88,741.4,12.36,1h 15m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+53,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,6144x3240,25p,2654 Mbps（白皮书 1194 GB/hr）,316.38,1112.3,18.54,50 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+54,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,6144x3240,25p,3981 Mbps（白皮书 1791 GB/hr）,474.57,1668.4,27.81,33 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+55,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,8192x4320,25p,649 Mbps（白皮书 292 GB/hr）,77.37,272.0,4.53,3h 25m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+56,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,8192x4320,25p,1460 Mbps（白皮书 657 GB/hr）,174.05,611.9,10.2,1h 31m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+57,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,8192x4320,25p,2097 Mbps（白皮书 944 GB/hr）,249.98,878.8,14.65,1h 03m,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+58,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,8192x4320,25p,3146 Mbps（白皮书 1416 GB/hr）,375.03,1318.5,21.97,42 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+59,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,8192x4320,25p,4719 Mbps（白皮书 2123 GB/hr）,562.55,1977.7,32.96,28 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+60,Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,8192x4320,25p,7078 Mbps（白皮书 3185 GB/hr）,843.76,2966.4,49.44,19 min,— 训练数据未覆盖,—,N01,Apple 白皮书目标码率；GB/hr 为十进制 GB，本表已统一换算为项目二进制口径,
+61,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 Proxy,1920x1080,29.97p,约 45 Mbps（官方支持页 @29.97 fps）,5.36,18.9,0.31,49h 22m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
+62,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 LT,1920x1080,29.97p,约 102 Mbps（官方支持页 @29.97 fps）,12.16,42.7,0.71,21h 47m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
+63,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422,1920x1080,29.97p,约 147 Mbps（官方支持页 @29.97 fps）,17.52,61.6,1.03,15h 07m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
+64,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 HQ,1920x1080,29.97p,约 220 Mbps（官方支持页 @29.97 fps）,26.23,92.2,1.54,10h 06m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
+65,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444,1920x1080,29.97p,约 330 Mbps（官方支持页 @29.97 fps）,39.34,138.3,2.31,6h 44m,✓ 有实测,143.6（+3.8%）,N02,Apple 官方支持页 1080p29.97 基准值 ｜ 报告 9 条 / 2 组，✓ 实测吻合,
+66,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444 XQ,1920x1080,29.97p,约 500 Mbps（官方支持页 @29.97 fps）,59.6,209.5,3.49,4h 26m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
+67,Apple,Apple ProRes（通用编码规范）,ProRes RAW / RAW HQ,ProRes RAW / ProRes RAW HQ,随摄影机输出,随拍摄帧率,官方未公布固定码率（VBR，随画面内容变化）,,,,—,— 训练数据未覆盖,—,N03,官方：RAW 码率通常介于 ProRes 422 与 422 HQ 之间；RAW HQ 介于 422 HQ 与 4444 之间；与帧率、分辨率成正比,
+68,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 3:2 OG,4608x3164,24p,官方 1TB 可录 0:28（≈ 595 MB/s 十进制）,567.66,1995.7,33.26,28 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:28；ALEXA 35 最大格式,True
+69,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 16:9,4608x2592,24p,官方 1TB 可录 0:34（≈ 490 MB/s 十进制）,467.49,1643.5,27.39,34 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:34,True
+70,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4K 16:9,4096x2304,24p,官方 1TB 可录 0:43（≈ 388 MB/s 十进制）,369.64,1299.5,21.66,43 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:43,True
+71,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 3.8K UHD,3840x2160,24p,官方 1TB 可录 0:49（≈ 340 MB/s 十进制）,324.38,1140.4,19.01,49 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:49,True
+72,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4.6K 3:2 OG,4608x3164,24p,官方 1TB 可录 1:00（≈ 278 MB/s 十进制）,264.91,931.3,15.52,60 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 1:00（时长按 ProRes 4444）,True
+73,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4K UHD,3840x2160,24p,官方 1TB 可录 1:46（≈ 157 MB/s 十进制）,149.95,527.2,8.79,106 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 1:46,True
+74,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 HD,1920x1080,24p,官方 1TB 可录 6:47（≈ 41 MB/s 十进制）,39.05,137.3,2.29,407 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 6:47,True
+75,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW HDE（高密度编码）,4608x3164,25p,官方：文件大小为原件的 50–60%，即数据减少 40–50%（无损 VBR）,,,,—,○ 机型有 · 此档未覆盖,—,N10,官方未给绝对码率；以本机未压缩实测 611.76 MiB/s 为基准，HDE 实测 320.33 MiB/s，省 47.6%,True
+76,ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRICORE,4608x3164,24p,官方：数据速率比 ARRIRAW 低 50%；每帧 10.76 MB（ARRIRAW 23.7 MB）,246.28,865.8,14.43,1h 04m,★ 训练数据未覆盖（新增）,—,N09,按官方「每帧 MB × 24fps」换算，非官方直接公布的 MB/s；最高 660 fps（Sensor Overdrive）,False
+77,ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRIRAW 4.6K OG,4608x3164,24p,官方 Formats & Resolutions：每帧 23.7 MB,542.45,1907.1,31.78,29 min,★ 训练数据未覆盖（新增）,—,N08,按官方每帧 MB × 24fps 换算；1TB 35fps / 2TB 80fps；Xtreme 为本报告未覆盖的新机型,False
+78,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 4.5K LF 3:2 OG,4448x3096,24p,官方 1TB 可录 0:32（≈ 521 MB/s 十进制）,496.71,1746.2,29.1,32 min（官方 1TB）,✓ 有实测,"1,792.4（+2.6%）",N06,官方 1TB 录制 0:32；Mini LF 最大格式 ｜ 报告 50 条 / 1 组，✓ 实测吻合,True
+79,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 3.8K LF UHD,3840x2160,24p,官方 1TB 可录 0:53（≈ 314 MB/s 十进制）,299.9,1054.3,17.57,53 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 0:53,True
+80,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 4.5K LF OG,4448x3096,24p,官方 1TB 可录 1:10（≈ 238 MB/s 十进制）,227.07,798.3,13.3,70 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 1:10（时长按 ProRes 4444）,True
+81,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 UHD,3840x2160,24p,官方 1TB 可录 2:01（≈ 138 MB/s 十进制）,131.36,461.8,7.7,121 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 2:01,True
+82,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 HD,1920x1080,24p,官方 1TB 可录 8:03（≈ 35 MB/s 十进制）,32.91,115.7,1.93,483 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 8:03,True
+83,ARRI,ALEXA 65,阿莱 65 / 艾丽莎 65,ARRIRAW 6.5K Open Gate,6560x3100,24p,官方 1TB 可录 21min（每帧 30.5 MB）,756.88,2660.9,44.35,21 min（官方 1TB）,★ 训练数据未覆盖（新增）,—,N07 N08,官方介质页 21min；.ARI 序列，最高 60fps,False
+84,ARRI,ALEXA LF,阿莱 LF / 大画幅 LF,ARRIRAW LF Open Gate,4448x3096,24p,官方每帧 20.9 MB,478.36,1681.7,28.03,33 min,★ 训练数据未覆盖（新增）,—,N08,按官方每帧 MB × 24fps 换算；最高 90fps；SXR Capture Drive 1TB ≈ 32min（4.5K OG）,False
+85,ARRI,ALEXA 265,阿莱 265 / A265,ARRIRAW 6.5K Open Gate,6560x3100,24p,官方 1TB 可录 21min（每帧 30.5 MB）,756.88,2660.9,44.35,21 min（官方 1TB）,★ 训练数据未覆盖（新增）,—,N07 N08,官方介质页 ARRIRAW 6.5K OG (265) 21min,False
+86,ARRI,AMIRA / ALEXA Mini,阿莱 Amira / Mini,ProRes 4444 UHD,3840x2160,24p,官方 CFast 256GB 约 27min @24fps,147.17,517.4,8.62,≈108 min（官方 256GB 换算）,○ 机型有 · 此档未覆盖,—,N07,按官方 256GB≈27min 等比换算到 1TB；两机共用该格式表；Mini 最高 200fps,True
+87,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 8.6K 3:2,8640x5760,24p,"5,345 Mbps（官方 CineAltaV 2 录制码率表 24p）",637.17,2240.1,37.33,25 min,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+88,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN ST 8.6K 3:2,8640x5760,24p,"3,658 Mbps（官方 CineAltaV 2 录制码率表 24p）",436.07,1533.1,25.55,36 min,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+89,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN LT 8.6K 3:2,8640x5760,24p,"2,155 Mbps（官方 CineAltaV 2 录制码率表 24p）",256.9,903.2,15.05,1h 01m,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+90,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 8.2K 17:9,8192x4320,24p,"3,861 Mbps（官方 CineAltaV 2 录制码率表 24p）",460.27,1618.1,26.97,35 min,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+91,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN ST 8.2K 17:9,8192x4320,24p,"2,642 Mbps（官方 CineAltaV 2 录制码率表 24p）",314.95,1107.2,18.45,50 min,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+92,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN LT 8.2K 17:9,8192x4320,24p,"1,556 Mbps（官方 CineAltaV 2 录制码率表 24p）",185.49,652.1,10.87,1h 25m,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+93,Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 5.8K 6:5,5800x4860,24p,"3,040 Mbps（官方 CineAltaV 2 录制码率表 24p）",362.4,1274.0,21.23,44 min,○ 机型有 · 此档未覆盖,—,N11,索尼中国官方 CineAltaV 2 产品资料 PDF；X-OCN 为压缩 RAW，VBR,True
+94,Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN XT 6K 3:2,6048x4032,24p,"2,631 Mbps（官方 6K 成像器 24p 码率表）",313.64,1102.6,18.38,51 min,★ 训练数据未覆盖（新增）,—,N11,VENICE 2 6K 成像器版本；官方 1.0 固件码率表,False
+95,Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN ST 6K 3:2,6048x4032,24p,"1,800 Mbps（官方 6K 成像器 24p 码率表）",214.58,754.4,12.57,1h 14m,★ 训练数据未覆盖（新增）,—,N11,VENICE 2 6K 成像器版本；官方 1.0 固件码率表,False
+96,Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN LT 6K 3:2,6048x4032,24p,"1,061 Mbps（官方 6K 成像器 24p 码率表）",126.48,444.7,7.41,2h 05m,★ 训练数据未覆盖（新增）,—,N11,VENICE 2 6K 成像器版本；官方 1.0 固件码率表,False
+97,Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,X-OCN XT 4K 17:9,4096x2160,24p,965 Mbps（官方 VENICE 码率表图）,115.04,404.4,6.74,2h 18m,★ 训练数据未覆盖（新增）,—,N13,索尼日本官方「Recording formats (Mbps) 23.98/24p」表图,False
+98,Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,X-OCN ST 4K 17:9,4096x2160,24p,660 Mbps（官方：比 RAW 小约 30%）,78.68,276.6,4.61,3h 22m,★ 训练数据未覆盖（新增）,—,N13 N12,官方 X-OCN 白皮书：ST 比 Sony RAW 小约 30%，LT 小约 60%,False
+99,Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,Sony RAW 3.8K 16:9,3840x2160,24p,943 Mbps（AXS-R7 外录 RAW）,112.41,395.2,6.59,2h 21m,★ 训练数据未覆盖（新增）,—,N13 N12,16bit 线性 RAW；官方对比基准,False
+100,Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,XAVC Class480 / Class300 4K,4096x2160,24p,384 / 240 Mbps（Class480 取 384）,45.78,160.9,2.68,5h 47m,★ 训练数据未覆盖（新增）,—,N13,官方 VENICE 码率表；Class300 为 240 Mbps,False
+101,Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,X-OCN LT 8.6K 16:9,8632x4856,24p,"1,812 Mbps（X-OCN 白皮书 v2.0）",216.01,759.4,12.66,1h 13m,★ 训练数据未覆盖（新增）,—,N12,BURANO 只支持 X-OCN LT；官方 8.6K 16:9 24p 最高档,False
+102,Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,XAVC H-I HQ 8K,7680x4320,30p,"1,200 Mbps（官方 DI Catalogue 2024）",143.05,502.9,8.38,1h 51m,★ 训练数据未覆盖（新增）,—,N16,官方：8K30p XAVC H-I HQ 1200 Mbps / SQ 800 Mbps,False
+103,Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,XAVC H-I SQ 8K,7680x4320,30p,800 Mbps（官方 DI Catalogue 2024）,95.37,335.3,5.59,2h 46m,★ 训练数据未覆盖（新增）,—,N16,8K30p 经济档,False
+104,Sony,PXW-FX9,FX9,XAVC-I DCI 4K,4096x2160,59.94p,最大 600 Mbps（VBR）,71.53,251.5,4.19,3h 42m,★ 训练数据未覆盖（新增）,—,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+105,Sony,PXW-FX9,FX9,XAVC-L QFHD,3840x2160,25p,最大 100 Mbps（VBR）,11.92,41.9,0.7,22h 13m,★ 训练数据未覆盖（新增）,—,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+106,Sony,ILME-FX6V,FX6,XAVC-I DCI 4K,4096x2160,50p,最大 500 Mbps（VBR）,59.6,209.5,3.49,4h 26m,○ 机型有 · 此档未覆盖,—,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,True
+107,Sony,ILME-FX6V,FX6,XAVC-I QFHD,3840x2160,25p,最大 250 Mbps（VBR）,29.8,104.8,1.75,8h 53m,✓ 有实测,115.8（+10.5%）,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR ｜ 报告 18 条 / 1 组，✓ 实测吻合,True
+108,Sony,ILME-FX3 / FX3A,FX3,XAVC S 4K,3840x2160,50p,最大 200 Mbps（CBG）,23.84,83.8,1.4,11h 06m,✓ 有实测,101.6（+21.2%）,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR ｜ 报告 1096 条 / 2 组，✓ 实测吻合,True
+109,Sony,ILME-FX3 / FX3A,FX3,XAVC S-I 4K,3840x2160,50p,最大 500 Mbps（VBR）,59.6,209.5,3.49,4h 26m,○ 机型有 · 此档未覆盖,—,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,True
+110,Sony,ILME-FX30,FX30,XAVC HS 4K,3840x2160,50p,200 Mbps（4:2:2 10bit）,23.84,83.8,1.4,11h 06m,○ 机型有 · 此档未覆盖,—,N14,索尼官方规格 / 中国在线商城页,True
+111,Sony,ILME-FX2,FX2,XAVC S-I 4K,3840x2160,25p,约 250 Mbps（官方「约」）,29.8,104.8,1.75,8h 53m,★ 训练数据未覆盖（新增）,—,N14,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+112,Sony,ILCE-7SM3,A7S III / S3 / A7S3,XAVC S-I 4K,3840x2160,59.94p,约 600 Mbps,71.53,251.5,4.19,3h 42m,○ 机型有 · 此档未覆盖,—,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,True
+113,Sony,ILCE-7SM3,A7S III / S3 / A7S3,XAVC HS 4K,3840x2160,59.94p,约 150 Mbps（4:2:0 10bit）,17.88,62.9,1.05,14h 48m,✓ 有实测,57.2（-9.1%）,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR ｜ 报告 257 条 / 1 组，✓ 实测吻合,True
+114,Sony,ILCE-7M4,A7 IV / A7M4 / M4,XAVC S 4K 4:2:2,3840x2160,25p,约 140 Mbps,16.69,58.7,0.98,15h 52m,✓ 有实测,72.6（+23.7%）,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR ｜ 报告 533 条 / 1 组，✓ 实测吻合,True
+115,Sony,ILCE-7M3,A7 III / A7M3 / M3,XAVC S 4K,3840x2160,25p,100 M（官方规格页写法）,11.92,41.9,0.7,22h 13m,✓ 有实测,42.9（+2.4%）,N15,索尼官方规格 / 中国在线商城页 ｜ 报告 1148 条 / 1 组，✓ 实测吻合,True
+116,Sony,ILCE-1,A1 / α1,XAVC HS 8K 4:2:2,7680x4320,29.97p,约 520 Mbps（最大 520 Mbps）,61.99,217.9,3.63,4h 16m,★ 训练数据未覆盖（新增）,—,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+117,Sony,ILCE-7RM5,A7R V / A7R5,XAVC HS 8K,7680x4320,24p,约 400 Mbps,47.68,167.6,2.79,5h 33m,★ 训练数据未覆盖（新增）,—,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+118,Sony,ZV-E1,ZV-E1,XAVC S-I 4K,3840x2160,50p,约 500 Mbps,59.6,209.5,3.49,4h 26m,★ 训练数据未覆盖（新增）,—,N15,索尼官方规格 / 中国在线商城页；官方标「最大 / 约」，实拍为 VBR,False
+119,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW HQ 8K 17:9,8192x4320,24p,425 MB/s（官方 R3D Quality 24P 表，十进制口径）,405.31,1424.9,23.75,39 min,○ 机型有 · 此档未覆盖,—,N19,RED 官方操作指南逐档速率表；报告 8K LQ 实测接近官方 MQ，标签待人工复核,True
+120,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW MQ 8K 17:9,8192x4320,24p,298 MB/s（官方 R3D Quality 24P 表，十进制口径）,284.19,999.1,16.65,56 min,○ 机型有 · 此档未覆盖,—,N19,RED 官方操作指南逐档速率表；报告 8K LQ 实测接近官方 MQ，标签待人工复核,True
+121,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW LQ 8K 17:9,8192x4320,24p,186 MB/s（官方 R3D Quality 24P 表，十进制口径）,177.38,623.6,10.39,1h 29m,○ 机型有 · 此档未覆盖,—,N19,RED 官方操作指南逐档速率表；报告 8K LQ 实测接近官方 MQ，标签待人工复核,True
+122,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW ELQ 8K 17:9,8192x4320,24p,100 MB/s（官方 R3D Quality 24P 表，十进制口径）,95.37,335.3,5.59,2h 46m,○ 机型有 · 此档未覆盖,—,N19,RED 官方操作指南逐档速率表；报告 8K LQ 实测接近官方 MQ，标签待人工复核,True
+123,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW HQ 6K 17:9,6144x3240,24p,239 MB/s（官方 R3D Quality 24P 表）,227.93,801.3,13.36,1h 09m,○ 机型有 · 此档未覆盖,—,N19,官方 6K 17:9 24P 档位,True
+124,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW MQ 6K 17:9,6144x3240,24p,168 MB/s（官方 R3D Quality 24P 表）,160.22,563.3,9.39,1h 39m,○ 机型有 · 此档未覆盖,—,N19,官方 6K 17:9 24P 档位,True
+125,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW LQ 6K 17:9,6144x3240,24p,105 MB/s（官方 R3D Quality 24P 表）,100.14,352.0,5.87,2h 38m,○ 机型有 · 此档未覆盖,—,N19,官方 6K 17:9 24P 档位,True
+126,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW ELQ 6K 17:9,6144x3240,24p,65 MB/s（官方 R3D Quality 24P 表）,61.99,217.9,3.63,4h 16m,○ 机型有 · 此档未覆盖,—,N19,官方 6K 17:9 24P 档位,True
+127,RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW 全档上限,8192x4320,—,"官方最大 800 MB/s；默认格式 1 小时 ≈ 1,123 GB",297.49,1045.9,17.43,53 min,○ 机型有 · 此档未覆盖,—,N20,"按官方「1 Hour ≈ 1,123GB」（十进制 GB）换算；CFexpress 上限 800 MB/s",True
+128,RED,V-RAPTOR XL [X] 8K VV,猛禽 XL / V-RAPTOR XL,REDCODE RAW 全档上限,8192x4320,—,官方最大 800 MB/s,762.94,2682.2,44.7,21 min,★ 训练数据未覆盖（新增）,—,N20,官方 Compare Specs；与 V-RAPTOR [X] 共用最大速率,False
+129,RED,KOMODO-X 6K S35,科莫多-X / KOMODO-X,REDCODE RAW 全档上限,6144x3240,—,官方最大 560 MB/s,534.06,1877.5,31.29,30 min,○ 机型有 · 此档未覆盖,—,N20,官方 Tech Specs；KOMODO-X 逐档速率官方未静态公布,True
+130,RED,KOMODO 6K,科莫多 6K / KOMODO,REDCODE RAW HQ 6K 17:9,6144x3240,23.98p,最高约 280 MB/s（官方 23.98 FPS 档）,267.03,938.8,15.65,60 min,★ 训练数据未覆盖（新增）,—,N19,官方 KOMODO 操作指南：HQ ~280 / MQ ~175 / LQ ~110 MB/s,False
+131,RED,DSMC2 HELIUM 8K S35,氦 8K / HELIUM 8K,REDCODE 5:1 8K FF,8192x4320,24p,259 MB/s（官方 Power of RED）,247.0,868.4,14.47,1h 04m,★ 训练数据未覆盖（新增）,—,N21,DSMC2 系列用压缩比而非 HQ/MQ/LQ/ELQ；8:1=162、10:1=130 MB/s,False
+132,RED,DSMC2 HELIUM 8K S35,氦 8K / HELIUM 8K,REDCODE 8:1 8K FF,8192x4320,24p,162 MB/s（官方）,154.5,543.1,9.05,1h 42m,★ 训练数据未覆盖（新增）,—,N21,官方最大 300 MB/s（1TB MINI-MAG）,False
+133,RED,DSMC2 GEMINI 5K S35,双子座 5K / GEMINI 5K,REDCODE 压缩比 2:1–22:1,5120x2700,—,官方最大 300 MB/s（未公布逐档固定码率）,286.1,1005.8,16.76,56 min,○ 机型有 · 此档未覆盖,—,N21,官方仅给压缩比范围与 300 MB/s 上限,True
+134,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 3:1,6144x3456,30p,323 MB/s（官方 Tech Specs，30fps 基准）,308.04,1082.9,18.05,52 min,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+135,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 5:1,6144x3456,30p,194 MB/s（官方 Tech Specs，30fps 基准）,185.01,650.4,10.84,1h 25m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+136,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 8:1,6144x3456,30p,121 MB/s（官方 Tech Specs，30fps 基准）,115.39,405.7,6.76,2h 17m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+137,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 12:1,6144x3456,30p,81 MB/s（官方 Tech Specs，30fps 基准）,77.25,271.6,4.53,3h 25m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+138,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 3:1,4096x2160,30p,136 MB/s（官方 Tech Specs，30fps 基准）,129.7,456.0,7.6,2h 02m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+139,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 5:1,4096x2160,30p,82 MB/s（官方 Tech Specs，30fps 基准）,78.2,274.9,4.58,3h 23m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+140,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 8:1,4096x2160,30p,51 MB/s（官方 Tech Specs，30fps 基准）,48.64,171.0,2.85,5h 26m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+141,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 12:1,4096x2160,30p,35 MB/s（官方 Tech Specs，30fps 基准）,33.38,117.3,1.96,7h 56m,★ 训练数据未覆盖（新增）,—,N22,Blackmagic 官方存储速率表；常数码率档，实际 Q0–Q5 为区间值,False
+142,Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,ProRes 422 HQ,4096x2160,30p,117.88 MB/s（官方 Tech Specs）,112.42,395.2,6.59,2h 21m,★ 训练数据未覆盖（新增）,—,N22,与 Apple 白皮书 4K 30p 422HQ 943 Mbps 换算值 112.4 MiB/s 吻合，佐证十进制 MB/s 口径,False
+143,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 5:1,12288x6480,24p,578 MB/s（官方 Tech Specs，24fps 基准）,551.22,1937.9,32.3,29 min,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+144,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 8:1,12288x6480,24p,361 MB/s（官方 Tech Specs，24fps 基准）,344.28,1210.3,20.17,46 min,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+145,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 12:1,12288x6480,24p,241 MB/s（官方 Tech Specs，24fps 基准）,229.84,808.0,13.47,1h 09m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+146,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 18:1,12288x6480,24p,160 MB/s（官方 Tech Specs，24fps 基准）,152.59,536.4,8.94,1h 44m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+147,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 5:1,8192x4320,24p,257 MB/s（官方 Tech Specs，24fps 基准）,245.09,861.7,14.36,1h 04m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+148,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 8:1,8192x4320,24p,161 MB/s（官方 Tech Specs，24fps 基准）,153.54,539.8,9.0,1h 43m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+149,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 12:1,8192x4320,24p,107 MB/s（官方 Tech Specs，24fps 基准）,102.04,358.7,5.98,2h 35m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+150,Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 18:1,8192x4320,24p,71 MB/s（官方 Tech Specs，24fps 基准）,67.71,238.0,3.97,3h 54m,★ 训练数据未覆盖（新增）,—,N22,URSA 12K 档位为 5:1/8:1/12:1/18:1（无 3:1）；双 CFexpress 最高 900 MB/s,False
+151,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 3:1,6048x4032,30p,370 MB/s（官方 Tech Specs，30fps 基准）,352.86,1240.5,20.68,45 min,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+152,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 5:1,6048x4032,30p,223 MB/s（官方 Tech Specs，30fps 基准）,212.67,747.7,12.46,1h 14m,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+153,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 8:1,6048x4032,30p,140 MB/s（官方 Tech Specs，30fps 基准）,133.51,469.4,7.82,1h 59m,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+154,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 12:1,6048x4032,30p,94 MB/s（官方 Tech Specs，30fps 基准）,89.65,315.2,5.25,2h 57m,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+155,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 3:1,4096x2160,30p,136 MB/s（官方 Tech Specs，30fps 基准）,129.7,456.0,7.6,2h 02m,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+156,Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 5:1,4096x2160,30p,82 MB/s（官方 Tech Specs，30fps 基准）,78.2,274.9,4.58,3h 23m,★ 训练数据未覆盖（新增）,—,N22,官方注明「Storage rates based on 30 frames per second」,False
+157,Canon,EOS R5 C,R5C,Cinema RAW Light ST 8K,8192x4320,29.97p,"1,980 Mbps（佳能中国官方记录格式页，VBR）",236.03,829.8,13.83,1h 07m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+158,Canon,EOS R5 C,R5C,Cinema RAW Light LT 8K,8192x4320,29.97p,"1,290 Mbps（佳能中国官方记录格式页，VBR）",153.78,540.6,9.01,1h 43m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+159,Canon,EOS R5 C,R5C,Cinema RAW Light LT 8K 高帧率,8192x4320,59.94p,"2,570 Mbps（8K 59.94P 最高 2.6 Gbps）（佳能中国官方记录格式页，VBR）",306.37,1077.1,17.95,52 min,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+160,Canon,EOS R5 C,R5C,MP4 HEVC 10bit 8K,8192x4320,29.97p,540 Mbps（佳能中国官方记录格式页，VBR）,64.37,226.3,3.77,4h 06m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+161,Canon,EOS R5 C,R5C,XF-AVC Intra-frame 4K,4096x2160,59.94p,810 Mbps（Intra-frame）（佳能中国官方记录格式页，VBR）,96.56,339.5,5.66,2h 44m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+162,Canon,EOS R5 C,R5C,XF-AVC Long GOP 4K,4096x2160,59.94p,260 Mbps（Long GOP）（佳能中国官方记录格式页，VBR）,30.99,109.0,1.82,8h 32m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+163,Canon,EOS C70,C70,Cinema RAW Light 4K,4096x2160,59.94p,645 Mbps（最高记录格式）（佳能中国官方记录格式页，VBR）,76.89,270.3,4.51,3h 26m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+164,Canon,EOS C70,C70,XF-AVC Intra-frame 4K,4096x2160,59.94p,600 Mbps（佳能中国官方记录格式页，VBR）,71.53,251.5,4.19,3h 42m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+165,Canon,EOS C70,C70,MP4 HEVC Long GOP 4K,3840x2160,59.94p,225 Mbps（佳能中国官方记录格式页，VBR）,26.82,94.3,1.57,9h 52m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+166,Canon,EOS C300 Mark III,C300 III / C300三代,Cinema RAW Light 4K 10bit,4096x2160,59.94p,1 Gbps（佳能中国官方记录格式页，VBR）,119.21,419.1,6.98,2h 13m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+167,Canon,EOS C300 Mark III,C300 III / C300三代,XF-AVC Intra-frame 4K,4096x2160,59.94p,810 Mbps（佳能中国官方记录格式页，VBR）,96.56,339.5,5.66,2h 44m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+168,Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light HQ 5.9K,5952x3140,29.97p,2.12 Gbps（最高记录格式）（佳能中国官方记录格式页，VBR）,252.72,888.5,14.81,1h 02m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+169,Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light ST 5.9K,5952x3140,29.97p,1.05 Gbps（佳能中国官方记录格式页，VBR）,125.17,440.0,7.33,2h 06m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+170,Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light LT 5.9K,5952x3140,29.97p,679 Mbps（佳能中国官方记录格式页，VBR）,80.94,284.6,4.74,3h 16m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+171,Canon,EOS C500 Mark II,C500 II / C500二代,XF-AVC Intra-frame 4K,4096x2160,59.94p,810 Mbps（佳能中国官方记录格式页，VBR）,96.56,339.5,5.66,2h 44m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
+172,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,24p,405 MB/s（官方摄录规格表 @ 24p）,386.24,1357.9,22.63,41 min,✓ 有实测,"1,278.2（-5.9%）",N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps ｜ 报告 25 条 / 1 组，✓ 实测吻合,True
+173,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,60p,506 MB/s（官方摄录规格表 @ 60p）,482.56,1696.5,28.27,33 min,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
+174,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 8K Full Frame,8192x4320,25p,375 MB/s（官方摄录规格表 @ 25p）,357.63,1257.3,20.95,44 min,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
+175,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 4K Full Frame,3840x2160,25p,90 MB/s（官方摄录规格表 @ 25p）,85.83,301.7,5.03,3h 05m,✓ 有实测,298.6（-1.0%）,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps ｜ 报告 450 条 / 1 组，✓ 实测吻合,True
+176,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,H.264 4K Full Frame,3840x2160,25p,18 MB/s（官方摄录规格表 @ 25p）,17.17,60.3,1.01,15h 25m,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
+177,DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes RAW 6K Full Frame,6008x3168,25p,227 MB/s（官方摄录规格表 @ 25p）,216.48,761.1,12.68,1h 13m,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+178,DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 4444 XQ 6K Full Frame,6008x3168,25p,453 MB/s（官方摄录规格表 @ 25p）,432.01,1518.8,25.31,37 min,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+179,DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 422 HQ 6K Full Frame,6008x3168,25p,202 MB/s（官方摄录规格表 @ 25p）,192.64,677.3,11.29,1h 22m,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+180,DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 422 LT 6K Full Frame,6008x3168,25p,94 MB/s（官方摄录规格表 @ 25p）,89.65,315.2,5.25,2h 57m,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+181,DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,CinemaDNG 8.1K Full Frame,8192x4320,25p,844 MB/s（官方摄录规格表 @ 25p）,804.9,2829.7,47.16,20 min,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+182,DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes RAW 8.1K Full Frame,8192x4320,25p,422 MB/s（官方摄录规格表 @ 25p）,402.45,1414.9,23.58,39 min,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+183,DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes 422 HQ 8.1K Full Frame,8192x4320,25p,375 MB/s（官方摄录规格表 @ 25p）,357.63,1257.3,20.95,44 min,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+184,DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,H.264 4.1K Full Frame,4096x2160,25p,18 MB/s（官方摄录规格表 @ 25p）,17.17,60.3,1.01,15h 25m,★ 训练数据未覆盖（新增）,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,False
+185,Nikon,ZR,ZR / 尼康 ZR（RED 血统）,R3D NE / N-RAW 高品質 6K,6048x3402,59.94p,"3,780 Mbps（尼康官方产品规格 / 在线说明书）",450.61,1584.2,26.4,35 min,○ 机型有 · 此档未覆盖,—,N17,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,True
+186,Nikon,ZR,ZR / 尼康 ZR（RED 血统）,R3D NE / N-RAW 高品質 6K,6048x3402,23.97p,"1,520 Mbps（尼康官方产品规格 / 在线说明书）",181.2,637.0,10.62,1h 27m,○ 机型有 · 此档未覆盖,—,N17,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,True
+187,Nikon,ZR,ZR / 尼康 ZR（RED 血统）,ProRes RAW HQ 6K,6048x3402,29.97p,"5,000 Mbps（尼康官方产品规格 / 在线说明书）",596.05,2095.5,34.92,27 min,○ 机型有 · 此档未覆盖,—,N17,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,True
+188,Nikon,ZR,ZR / 尼康 ZR（RED 血统）,ProRes 422 HQ 5.4K,5376x3024,29.97p,"1,920 Mbps（尼康官方产品规格 / 在线说明书）",228.88,804.7,13.41,1h 09m,○ 机型有 · 此档未覆盖,—,N17,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,True
+189,Nikon,ZR,ZR / 尼康 ZR（RED 血统）,H.265 10bit 4K,3840x2160,59.94p,约 340 Mbps（尼康官方产品规格 / 在线说明书）,40.53,142.5,2.37,6h 32m,○ 机型有 · 此档未覆盖,—,N17,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,True
+190,Nikon,Z9,Z9,N-RAW 高品質 8.3K,8256x4644,60p,"约 5,780 Mbps（尼康官方产品规格 / 在线说明书）",689.03,2422.4,40.37,23 min,★ 训练数据未覆盖（新增）,—,N18,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,False
+191,Nikon,Z9,Z9,H.265 10bit 8K UHD,7680x4320,30p,约 400 Mbps（尼康官方产品规格 / 在线说明书）,47.68,167.6,2.79,5h 33m,★ 训练数据未覆盖（新增）,—,N18,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,False
+192,Nikon,Z8,Z8,N-RAW 高品質 8.3K,8256x4644,60p,"约 5,780 Mbps（尼康官方产品规格 / 在线说明书）",689.03,2422.4,40.37,23 min,★ 训练数据未覆盖（新增）,—,N18,官方值带「约 / Approx.」；N-RAW 为 12bit NEV；Z9/Z8 8.3K 30p 数值两官方页略有差异,False
+193,Panasonic,LUMIX S1H,S1H,H.265 6K 3:2,5952x3968,23.98p,200 Mbps（4:2:0 10bit LongGOP）（松下官方规格页）,23.84,83.8,1.4,11h 06m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+194,Panasonic,LUMIX S1H,S1H,H.264 ALL-Intra C4K/4K,4096x2160,29.97p,400 Mbps（4:2:2 10bit ALL-Intra）（松下官方规格页）,47.68,167.6,2.79,5h 33m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+195,Panasonic,LUMIX S1H,S1H,H.264 ALL-Intra FHD,1920x1080,59.94p,200 Mbps（松下官方规格页）,23.84,83.8,1.4,11h 06m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+196,Panasonic,LUMIX GH6,GH6,H.264 ALL-Intra 4K,3840x2160,24p,400 Mbps（4:2:2 10bit ALL-Intra）（松下官方规格页）,47.68,167.6,2.79,5h 33m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+197,Panasonic,LUMIX GH6,GH6,H.265 LongGOP 4K,3840x2160,24p,150 Mbps（4:2:0 10bit）（松下官方规格页）,17.88,62.9,1.05,14h 48m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+198,Panasonic,LUMIX GH6,GH6,ProRes 422 HQ 5.7K（最高档）,5728x3024,30p,"官方最高内录 1,900 Mbps（含 5.7K30p ProRes 422 HQ）（松下官方规格页）",226.5,796.3,13.27,1h 10m,★ 训练数据未覆盖（新增）,—,N26,"官方规格页 / 新闻稿；GH6 1,900 Mbps 为全格式上限非恒定值",False
+199,GoPro,HERO13 Black,狗13 / HERO13,HEVC 10-bit 4K 高帧率,3840x2160,119.88p,官方视频比特率上限 120 Mbps（标准 / 高两档，VBR）,14.31,50.3,0.84,18h 31m,○ 机型有 · 此档未覆盖,—,N25,官方仅给上限；实际随画面复杂度变化，标准/高两档具体 Mbps 官方未公布,True
+200,GoPro,HERO13 Black,狗13 / HERO13,HEVC 10-bit 5.3K,5312x2988,59.94p,官方视频比特率上限 120 Mbps,14.31,50.3,0.84,18h 31m,○ 机型有 · 此档未覆盖,—,N25,5.3K(16:9) 60/50/30/25/24；官方未公布逐档固定码率,True
+201,Atomos,Ninja / Ninja Phone,阿童木 Ninja / 将军,ProRes 422 1080p,1920x1080,60p,294 Mbps（官方 Ninja Phone 码率表）,35.05,123.2,2.05,7h 33m,★ 训练数据未覆盖（新增）,—,N27,官方同时给 0.132 TB/h；ProRes 422 LT 204 Mbps / H.265 30 Mbps,False
+202,Atomos,Ninja / Ninja Phone,阿童木 Ninja / 将军,ProRes 422 LT 1080p,1920x1080,60p,204 Mbps（官方 Ninja Phone 码率表）,24.32,85.5,1.42,10h 53m,★ 训练数据未覆盖（新增）,—,N27,官方 0.092 TB/h,False
