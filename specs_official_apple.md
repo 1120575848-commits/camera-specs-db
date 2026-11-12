@@ -71,4 +71,4 @@
 | Apple ProRes（通用编码规范） | 通用 · 官方支持页 102207 | ProRes 422 HQ | 1920x1080 | 29.97p | 约 220 Mbps（官方支持页 @29.97 fps） | 26.23 | 92.2 | 1.54 | 10h 06m | — 训练数据未覆盖 | — | N02 |
 | Apple ProRes（通用编码规范） | 通用 · 官方支持页 102207 | ProRes 4444 | 1920x1080 | 29.97p | 约 330 Mbps（官方支持页 @29.97 fps） | 39.34 | 138.3 | 2.31 | 6h 44m | ✓ 有实测 | 143.6（+3.8%） | N02 |
 | Apple ProRes（通用编码规范） | 通用 · 官方支持页 102207 | ProRes 4444 XQ | 1920x1080 | 29.97p | 约 500 Mbps（官方支持页 @29.97 fps） | 59.6 | 209.5 | 3.49 | 4h 26m | — 训练数据未覆盖 | — | N02 |
-| Apple ProRes（通用编码规范） | ProRes RAW / RAW HQ | ProRes RAW / ProRes RAW HQ | 随摄影机输出 | 随拍摄帧率 | 官方未公布固定码率（VBR，随画面内容变化） | None | None | None | — | — 训练数据未覆盖 | — | N03 |
+| Apple ProRes（通用编码规范） | ProRes RAW / RAW HQ | ProRes RAW / ProRes RAW HQ | 随摄影机输出 | 随拍摄帧率 | 官方未公布固定码率（VBR，随画面内容变化） |  |  |  | — | — 训练数据未覆盖 | — | N03 |
