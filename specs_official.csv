@@ -66,19 +66,19 @@ no,brand,model,alias,codec,resolution,fps,official_rate,mbs_binary,gbh_binary,gb
 65,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444,1920x1080,29.97p,约 330 Mbps（官方支持页 @29.97 fps）,39.34,138.3,2.31,6h 44m,✓ 有实测,143.6（+3.8%）,N02,Apple 官方支持页 1080p29.97 基准值 ｜ 报告 9 条 / 2 组，✓ 实测吻合,
 66,Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444 XQ,1920x1080,29.97p,约 500 Mbps（官方支持页 @29.97 fps）,59.6,209.5,3.49,4h 26m,— 训练数据未覆盖,—,N02,Apple 官方支持页 1080p29.97 基准值,
 67,Apple,Apple ProRes（通用编码规范）,ProRes RAW / RAW HQ,ProRes RAW / ProRes RAW HQ,随摄影机输出,随拍摄帧率,官方未公布固定码率（VBR，随画面内容变化）,,,,—,— 训练数据未覆盖,—,N03,官方：RAW 码率通常介于 ProRes 422 与 422 HQ 之间；RAW HQ 介于 422 HQ 与 4444 之间；与帧率、分辨率成正比,
-68,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 3:2 OG,4608x3164,24p,官方 1TB 可录 0:28（≈ 595 MB/s 十进制）,567.66,1995.7,33.26,28 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:28；ALEXA 35 最大格式,True
+68,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 3:2 Open Gate (OG),4608x3164,24p,官方 1TB 可录 0:28（≈ 595 MB/s 十进制）,567.66,1995.7,33.26,28 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:28；ALEXA 35 最大格式,True
 69,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 16:9,4608x2592,24p,官方 1TB 可录 0:34（≈ 490 MB/s 十进制）,467.49,1643.5,27.39,34 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:34,True
 70,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4K 16:9,4096x2304,24p,官方 1TB 可录 0:43（≈ 388 MB/s 十进制）,369.64,1299.5,21.66,43 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:43,True
 71,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 3.8K UHD,3840x2160,24p,官方 1TB 可录 0:49（≈ 340 MB/s 十进制）,324.38,1140.4,19.01,49 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 0:49,True
-72,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4.6K 3:2 OG,4608x3164,24p,官方 1TB 可录 1:00（≈ 278 MB/s 十进制）,264.91,931.3,15.52,60 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 1:00（时长按 ProRes 4444）,True
+72,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4.6K 3:2 Open Gate (OG),4608x3164,24p,官方 1TB 可录 1:00（≈ 278 MB/s 十进制）,264.91,931.3,15.52,60 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 1:00（时长按 ProRes 4444）,True
 73,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4K UHD,3840x2160,24p,官方 1TB 可录 1:46（≈ 157 MB/s 十进制）,149.95,527.2,8.79,106 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 1:46,True
 74,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 HD,1920x1080,24p,官方 1TB 可录 6:47（≈ 41 MB/s 十进制）,39.05,137.3,2.29,407 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N05,官方 1TB 录制 6:47,True
 75,ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW HDE（高密度编码）,4608x3164,25p,官方：文件大小为原件的 50–60%，即数据减少 40–50%（无损 VBR）,,,,—,○ 机型有 · 此档未覆盖,—,N10,官方未给绝对码率；以本机未压缩实测 611.76 MiB/s 为基准，HDE 实测 320.33 MiB/s，省 47.6%,True
 76,ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRICORE,4608x3164,24p,官方：数据速率比 ARRIRAW 低 50%；每帧 10.76 MB（ARRIRAW 23.7 MB）,246.28,865.8,14.43,1h 04m,★ 训练数据未覆盖（新增）,—,N09,按官方「每帧 MB × 24fps」换算，非官方直接公布的 MB/s；最高 660 fps（Sensor Overdrive）,False
-77,ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRIRAW 4.6K OG,4608x3164,24p,官方 Formats & Resolutions：每帧 23.7 MB,542.45,1907.1,31.78,29 min,★ 训练数据未覆盖（新增）,—,N08,按官方每帧 MB × 24fps 换算；1TB 35fps / 2TB 80fps；Xtreme 为本报告未覆盖的新机型,False
-78,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 4.5K LF 3:2 OG,4448x3096,24p,官方 1TB 可录 0:32（≈ 521 MB/s 十进制）,496.71,1746.2,29.1,32 min（官方 1TB）,✓ 有实测,"1,792.4（+2.6%）",N06,官方 1TB 录制 0:32；Mini LF 最大格式 ｜ 报告 50 条 / 1 组，✓ 实测吻合,True
+77,ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRIRAW 4.6K Open Gate (OG),4608x3164,24p,官方 Formats & Resolutions：每帧 23.7 MB,542.45,1907.1,31.78,29 min,★ 训练数据未覆盖（新增）,—,N08,按官方每帧 MB × 24fps 换算；1TB 35fps / 2TB 80fps；Xtreme 为本报告未覆盖的新机型,False
+78,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 4.5K LF 3:2 Open Gate (OG),4448x3096,24p,官方 1TB 可录 0:32（≈ 521 MB/s 十进制）,496.71,1746.2,29.1,32 min（官方 1TB）,✓ 有实测,"1,792.4（+2.6%）",N06,官方 1TB 录制 0:32；Mini LF 最大格式 ｜ 报告 50 条 / 1 组，✓ 实测吻合,True
 79,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 3.8K LF UHD,3840x2160,24p,官方 1TB 可录 0:53（≈ 314 MB/s 十进制）,299.9,1054.3,17.57,53 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 0:53,True
-80,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 4.5K LF OG,4448x3096,24p,官方 1TB 可录 1:10（≈ 238 MB/s 十进制）,227.07,798.3,13.3,70 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 1:10（时长按 ProRes 4444）,True
+80,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 4.5K LF Open Gate (OG),4448x3096,24p,官方 1TB 可录 1:10（≈ 238 MB/s 十进制）,227.07,798.3,13.3,70 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 1:10（时长按 ProRes 4444）,True
 81,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 UHD,3840x2160,24p,官方 1TB 可录 2:01（≈ 138 MB/s 十进制）,131.36,461.8,7.7,121 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 2:01,True
 82,ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 HD,1920x1080,24p,官方 1TB 可录 8:03（≈ 35 MB/s 十进制）,32.91,115.7,1.93,483 min（官方 1TB）,○ 机型有 · 此档未覆盖,—,N06,官方 1TB 录制 8:03,True
 83,ARRI,ALEXA 65,阿莱 65 / 艾丽莎 65,ARRIRAW 6.5K Open Gate,6560x3100,24p,官方 1TB 可录 21min（每帧 30.5 MB）,756.88,2660.9,44.35,21 min（官方 1TB）,★ 训练数据未覆盖（新增）,—,N07 N08,官方介质页 21min；.ARI 序列，最高 60fps,False
@@ -170,8 +170,8 @@ no,brand,model,alias,codec,resolution,fps,official_rate,mbs_binary,gbh_binary,gb
 169,Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light ST 5.9K,5952x3140,29.97p,1.05 Gbps（佳能中国官方记录格式页，VBR）,125.17,440.0,7.33,2h 06m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
 170,Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light LT 5.9K,5952x3140,29.97p,679 Mbps（佳能中国官方记录格式页，VBR）,80.94,284.6,4.74,3h 16m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
 171,Canon,EOS C500 Mark II,C500 II / C500二代,XF-AVC Intra-frame 4K,4096x2160,59.94p,810 Mbps（佳能中国官方记录格式页，VBR）,96.56,339.5,5.66,2h 44m,★ 训练数据未覆盖（新增）,—,N23,官方注：摄影机使用可变比特率（VBR）,False
-172,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,24p,405 MB/s（官方摄录规格表 @ 24p）,386.24,1357.9,22.63,41 min,✓ 有实测,"1,278.2（-5.9%）",N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps ｜ 报告 25 条 / 1 组，✓ 实测吻合,True
-173,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,60p,506 MB/s（官方摄录规格表 @ 60p）,482.56,1696.5,28.27,33 min,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
+172,DJI,Ronin 4D,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,24p,405 MB/s（官方摄录规格表 @ 24p）,386.24,1357.9,22.63,41 min,✓ 有实测,"1,278.2（-5.9%）",N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps ｜ 报告 25 条 / 1 组，✓ 实测吻合,True
+173,DJI,Ronin 4D,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192x4320,60p,修正：ProRes RAW 8K FF 单帧恒为 16.09 MiB，60p = 386.24×60/24 = 965.60 MB/s（原 482.56 实为 30p 误标 60p）,965.60,3394.7,56.58,16 min（1TB @60fps）,○ 机型有 · 此档未覆盖,—,N24,原 60p 码率 482.56 为 30p 值误标，已按单帧恒定修正为 965.60 MB/s,True
 174,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 8K Full Frame,8192x4320,25p,375 MB/s（官方摄录规格表 @ 25p）,357.63,1257.3,20.95,44 min,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
 175,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 4K Full Frame,3840x2160,25p,90 MB/s（官方摄录规格表 @ 25p）,85.83,301.7,5.03,3h 05m,✓ 有实测,298.6（-1.0%）,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps ｜ 报告 450 条 / 1 组，✓ 实测吻合,True
 176,DJI,Ronin 4D X9-8K,大疆如影4D / R4D,H.264 4K Full Frame,3840x2160,25p,18 MB/s（官方摄录规格表 @ 25p）,17.17,60.3,1.01,15h 25m,○ 机型有 · 此档未覆盖,—,N24,DJI 官方「摄录规格表」逐帧率数据（单位 MB/s，十进制口径）；8K 最高 60fps / 4K 120fps,True
