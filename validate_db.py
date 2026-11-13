@@ -311,6 +311,35 @@ def validate_devices(rep):
         else:
             seen[key] = r.get("no", "?")
 
+    # 8) SDI 路数与描述自洽
+    for r in rows:
+        no, model = r.get("no", "?"), r.get("model", "")
+        cnt = (r.get("sdi_count") or "").strip()
+        spec = (r.get("sdi_spec") or "").strip()
+        try:
+            n = int(cnt)
+        except Exception:
+            continue
+        # 描述里的 '4x12G-SDI' / 'x4' 这类显式路数必须与 sdi_count 相符
+        explicit = [int(x) for x in re.findall(r"(\d+)\s*[x×]\s*(?:\d+[KkMG]?-)?SDI", spec, re.I)]
+        explicit += [int(x) for x in re.findall(r"SDI\s*[x×]\s*(\d+)", spec, re.I)]
+        if explicit:
+            total = sum(explicit)
+            if total != n:
+                rep.h(f"[设备] no{no} {model}：sdi_count={n} 与描述 '{spec}' 中列出的 {total} 路不一致")
+        if n == 0 and re.search(r"\d+\s*[x×]\s*(?:\d+[KkMG]?-)?SDI", spec, re.I):
+            rep.h(f"[设备] no{no} {model}：sdi_count=0 但描述仍列 SDI 路数 '{spec}'")
+
+    # 9) 字段不得混入来源/无意义值
+    BAD = ("官网", "来源", "参考", "http", "—", "N/A")
+    for r in rows:
+        for k in ("tc_connector", "mic_input", "sdi_spec", "hdmi", "genlock", "sdi_maxfmt"):
+            v = (r.get(k) or "").strip()
+            if v in ("—",):
+                rep.w(f"[设备] no{r.get('no','?')} {r.get('model','')}：字段 '{k}' 为占位符 '—'（建议填'无'）")
+            elif any(b in v for b in ("官网", "来源", "参考", "http")):
+                rep.h(f"[设备] no{r.get('no','?')} {r.get('model','')}：字段 '{k}' 混入来源词 '{v}'")
+
 
 def main():
     rep = Report()
