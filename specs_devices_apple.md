@@ -2,6 +2,6 @@
 
 > 数据来源：各厂商官网规格页（核对 2026-11-13）。单位口径见主库 README。
 
-| 机型 | 别名 | 时码 TC 接口 | TC 输入/输出 | 麦克风/音频输入 | 幻象供电 | SDI 数量 | SDI 规格 | SDI 最高格式 | HDMI | Genlock |
+| 机型 | 别名 | 时码 TC 接口 | TC 输入/输出 | 麦克风/音频输入 | 幻象供电 | SDI 数量 | SDI 规格 | SDI 最高格式 | HDMI | Genlock | 备注 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| iPhone 15/16 Pro | iPhone | 无 | 无 | 内置 + USB-C/Lightning 外接 | 无 | 0 | 无 SDI | 无 | USB-C(转接)/ 无 HDMI 直出 | 无 |
+| iPhone 15/16 Pro | iPhone | 无 | 无 | 内置 + USB-C/Lightning 外接 | 无 | 0 | 无 SDI | 无 | USB-C(转接)/ 无 HDMI 直出 | 无 | 消费级；ProRes 内录 |
