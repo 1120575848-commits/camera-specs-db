@@ -14,7 +14,7 @@ no,brand,model,alias,tc_connector,tc_io,mic_input,mic_phantom,sdi_count,sdi_spec
 13,Blackmagic,Pocket Cinema Camera 6K Pro,BMPCC 6K Pro,复用音频口(mini XLR/3.5mm),TC In,2x mini XLR (幻象) + 3.5mm + 内置,支持(幻象),0,无 SDI,无,HDMI (1080p60),无,BMD 官网,无 SDI
 14,Blackmagic,Pocket Cinema Camera 4K,BMPCC 4K,复用音频口,TC In,mini XLR + 3.5mm + 内置,支持(幻象),0,无 SDI,无,HDMI Type-A,无,BMD 官网,无 SDI
 15,DJI,Ronin 4D,R4D,SDI/XLR/TC 拓展板,TC In,XLR (48V) + 3.5mm + 内置,支持(+48V),1,3G-SDI,1080p (3G),HDMI Type-A,无独立 Genlock,DJI 官网,机身 HDMI 4K/60；装板后 SDI 3G
-16,DJI,Inspire 3,悟3,3.5mm LTC,TC In/同步,机载内置(经遥控器/监视器),—,0,无(机内录制),1080p (经拓展/监视器),遥控 RC Plus HDMI / 监视器 HDMI+SDI,无,DJI 官网,机内 8K ProRes RAW；视频输出需经 RC Plus 遥控器或监视器
+16,DJI,Inspire 3,悟3,3.5mm LTC,TC In/同步,机载内置(经遥控器/监视器),无,0,无(机内录制),1080p (经拓展/监视器),遥控 RC Plus HDMI / 监视器 HDMI+SDI,无,DJI 官网,机内 8K ProRes RAW；视频输出需经 RC Plus 遥控器或监视器
 17,DJI,Mavic 3 Pro,小飞机,无(消费级),无,机内,无,0,无,无,无外输(机内录制),无,DJI 官网,消费级；无 TC/SDI/HDMI 实时外输
 18,RED,V-RAPTOR 8K VV,V-RAPTOR,9-pin EXT,LTC In,5-pin 00B (mic/line/+48V) + 内置双麦,支持(+48V),2,2x12G-SDI (BNC),4K 60p (12G),无,9-pin EXT,RED 官网,无 HDMI
 19,RED,KOMODO 6K,KOMODO,9-pin EXT,LTC In,内置双数字麦 + 3.5mm,支持(3.5mm),1,12G-SDI (BNC),4K 60p 4:2:2 (12G),无,9-pin EXT,RED 官网,无 HDMI
@@ -23,5 +23,5 @@ no,brand,model,alias,tc_connector,tc_io,mic_input,mic_phantom,sdi_count,sdi_spec
 22,Panasonic,LUMIX S1H,S1H,BNC 转换线(随附),TC IN/OUT,3.5mm (DMW-XLR1 转 XLR 选配),支持(选配),0,无 SDI,无,HDMI Type-A,无,Panasonic 官网,无 SDI
 23,Panasonic,VARICAM LT,LT,BNC,TC In/Out,XLR (mic/line/+48V),支持(+48V),2,3G-SDI 双链路,4K 60p (3G 双链路),无(经 SDI),BNC,Panasonic 官网,无 HDMI；具体以官方规格为准
 24,Apple,iPhone 15/16 Pro,iPhone,无,无,内置 + USB-C/Lightning 外接,无,0,无 SDI,无,USB-C(转接)/ 无 HDMI 直出,无,Apple 官网,消费级；ProRes 内录
-25,Atomos,Ninja V (外录监视),Ninja V,无物理 TC(HDMI 内嵌；AtomX SYNC 无线),HDMI 内嵌/无线,HDMI/SDI 内嵌 + 机身麦输入,—,0,无 (Ninja V 仅 HDMI；Ninja V+ 才有 SDI In),HDMI 环路,HDMI In + HDMI Out (环出),无,外录/监视器；非摄影机,外录监视器；时码经 HDMI 内嵌或 AtomX SYNC 无线模块
+25,Atomos,Ninja V (外录监视),Ninja V,无物理 TC(HDMI 内嵌；AtomX SYNC 无线),HDMI 内嵌/无线,HDMI/SDI 内嵌 + 机身麦输入,无,0,无 (Ninja V 仅 HDMI；Ninja V+ 才有 SDI In),HDMI 环路,HDMI In + HDMI Out (环出),无,外录/监视器；非摄影机,外录监视器；时码经 HDMI 内嵌或 AtomX SYNC 无线模块
 26,GoPro,HERO (消费级),GoPro,无,无,内置,无,0,无,无,HDMI 回放(非实时外录),无,GoPro 官网,消费级运动相机
