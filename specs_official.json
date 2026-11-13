@@ -3823,15 +3823,15 @@
     "codec": "ARRIRAW 4:3 2.8K",
     "res": "2880x2160",
     "fps": "25p",
-    "off": "ARRI 官方 128GB CFast @25fps 录制 7:10（≈ 297.7 MB/s 十进制）",
-    "mbs": "283.88",
-    "gbh": "998.0",
-    "gbm": "16.63",
-    "tb": "55 min（1TB @25fps）",
+    "off": "ARRI 官方 128GB CFast @25fps 录制 8:41（≈ 245.6 MB/s 十进制）",
+    "mbs": "234.19",
+    "gbh": "823.3",
+    "gbm": "13.72",
+    "tb": "1h08m（1TB @25fps）",
     "covered": "○ 机型有 · 此档未覆盖",
     "meas": "—",
     "src": "N27",
-    "note": "ARRI 官方 ALEXA Mini 录制时长表（128GB CFast 2.0 @25fps）；数据速率由录制时长反推；需 4:3 / ARRIRAW License"
+    "note": "ARRI 官方 ALEXA Mini 录制时长表（128GB CFast 2.0 @25fps）；数据速率由录制时长反推；需 4:3 / ARRIRAW License。原该行误填 3.4K Open Gate 的 283.88 MB/s 与 7:10，已按同机型 1.5790 B/px 修正为 234.19 MB/s（128GB ≈ 8:41）"
   },
   {
     "no": "214",
@@ -4966,5 +4966,23 @@
     "meas": "—",
     "src": "N29",
     "note": "尼康官方 Z8/Z9 ProRes RAW HQ 码率表（8.3K @24p 1429 Mbps）"
+  },
+  {
+    "no": "277",
+    "brand": "Sony",
+    "model": "FX3",
+    "alias": "FX3",
+    "codec": "XAVC S-I 4K",
+    "res": "3840x2160",
+    "fps": "25p",
+    "off": "XAVC S-I 4K 25p ≈29.8 MB/s（同 FX6 All-Intra 4K 25p 码率）",
+    "mbs": "29.82",
+    "gbh": "104.8",
+    "gbm": "1.75",
+    "tb": "533 min（1TB @25fps）",
+    "covered": "yes",
+    "meas": "未实测·同 FX6 码率",
+    "src": "Sony 官网 XAVC 码率表 / 同 FX6",
+    "note": "XAVC S-I 4K 与 XAVC-I QFHD 同义；客户视角统一写 XAVC S-I 4K"
   }
 ]
