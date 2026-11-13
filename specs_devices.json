@@ -43,12 +43,12 @@
     "mic_input": "LEMO 5-pin 线路入",
     "mic_phantom": "不支持(无幻象)",
     "sdi_count": "2",
-    "sdi_spec": "1.5G/3G/6G-SDI",
-    "sdi_maxfmt": "UHD 30p (6G)",
+    "sdi_spec": "HD-SDI 1.5G/3G",
+    "sdi_maxfmt": "1080p 60p (3G)",
     "hdmi": "无",
     "genlock": "BNC SYNC IN(可选)",
     "source": "ARRI 官网",
-    "note": "无 HDMI"
+    "note": "SDI 仅 HD 输出；UHD 需经 ARRIRAW/ProRes 机内录制后另转"
   },
   {
     "no": "4",
@@ -60,7 +60,7 @@
     "mic_input": "XLR 5-pin (MIC/LINE/AES/+48V) + 内置麦",
     "mic_phantom": "支持(+48V)",
     "sdi_count": "5",
-    "sdi_spec": "4x12G-SDI + 1xHD-SDI",
+    "sdi_spec": "12G-SDI x4 + HD-SDI x1",
     "sdi_maxfmt": "4K 60p 4:2:2 (12G)",
     "hdmi": "HDMI Type-A",
     "genlock": "BNC",
@@ -77,7 +77,7 @@
     "mic_input": "XLR 3-pin x2",
     "mic_phantom": "支持(+48V)",
     "sdi_count": "2",
-    "sdi_spec": "SDI OUT1 12G-SDI/6G/3G + OUT2 3G-SDI",
+    "sdi_spec": "12G-SDI (OUT1) + 3G-SDI (OUT2)",
     "sdi_maxfmt": "6K 50p (12G)",
     "hdmi": "HDMI Type-A",
     "genlock": "BNC REF IN/OUT",
@@ -196,12 +196,12 @@
     "mic_input": "XLR x2 (mic/line/AES, 幻象)",
     "mic_phantom": "支持(幻象)",
     "sdi_count": "2",
-    "sdi_spec": "1x12G-SDI In + 1x12G-SDI Out + 1x3G-SDI 监看",
+    "sdi_spec": "12G-SDI In + 12G-SDI Out",
     "sdi_maxfmt": "12K 24p (12G)",
     "hdmi": "无(经 SDI)",
     "genlock": "Tri-Sync/Black Burst/Timecode",
     "source": "BMD 官网",
-    "note": "无 HDMI 输出"
+    "note": "SDI 为 In/Out 各一路，无独立监看输出"
   },
   {
     "no": "13",
@@ -232,7 +232,7 @@
     "sdi_count": "0",
     "sdi_spec": "无 SDI",
     "sdi_maxfmt": "无",
-    "hdmi": "HDMI + mini-HDMI",
+    "hdmi": "HDMI Type-A",
     "genlock": "无",
     "source": "BMD 官网",
     "note": "无 SDI"
@@ -265,11 +265,11 @@
     "mic_phantom": "—",
     "sdi_count": "0",
     "sdi_spec": "无(机内录制)",
-    "sdi_maxfmt": "8K ProRes RAW 机内",
+    "sdi_maxfmt": "1080p (经拓展/监视器)",
     "hdmi": "遥控 RC Plus HDMI / 监视器 HDMI+SDI",
     "genlock": "无",
     "source": "DJI 官网",
-    "note": "飞行器机内录制；外输经遥控/监视器"
+    "note": "机内 8K ProRes RAW；视频输出需经 RC Plus 遥控器或监视器"
   },
   {
     "no": "17",
@@ -417,11 +417,12 @@
     "mic_input": "HDMI/SDI 内嵌 + 机身麦输入",
     "mic_phantom": "—",
     "sdi_count": "0",
-    "sdi_spec": "SDI In (监看)",
-    "sdi_maxfmt": "HDMI In/Out",
-    "hdmi": "无",
-    "genlock": "Atomos 官网",
-    "source": "外录/监视器；非摄影机"
+    "sdi_spec": "无 (Ninja V 仅 HDMI；Ninja V+ 才有 SDI In)",
+    "sdi_maxfmt": "HDMI 环路",
+    "hdmi": "HDMI In + HDMI Out (环出)",
+    "genlock": "无",
+    "source": "外录/监视器；非摄影机",
+    "note": "外录监视器；时码经 HDMI 内嵌或 AtomX SYNC 无线模块"
   },
   {
     "no": "26",
