@@ -1,20 +1,20 @@
 no,brand,model,alias,tc_connector,tc_io,mic_input,mic_phantom,sdi_count,sdi_spec,sdi_maxfmt,hdmi,genlock,source,note
 1,ARRI,ALEXA 35,A35,LEMO 5-pin LTC,In/Out,LEMO 6-pin 线路入 + 内置麦；AEM-1 模块加 3xTA3,支持(经模块/6-pin),2,12G-SDI,4K 60p 4:2:2 (UHD),无,BNC SYNC IN,ARRI 官网,无 HDMI 输出
 2,ARRI,ALEXA Mini LF,Mini LF,LEMO 5-pin LTC,In/Out,LEMO 6-pin 线路入 + 2 内置麦,支持,2,6G-SDI (HD/UHD),UHD 30p (6G),无,BNC SYNC IN,ARRI 官网,无 HDMI
-3,ARRI,ALEXA Mini,Mini,LEMO 5-pin LTC,In/Out,LEMO 5-pin 线路入,不支持(无幻象),2,1.5G/3G/6G-SDI,UHD 30p (6G),无,BNC SYNC IN(可选),ARRI 官网,无 HDMI
-4,Sony,VENICE 2,VENICE2/8K,BNC,In/Out,XLR 5-pin (MIC/LINE/AES/+48V) + 内置麦,支持(+48V),5,4x12G-SDI + 1xHD-SDI,4K 60p 4:2:2 (12G),HDMI Type-A,BNC,Sony 官网,含 HD-SDI 监看
-5,Sony,BURANO,BURANO,BNC,In/Out 可切换,XLR 3-pin x2,支持(+48V),2,SDI OUT1 12G-SDI/6G/3G + OUT2 3G-SDI,6K 50p (12G),HDMI Type-A,BNC REF IN/OUT,Sony 官网,
+3,ARRI,ALEXA Mini,Mini,LEMO 5-pin LTC,In/Out,LEMO 5-pin 线路入,不支持(无幻象),2,HD-SDI 1.5G/3G,1080p 60p (3G),无,BNC SYNC IN(可选),ARRI 官网,SDI 仅 HD 输出；UHD 需经 ARRIRAW/ProRes 机内录制后另转
+4,Sony,VENICE 2,VENICE2/8K,BNC,In/Out,XLR 5-pin (MIC/LINE/AES/+48V) + 内置麦,支持(+48V),5,12G-SDI x4 + HD-SDI x1,4K 60p 4:2:2 (12G),HDMI Type-A,BNC,Sony 官网,含 HD-SDI 监看
+5,Sony,BURANO,BURANO,BNC,In/Out 可切换,XLR 3-pin x2,支持(+48V),2,12G-SDI (OUT1) + 3G-SDI (OUT2),6K 50p (12G),HDMI Type-A,BNC REF IN/OUT,Sony 官网,
 6,Sony,FX6,FX6V,BNC,TC IN/OUT 可切换,XLR 3-pin x2 (line/mic/+48V),支持(+48V),1,12G-SDI/6G/3G,4K 60p (12G),HDMI Type-A,无,Sony 官网,无 Genlock
 7,Sony,FX3,FX3,Multi/Micro USB,TC IN (机身),3.5mm + XLR 手柄x2 (line/mic/+48V),支持(经手柄),0,无 SDI,无,HDMI Type-A,无,Sony 官网,无 SDI 输出
 8,Canon,EOS C400,C400,DIN 1.0/2.3,In/Out,Mini XLR 3-pin x2 + 3.5mm + 内置麦,支持(+48V),2,1x12G-SDI + 1x3G-SDI,6K 60p (12G),HDMI Type-A,DIN 1.0/2.3(共用),Canon 官网,
 9,Canon,EOS C70,C70,DIN(机身 TC),In/Out,Mini XLR x2 (+48V) + 3.5mm,支持(+48V),0,无 SDI,无,HDMI 2.0,无,Canon 官网/Newsshooter,无 SDI
 10,Canon,EOS C200,C200,无独立 TC(经 SDI 内嵌),SDI 内嵌 VITC/LTC,XLR x2 (mic/line/+48V) + 3.5mm,支持(+48V),1,3G/HD-SDI Out,HD 60p (3G),HDMI 2.0,无,Canon 官网,无独立 TC 端口
 11,Canon,EOS R5 C,R5C,DIN 1.0/2.3,In/Out,3.5mm 麦 + 内置麦 (XLR 经 TASCAM 转接),支持(经转接),0,无 SDI,无,micro-HDMI (8K RAW),无,Canon 官网,无 SDI
-12,Blackmagic,URSA Mini Pro 12K,URSA 12K,12G-SDI In / Sync In(时码),Timecode In,"XLR x2 (mic/line/AES, 幻象)",支持(幻象),2,1x12G-SDI In + 1x12G-SDI Out + 1x3G-SDI 监看,12K 24p (12G),无(经 SDI),Tri-Sync/Black Burst/Timecode,BMD 官网,无 HDMI 输出
+12,Blackmagic,URSA Mini Pro 12K,URSA 12K,12G-SDI In / Sync In(时码),Timecode In,"XLR x2 (mic/line/AES, 幻象)",支持(幻象),2,12G-SDI In + 12G-SDI Out,12K 24p (12G),无(经 SDI),Tri-Sync/Black Burst/Timecode,BMD 官网,SDI 为 In/Out 各一路，无独立监看输出
 13,Blackmagic,Pocket Cinema Camera 6K Pro,BMPCC 6K Pro,复用音频口(mini XLR/3.5mm),TC In,2x mini XLR (幻象) + 3.5mm + 内置,支持(幻象),0,无 SDI,无,HDMI (1080p60),无,BMD 官网,无 SDI
-14,Blackmagic,Pocket Cinema Camera 4K,BMPCC 4K,复用音频口,TC In,mini XLR + 3.5mm + 内置,支持(幻象),0,无 SDI,无,HDMI + mini-HDMI,无,BMD 官网,无 SDI
+14,Blackmagic,Pocket Cinema Camera 4K,BMPCC 4K,复用音频口,TC In,mini XLR + 3.5mm + 内置,支持(幻象),0,无 SDI,无,HDMI Type-A,无,BMD 官网,无 SDI
 15,DJI,Ronin 4D,R4D,SDI/XLR/TC 拓展板,TC In,XLR (48V) + 3.5mm + 内置,支持(+48V),1,3G-SDI,1080p (3G),HDMI Type-A,无独立 Genlock,DJI 官网,机身 HDMI 4K/60；装板后 SDI 3G
-16,DJI,Inspire 3,悟3,3.5mm LTC,TC In/同步,机载内置(经遥控器/监视器),—,0,无(机内录制),8K ProRes RAW 机内,遥控 RC Plus HDMI / 监视器 HDMI+SDI,无,DJI 官网,飞行器机内录制；外输经遥控/监视器
+16,DJI,Inspire 3,悟3,3.5mm LTC,TC In/同步,机载内置(经遥控器/监视器),—,0,无(机内录制),1080p (经拓展/监视器),遥控 RC Plus HDMI / 监视器 HDMI+SDI,无,DJI 官网,机内 8K ProRes RAW；视频输出需经 RC Plus 遥控器或监视器
 17,DJI,Mavic 3 Pro,小飞机,无(消费级),无,机内,无,0,无,无,无外输(机内录制),无,DJI 官网,消费级；无 TC/SDI/HDMI 实时外输
 18,RED,V-RAPTOR 8K VV,V-RAPTOR,9-pin EXT,LTC In,5-pin 00B (mic/line/+48V) + 内置双麦,支持(+48V),2,2x12G-SDI (BNC),4K 60p (12G),无,9-pin EXT,RED 官网,无 HDMI
 19,RED,KOMODO 6K,KOMODO,9-pin EXT,LTC In,内置双数字麦 + 3.5mm,支持(3.5mm),1,12G-SDI (BNC),4K 60p 4:2:2 (12G),无,9-pin EXT,RED 官网,无 HDMI
@@ -23,5 +23,5 @@ no,brand,model,alias,tc_connector,tc_io,mic_input,mic_phantom,sdi_count,sdi_spec
 22,Panasonic,LUMIX S1H,S1H,BNC 转换线(随附),TC IN/OUT,3.5mm (DMW-XLR1 转 XLR 选配),支持(选配),0,无 SDI,无,HDMI Type-A,无,Panasonic 官网,无 SDI
 23,Panasonic,VARICAM LT,LT,BNC,TC In/Out,XLR (mic/line/+48V),支持(+48V),2,3G-SDI 双链路,4K 60p (3G 双链路),无(经 SDI),BNC,Panasonic 官网,无 HDMI；具体以官方规格为准
 24,Apple,iPhone 15/16 Pro,iPhone,无,无,内置 + USB-C/Lightning 外接,无,0,无 SDI,无,USB-C(转接)/ 无 HDMI 直出,无,Apple 官网,消费级；ProRes 内录
-25,Atomos,Ninja V (外录监视),Ninja V,无物理 TC(HDMI 内嵌；AtomX SYNC 无线),HDMI 内嵌/无线,HDMI/SDI 内嵌 + 机身麦输入,—,0,SDI In (监看),HDMI In/Out,无,Atomos 官网,外录/监视器；非摄影机
+25,Atomos,Ninja V (外录监视),Ninja V,无物理 TC(HDMI 内嵌；AtomX SYNC 无线),HDMI 内嵌/无线,HDMI/SDI 内嵌 + 机身麦输入,—,0,无 (Ninja V 仅 HDMI；Ninja V+ 才有 SDI In),HDMI 环路,HDMI In + HDMI Out (环出),无,外录/监视器；非摄影机,外录监视器；时码经 HDMI 内嵌或 AtomX SYNC 无线模块
 26,GoPro,HERO (消费级),GoPro,无,无,内置,无,0,无,无,HDMI 回放(非实时外录),无,GoPro 官网,消费级运动相机
