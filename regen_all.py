@@ -44,3 +44,37 @@ for brand, rows_b in brands.items():
     with open(fn, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 print("品牌分片重生成完成，品牌数:", len(brands), "| 各品牌:", {b: len(v) for b, v in brands.items()})
+
+# === 设备接口库：JSON + 品牌分片 ===
+DEV_CSV = os.path.join(BASE, "specs_devices.csv")
+DEV_JSON = os.path.join(BASE, "specs_devices.json")
+if os.path.exists(DEV_CSV):
+    DK = ["no", "brand", "model", "alias", "tc_connector", "tc_io", "mic_input",
+          "mic_phantom", "sdi_count", "sdi_spec", "sdi_maxfmt", "hdmi", "genlock",
+          "source", "note"]
+    with open(DEV_CSV, newline="", encoding="utf-8") as f:
+        devs = list(csv.DictReader(f))
+    with open(DEV_JSON, "w", encoding="utf-8") as f:
+        json.dump([{k: d.get(k, "") for k in DK} for d in devs], f, ensure_ascii=False, indent=2)
+    print("设备库 JSON 重生成完成，条数:", len(devs))
+
+    dgroups = OrderedDict()
+    for d in devs:
+        dgroups.setdefault(d["brand"], []).append(d)
+    for brand, rows_d in dgroups.items():
+        fn = os.path.join(BASE, f"specs_devices_{brand.lower()}.md")
+        lines = [
+            f"# {brand} · 设备接口库（时码/麦克风/视频输出）", "",
+            "> 数据来源：各厂商官网规格页（核对 2026-11-13）。单位口径见主库 README。", "",
+            "| 机型 | 别名 | 时码 TC 接口 | TC 输入/输出 | 麦克风/音频输入 | 幻象供电 | SDI 数量 | SDI 规格 | SDI 最高格式 | HDMI | Genlock | 备注 |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|",
+        ]
+        for d in rows_d:
+            lines.append(
+                f"| {d['model']} | {d['alias']} | {d['tc_connector']} | {d['tc_io']} | "
+                f"{d['mic_input']} | {d['mic_phantom']} | {d['sdi_count']} | {d['sdi_spec']} | "
+                f"{d['sdi_maxfmt']} | {d['hdmi']} | {d['genlock']} | {d.get('note','')} |")
+        with open(fn, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+    print("设备品牌分片重生成完成，品牌数:", len(dgroups),
+          "| 各品牌:", {b: len(v) for b, v in dgroups.items()})
