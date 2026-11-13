@@ -122,6 +122,19 @@
 - **存储卡**：除上机卡外，请摄影助理把**所有备用卡**也上机统一格式化，确保性能正常、上机即拍免二次格式化。
 - **防遗漏**：花絮侧拍、平面照片、运动相机、航拍等未计入主机位的素材，如需备份请及时告知。
 
+### 3.8 设备接口查询（客户问"某机型时码/麦克风/视频口有几个、能出什么格式"时）
+
+读 `specs_devices.csv`（或 `specs_devices_<brand>.md`），按机型给一行摘要，四个维度说清即可：
+
+- **时码 TC**：接口类型 + 输入/输出（如 `LEMO 5-pin LTC（In/Out）`）
+- **麦克风/音频**：输入接口 + 是否 +48V 幻象
+- **视频输出**：`N 路 + 规格 + 最高格式`（如 `2 路 12G-SDI，最高 4K 60p 4:2:2`）；无 SDI 就写"无 SDI，仅 HDMI"
+- **Genlock**：有/无及接口
+
+示例（客户问 ALEXA 35）：时码 LEMO 5-pin LTC 输入/输出；音频 LEMO 6-pin 线路入 + 内置麦（AEM-1 模块加 3×TA3）；视频 2 路 12G-SDI（无 HDMI），最高 4K 60p 4:2:2；Genlock BNC SYNC IN。
+
+> 不给"USB 供电不足""线材选购"之类发挥；客户没问的不说。
+
 ---
 
 ## 四、Few-shot 示例
@@ -190,38 +203,35 @@
 - `measured_anchors.csv`：客户回复区间锚点。
 - `specs_devices.csv` / `specs_devices.json`：设备接口库（时码 TC / 麦克风 / 视频 SDI·HDMI 输出，按机型），见 [`AI_INSTRUCTIONS.md`](AI_INSTRUCTIONS.md) 与 §八。
 - `specs_official_<brand>.md` / `specs_devices_<brand>.md`：按品牌分片。
-- `query.py` / `validate_db.py` / `regen_all.py` / `build_devices.py`：查询 / 校验 / 重生成工具（见 §八）。
+- `query.py` / `validate_db.py` / `regen_all.py`：查询 / 校验 / 重生成工具（见 §七）。
 
 ---
 
-## 八、工具链（query / validate / regen）
+## 七、工具链（query / validate / regen）
 
-仓库内置三个脚本，**必须先跑校验再推送**，确保数据无"单帧不一致 / 口径混用"类 bug。
+仓库内置三个脚本，**必须先跑校验再推送**，确保数据无"单帧不一致 / 口径混用 / 跨分辨率误填 / 接口路数矛盾"类 bug。
 
 - **`query.py` — 确定性查询（下游 AI / 用户直接用）**
   ```bash
-  python3 query.py "ALEXA 35" -n 3 --codec ARRIRAW --fps 25
+  python3 query.py "ALEXA 35" -n 3 --codec ARRIRAW --fps 25   # 码率/数据量
   python3 query.py "ALEXA Mini" -n 3
+  python3 query.py "ALEXA 35" --device                        # 设备接口
   ```
-  直接读本地 CSV，按 机型/编码/分辨率/帧率 过滤，输出「单机 + N 台合计」GB/h 表；慢动作行自动标 `[慢动作]`。命中即出表，未命中返回退出码 2（供上层判断补数据 / 用外部数据）。
+  直接读本地 CSV，按 机型/编码/分辨率/帧率 过滤，输出「单机 + N 台合计」GB/h 表；慢动作行自动标 `[慢动作]`。机型先做**精确匹配**（避免 "ALEXA Mini" 误吃 "ALEXA Mini LF"），无精确命中才退回子串匹配。`--device` 输出该机型的时码 / 麦克风 / SDI·HDMI / Genlock。命中即出表，未命中返回退出码 2。
 
 - **`validate_db.py` — 完整性校验门禁（推送前必跑）**
   ```bash
   python3 validate_db.py
   ```
-  检查：内部数学自洽(gbh=mbs×3600/1024、1TB 时长)、十进制/二进制口径、官方表去重、单帧一致性(HARD)；实测表单帧一致性 + 命名词表(WARN)。存在 HARD 错误退出码 1（阻断推送），仅 WARN 退出码 0。
+  检查（HARD）：内部数学自洽(gbh=mbs×3600/1024、1TB 时长)、十进制/二进制口径、官方表去重、同(机型,分辨率,编码)单帧一致性、**跨分辨率每像素字节一致性**（专抓"把 3.4K 码率抄到 2.8K 行"）、设备库 SDI 路数与描述自洽、字段混入来源词。
+  检查（WARN）：实测表单帧一致性、命名词表。
+  存在 HARD 错误退出码 1（阻断推送），仅 WARN 退出码 0。
 
-- **`regen_all.py` — 由 CSV 重生成 JSON + 品牌分片**
+- **`regen_all.py` — 由 CSV 重生成 JSON + 品牌分片（含设备库）**
   ```bash
   python3 regen_all.py
   ```
-  改完 `specs_official.csv` 后运行，同步 `specs_official.json` 与 11 个 `specs_official_<brand>.md`。
-
-- **`build_devices.py` — 由 `specs_devices.csv` 重生成设备接口 JSON + 品牌分片**
-  ```bash
-  python3 build_devices.py
-  ```
-  改完 `specs_devices.csv` 后运行，同步 `specs_devices.json` 与 11 个 `specs_devices_<brand>.md`。
+  改完 `specs_official.csv` 或 `specs_devices.csv` 后运行，同步 `specs_official.json`、`specs_devices.json` 与两套各 11 个品牌分片。
 
 - **推送门禁**：`gh_push_curl.py`（仓库外）在推送前自动调用 `validate_db.py`，HARD 错误即中止，确保带 bug 的数据**物理上无法上 GitHub**。
 
@@ -229,7 +239,7 @@
 
 ---
 
-## 七、超复杂问题 / 商务咨询
+## 八、超复杂问题 / 商务咨询
 
 遇到本资料库无法回答、或需定制方案的问题（自定义拍摄方案、跨机型多日统筹、调色与代理流程、报价等），**优先查阅**我们的公众号文章合集：
 
