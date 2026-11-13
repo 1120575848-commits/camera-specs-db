@@ -10,6 +10,8 @@ validate_db.py — 拍摄格式码率资料库 完整性校验门禁
   [HARD] 4) 官方表单帧一致性：同 (model,resolution,codec) 内 per-frame=mbs/fps 须一致(±15%)
   [WARN] 5) 实测表单帧一致性：同上，但慢动作(传感器≠交付)按传感器帧率比对，偏差>15% 标「异模式/疑似误标」
   [WARN] 6) 命名词表：codec 含 "OG" 但无 "Open Gate" 字样
+  [HARD] 7) 跨分辨率每像素字节：同机型 + 同编码族（未压缩 RAW）b/px 须一致(±12%)
+           —— 专抓「把 3.4K 的码率抄到 2.8K 行」这类跨分辨率误填
 
 退出码：0=通过(含 WARN)；1=存在 HARD 错误（应阻断推送）
 """
@@ -21,6 +23,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 OFFICIAL = os.path.join(HERE, "specs_official.csv")
 MEASURED = os.path.join(HERE, "specs_measured.csv")
+DEVICES = os.path.join(HERE, "specs_devices.csv")
 
 DEC = 0.953674  # 十进制 MB/s -> 二进制 MB/s
 
@@ -91,6 +94,62 @@ class Report:
 
     def has_error(self):
         return len(self.hard) > 0
+
+
+def codec_family(codec):
+    """把 'ARRIRAW Open Gate 3.4K' / 'ARRIRAW 4:3 2.8K' 归到同一族 'ARRIRAW'，
+    便于跨分辨率比对「每像素字节」。"""
+    s = codec
+    s = re.sub(r"\d+(?:\.\d+)?[Kk]\b", " ", s)
+    s = re.sub(r"\d+\s*[x×]\s*\d+", " ", s)
+    s = re.sub(r"\d+\s*:\s*\d+", " ", s)
+    s = s.replace("Open Gate", " ").replace("(OG)", " ").replace("OG", " ")
+    s = s.replace("Ana", " ").replace("UHD", " ").replace("HD", " ")
+    s = re.sub(r"[（(].*?[)）]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def parse_res(res):
+    m = re.search(r"(\d+)\s*[x×]\s*(\d+)", res or "")
+    if not m:
+        return None
+    return int(m.group(1)), int(m.group(2))
+
+
+def validate_pixels_per_byte(rep, rows):
+    """[HARD] 7) 同机型 + 同编码族（未压缩 RAW）的「每像素字节」必须一致。
+    专抓「把 3.4K 的码率抄到 2.8K 行」这类跨分辨率误填。"""
+    groups = {}
+    for r in rows:
+        if not (r["mbs"] and r["fps"]):
+            continue
+        c = r["codec"]
+        # 只对「未压缩 RAW」生效：压缩档（BRAW/CRL/HDE/R3D 及任何 n:1 压缩比）每像素字节本就不同
+        if re.search(r"\d+\s*:\s*1", c):
+            continue
+        if re.search(r"HDE|压缩|BRAW|CRL|R3D|ProRes RAW", c, re.I):
+            continue
+        if not re.search(r"ARRIRAW|未压缩", c, re.I):
+            continue
+        wh = parse_res(r["resolution"])
+        if not wh:
+            continue
+        group_key = (r["model"], codec_family(c))
+        bpx = (r["mbs"] / r["fps"]) * 1048576 / (wh[0] * wh[1])
+        groups.setdefault(group_key, []).append((r, bpx))
+    for (model, fam), items in groups.items():
+        if len(items) < 2:
+            continue
+        vals = sorted(x[1] for x in items)
+        med = vals[len(vals) // 2]
+        if med <= 0:
+            continue
+        for r, bpx in items:
+            if abs(bpx - med) / med > 0.12:
+                rep.h(f"[官方] no{r['no']} {model} {r['codec']} {r['resolution']}："
+                      f"每像素字节异常 {bpx:.4f} B/px vs 同族中位 {med:.4f} "
+                      f"—— 疑似把其他分辨率的码率抄过来（码率或分辨率需复核）")
 
 
 def validate_official(rep):
@@ -170,6 +229,9 @@ def validate_official(rep):
         if "OG" in r["codec"] and "Open Gate" not in r["codec"]:
             rep.w(f"[官方] no{r['no']} {r['model']} {r['codec']}：含 'OG' 但无 'Open Gate' 字样（检索友好性）")
 
+    # 7) 跨分辨率每像素字节一致性（HARD）
+    validate_pixels_per_byte(rep, rows)
+
 
 def validate_measured(rep):
     rows = []
@@ -224,12 +286,40 @@ def validate_measured(rep):
                           f"—— 异模式/降数据，勿线性外推")
 
 
+def validate_devices(rep):
+    rows = []
+    with open(DEVICES, encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            rows.append(r)
+    REQUIRED = ["no", "brand", "model", "tc_connector", "mic_input", "sdi_count", "hdmi"]
+    for r in rows:
+        for k in REQUIRED:
+            if not (r.get(k) or "").strip():
+                rep.h(f"[设备] no{r.get('no','?')} {r.get('model','')}：必填字段 '{k}' 为空")
+        sc = (r.get("sdi_count") or "").strip()
+        if sc:
+            try:
+                int(sc)
+            except Exception:
+                rep.h(f"[设备] no{r.get('no','?')} {r.get('model','')}：sdi_count 非整数 '{sc}'")
+    # 去重 (brand, model, alias)
+    seen = {}
+    for r in rows:
+        key = (r.get("brand", ""), r.get("model", ""), r.get("alias", ""))
+        if key in seen:
+            rep.w(f"[设备] 重复机型 {key}：no{seen[key]} 与 no{r.get('no','?')}")
+        else:
+            seen[key] = r.get("no", "?")
+
+
 def main():
     rep = Report()
     print("========== 校验 specs_official.csv ==========")
     validate_official(rep)
     print("========== 校验 specs_measured.csv ==========")
     validate_measured(rep)
+    print("========== 校验 specs_devices.csv ==========")
+    validate_devices(rep)
 
     print("\n================= 校验摘要 =================")
     for m in rep.hard:
