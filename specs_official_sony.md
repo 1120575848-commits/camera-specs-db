@@ -47,3 +47,4 @@
 | Sony BURANO | 布拉诺 / BURANO | X-OCN LT 8K 16:9 | 7680x4320 | 25p | Sony 官方 BURANO X-OCN LT UHD 8K(7680x4320) @25p 码率 2327 Mbps | 277.40 | 975.2 | 16.25 | 57 min（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N14 |
 | Sony BURANO | 布拉诺 / BURANO | XAVC H-I HQ 8K 17:9 | 8192x4320 | 25p | Sony 官方 BURANO XAVC H-I HQ 8K @25p 码率 1231 Mbps | 146.75 | 515.9 | 8.60 | 1h48m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N14 |
 | Sony BURANO | 布拉诺 / BURANO | XAVC H-I SQ 8K 17:9 | 8192x4320 | 25p | Sony 官方 BURANO XAVC H-I SQ 8K @25p 码率 826 Mbps | 98.47 | 346.2 | 5.77 | 2h41m（1TB @对应帧率） | ○ 机型有 · 此档未覆盖 | — | N14 |
+| FX3 | FX3 | XAVC S-I 4K | 3840x2160 | 25p | XAVC S-I 4K 25p ≈29.8 MB/s（同 FX6 All-Intra 4K 25p 码率） | 29.82 | 104.8 | 1.75 | 533 min（1TB @25fps） | yes | 未实测·同 FX6 码率 | Sony 官网 XAVC 码率表 / 同 FX6 |
