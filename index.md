@@ -3,15 +3,15 @@
 本仓库是给 AI 索引的**公开拍摄格式 / 码率 / 数据量资料库**。详见 [README.md](README.md)（含使用说明与客户回复口径）。
 
 ## 访问方式
-- GitHub（主）：`https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
-- **Gitee 国内镜像**：`https://gitee.com/TaoBiMengDIT/camera-specs-db/raw/main/`
-- 两者内容同源，每次推送同步；口径以 GitHub main 为准。
+- 库地址（raw 直读）：`https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
 
 ## 文件导航
 - `specs_official.csv` / `specs_official.json`：官网公开规格全集（**条数持续更新中**），含 MB/s、GB/h、GB/min、1TB 时长、实测对照、来源。
 - `specs_measured.csv`：本项目 26 份报告的**实测格式**（品牌/机型/分辨率/双帧率/编码/码流/GB/h/样本数）。
 - `measured_anchors.csv`：客户回复区间锚点（项目级每日数据量中位/平均/P90/最大 + 各机型满格式 GB/h）。
 - `specs_devices.csv` / `specs_devices.json`：设备接口库（时码 TC / 麦克风 / 视频 SDI·HDMI 输出，按机型）。
+- `AI_PACK.md`：**给不会抓链接的 AI 用的单文件包**（开场白 + 硬规则 + 3 列格式规范 + 277 条速查数据 + 容量/备份/报价口径 + 示范），一个文件自带全部内容，粘进系统提示或知识库即可。
+- `hdd_prices.md` / `hdd_prices.csv`：**硬盘价格档案**（快照 2026-11-13）：企业盘 8–20 TB、希捷桌面盘 8–16 TB、PSSD、机械移动盘，含税单价 + ¥/TB + 渠道；客户问价格 / 型号 / 配盘多少钱时从这里取数。
 - `README.md`：使用说明 + 客户回复口径（**移动端 3 列表**：摄影机 / 拍摄格式 / 数据量；格内分段、全列居中、只加粗 TB 数字；合计行「N 天合计」+ 30 分钟·1 小时双口径；HDE 对比小表；容量建议（默认双备份、总量 ≥ 8 TB 转三备份、单组 1–2 块盘装完）；日数据 > 1 TB 才给备份建议（按 100 MB/s 估小时数））+ few-shot 示例。
 - `AI_INSTRUCTIONS.md`：给接入 AI 的系统指令（开场白原话、取数路径、输出规范、索尼设置、多机位工作流）。
 
