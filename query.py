@@ -10,6 +10,7 @@ query.py — 拍摄格式 / 码率资料库 确定性查询工具
   python3 query.py "ALEXA Mini" -n 3
   python3 query.py "ALEXA 35" -n 3 --codec ARRIRAW --fps 25
   python3 query.py "ALEXA 35" --codec "Open Gate" --fps 25 --count 3
+  python3 query.py "ALEXA 35" --device        # 查时码/麦克风/SDI·HDMI 接口
 
 退出码：
   0 = 命中并出表
@@ -24,6 +25,7 @@ import argparse
 HERE = os.path.dirname(os.path.abspath(__file__))
 OFFICIAL = os.path.join(HERE, "specs_official.csv")
 MEASURED = os.path.join(HERE, "specs_measured.csv")
+DEVICES = os.path.join(HERE, "specs_devices.csv")
 
 DEC = 0.953674  # 十进制 MB/s -> 二进制 MB/s
 
@@ -122,22 +124,47 @@ def load_measured():
 
 
 # ---------- 匹配 ----------
+def model_exact(r, key):
+    """机型名精确匹配（避免 'ALEXA Mini' 命中 'ALEXA Mini LF'）。"""
+    for field in ("model", "alias"):
+        v = (r.get(field) or "").lower()
+        if not v:
+            continue
+        if v == key:
+            return True
+        # 别名里常以 '/' '／' '·' 分隔多个称呼，逐个比较
+        for part in v.replace("／", "/").split("/"):
+            p = part.strip()
+            if p == key:
+                return True
+    return False
+
+
 def match(rows, model, codec=None, res=None, fps=None):
-    model_l = (model or "").lower()
+    key = (model or "").strip().lower()
+
+    def base_ok(r):
+        if codec and norm_codec(codec) not in norm_codec(r["codec"]):
+            return False
+        if res and res.lower() not in (r["resolution"] or "").lower():
+            return False
+        if fps is not None and r["fps"] is not None and r["fps"] != fps:
+            return False
+        return True
+
+    # 1) 先做精确匹配；有命中就只用精确命中，杜绝 'Mini' 吃进 'Mini LF'
+    exact = [r for r in rows if model_exact(r, key) and base_ok(r)]
+    if exact:
+        return exact
+
+    # 2) 无精确命中时退回子串匹配
     out = []
     for r in rows:
         m = (r["model"] or "").lower()
-        if model_l not in m and model_l not in (r["alias"] or "").lower():
+        if key not in m and key not in (r["alias"] or "").lower():
             continue
-        if codec:
-            if norm_codec(codec) not in norm_codec(r["codec"]):
-                continue
-        if res:
-            if res.lower() not in (r["resolution"] or "").lower():
-                continue
-        if fps is not None and r["fps"] is not None and r["fps"] != fps:
-            continue
-        out.append(r)
+        if base_ok(r):
+            out.append(r)
     return out
 
 
@@ -145,11 +172,11 @@ def match(rows, model, codec=None, res=None, fps=None):
 def fmt_tb(minutes):
     if minutes is None:
         return "—"
-    if minutes >= 60:
-        h = int(minutes // 60)
-        m = int(round(minutes % 60))
+    total = int(round(minutes))  # 先整体取整，避免出现 25h60m
+    if total >= 60:
+        h, m = divmod(total, 60)
         return f"{h}h{m:02d}m"
-    return f"{int(round(minutes))} min"
+    return f"{total} min"
 
 
 def render(model, hits, count):
@@ -199,14 +226,58 @@ def render(model, hits, count):
     return uniq
 
 
+# ---------- 设备接口查询 ----------
+def load_devices():
+    rows = []
+    with open(DEVICES, encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            rows.append({k: (v or "").strip() for k, v in r.items()})
+    return rows
+
+
+def render_device(model, hits):
+    print(f"\n=== 设备接口：{model} ===\n")
+    for r in hits:
+        name = r.get("model", "")
+        alias = r.get("alias", "")
+        print(f"【{name}】" + (f"（{alias}）" if alias and alias != name else ""))
+        print(f"  时码 TC   : {r.get('tc_connector','—')}｜{r.get('tc_io','—')}")
+        print(f"  麦克风/音频: {r.get('mic_input','—')}｜幻象 {r.get('mic_phantom','—')}")
+        sdi = r.get("sdi_count", "—")
+        print(f"  视频 SDI  : {sdi} 路｜{r.get('sdi_spec','—')}｜最高 {r.get('sdi_maxfmt','—')}")
+        print(f"  HDMI      : {r.get('hdmi','—')}")
+        print(f"  Genlock   : {r.get('genlock','—')}")
+        if r.get("note"):
+            print(f"  备注      : {r['note']}")
+        print()
+    print(f"共 {len(hits)} 条。\n")
+    return hits
+
+
 def main():
-    ap = argparse.ArgumentParser(description="拍摄格式码率资料库查询")
+    ap = argparse.ArgumentParser(description="拍摄格式码率 / 设备接口资料库查询")
     ap.add_argument("model", help="机型名，如 ALEXA Mini / ALEXA 35 / VENICE")
     ap.add_argument("-n", "--count", type=int, default=1, help="相机台数（默认 1）")
     ap.add_argument("--codec", help="编码过滤，如 ARRIRAW / ProRes / Open Gate")
     ap.add_argument("--res", help="分辨率过滤，如 4608x3164")
     ap.add_argument("--fps", type=int, help="帧率过滤，如 25")
+    ap.add_argument("--device", action="store_true",
+                    help="查设备接口（时码 TC / 麦克风 / SDI·HDMI 输出）")
     args = ap.parse_args()
+
+    if args.device:
+        if not os.path.exists(DEVICES):
+            print("✗ 找不到 specs_devices.csv", file=sys.stderr)
+            return 3
+        key = args.model.lower()
+        hits = [d for d in load_devices()
+                if key in d.get("model", "").lower() or key in d.get("alias", "").lower()]
+        if not hits:
+            print(f"✗ 设备库内未收录「{args.model}」。")
+            print("  → 可选：补进库（Agent 模式）。")
+            return 2
+        render_device(args.model, hits)
+        return 0
 
     if not os.path.exists(OFFICIAL):
         print("✗ 找不到 specs_official.csv", file=sys.stderr)
