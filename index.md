@@ -26,6 +26,9 @@
 ## 设备接口库（时码 TC / 麦克风 / 视频输出）
 - [ARRI](specs_devices_arri.md) · [Sony](specs_devices_sony.md) · [Canon](specs_devices_canon.md) · [Blackmagic](specs_devices_blackmagic.md) · [DJI](specs_devices_dji.md) · [RED](specs_devices_red.md) · [Nikon](specs_devices_nikon.md) · [Panasonic](specs_devices_panasonic.md) · [Apple](specs_devices_apple.md) · [Atomos](specs_devices_atomos.md) · [GoPro](specs_devices_gopro.md)
 
+## 技术文章归档（逃避梦DIT工作室原创）
+- [`articles/`](articles/README.md)：公众号合集《技术分享与工作流》全部 17 篇原文（工作流／RAW 解码／达芬奇／ARRI LOOK／现场监看／DIT 访谈等），保留原标题与配图链接。经验性长文，不进 CSV 校验，仅作背景参考。
+
 ## 常见问法 → 去哪查
 - 某格式一小时多少 G → `specs_official.csv`（GB/h 列）或对应品牌分片。
 - 一天拍多少 / 推荐多大硬盘 → `measured_anchors.csv` + README 客户回复口径。
