@@ -26,7 +26,7 @@
 | AMIRA / ALEXA Mini | 阿莱 Amira / Mini | ProRes 4444 UHD | 3840x2160 | 24p | 官方 CFast 256GB 约 27min @24fps | 147.17 | 517.4 | 8.62 | ≈108 min（官方 256GB 换算） | ○ 机型有 · 此档未覆盖 | — | N07 |
 | ALEXA Mini | 阿莱 Mini / 迷你 | ARRIRAW Open Gate 3.4K | 3424x2202 | 25p | ARRI 官方 128GB CFast @25fps 录制 7:10（≈ 297.7 MB/s 十进制） | 283.88 | 998.0 | 16.63 | 55 min（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
 | ALEXA Mini | 阿莱 Mini / 迷你 | ARRIRAW 16:9 2.8K | 2880x1620 | 25p | ARRI 官方 128GB CFast @25fps 录制 11:35（≈ 184.2 MB/s 十进制） | 175.64 | 617.5 | 10.29 | 1h30m（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
-| ALEXA Mini | 阿莱 Mini / 迷你 | ARRIRAW 4:3 2.8K | 2880x2160 | 25p | ARRI 官方 128GB CFast @25fps 录制 7:10（≈ 297.7 MB/s 十进制） | 283.88 | 998.0 | 16.63 | 55 min（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
+| ALEXA Mini | 阿莱 Mini / 迷你 | ARRIRAW 4:3 2.8K | 2880x2160 | 25p | ARRI 官方 128GB CFast @25fps 录制 8:41（≈ 245.6 MB/s 十进制） | 234.19 | 823.3 | 13.72 | 1h08m（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
 | ALEXA Mini | 阿莱 Mini / 迷你 | ProRes 4444 XQ 4K UHD | 3840x2160 | 25p | ARRI 官方 128GB CFast @25fps 录制 8:43（≈ 244.7 MB/s 十进制） | 233.40 | 820.6 | 13.68 | 1h08m（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
 | ALEXA Mini | 阿莱 Mini / 迷你 | ProRes 4444 4K UHD | 3840x2160 | 25p | ARRI 官方 128GB CFast @25fps 录制 13:05（≈ 163.1 MB/s 十进制） | 155.50 | 546.7 | 9.11 | 1h42m（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
 | ALEXA Mini | 阿莱 Mini / 迷你 | ProRes 422 HQ 4K UHD | 3840x2160 | 25p | ARRI 官方 128GB CFast @25fps 录制 19:38（≈ 108.7 MB/s 十进制） | 103.63 | 364.3 | 6.07 | 2h33m（1TB @25fps） | ○ 机型有 · 此档未覆盖 | — | N27 |
