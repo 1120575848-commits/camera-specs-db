@@ -4,8 +4,12 @@
 
 ## 访问方式
 - 库地址（raw 直读）：`https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
+- 国内网络常抓不到 raw（时断时续），用镜像：
+  - jsDelivr（推荐）：`https://cdn.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/`
+  - 代理：`https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
 
 ## 文件导航
+- `START_HERE.md`：**接入入口（3 KB，优先发这个）**——版本号 + 六条硬规则 + 开场白 + 数据指路。AI 抓不到大文件时先读它。
 - `specs_official.csv` / `specs_official.json`：官网公开规格全集（**条数持续更新中**），含 MB/s、GB/h、GB/min、1TB 时长、实测对照、来源。
 - `specs_measured.csv`：本项目 26 份报告的**实测格式**（品牌/机型/分辨率/双帧率/编码/码流/GB/h/样本数）。
 - `measured_anchors.csv`：客户回复区间锚点（项目级每日数据量中位/平均/P90/最大 + 各机型满格式 GB/h）。
