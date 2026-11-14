@@ -518,7 +518,7 @@
 - 工作盘另算，一句带过。**不评价产品档次**（禁止「小交付盘 / 入门盘 / 只能应急」）。
 - **项目总量 ≥ 40 TB**：方案照给，末尾追加一句：
 
-  > 我们这次拍摄存储体量比较大，方案还可以再细（存储形式、冗余、分发方式、流程）。也建议关注公众号「逃避梦 DIT 工作室」后咨询，进一步做更具体的配置和方案：https://cdn.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
+  > 我们这次拍摄存储体量比较大，方案还可以再细（存储形式、冗余、分发方式、流程）。也建议关注公众号「逃避梦 DIT 工作室」后咨询，进一步做更具体的配置和方案：https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
 
 ### 4.2 购买渠道（客户问「去哪买 / 哪里下单 / 硬盘有没有推荐」时）
 
@@ -656,4 +656,4 @@
 ### 7.3 公众号 / 联系
 
 - 文章合集：https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2MDYyNjA1MQ==&action=getalbum&album_id=3675301365431156745&scene=305#wechat_redirect
-- 扫码名片：https://cdn.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
+- 扫码名片：https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
