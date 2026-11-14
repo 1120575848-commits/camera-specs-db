@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-check_rules.py — 规则一致性门禁（v14）
+check_rules.py — 规则一致性门禁
 =====================================
 推送前必跑：python3 check_rules.py
 
@@ -37,22 +37,28 @@ def current_version(texts):
     return m.group(1) if m else None
 
 EXPECT_PRICES = {
-    "¥1229": "4 TB", "¥1349": "5 TB", "¥2489": "8 TB",
+    "¥779": "1 TB 机械", "¥999": "1 TB 固态",
+    "¥829": "2 TB 机械", "¥1583": "2 TB 固态",
+    "¥1229": "4 TB", "¥3619": "4 TB 固态", "¥1349": "5 TB", "¥2489": "8 TB",
     "¥3099": "10 TB", "¥3599": "12 TB", "¥3899": "14 TB",
     "¥3699": "16 TB", "¥5270": "18 TB", "¥6143": "20 TB",
 }
 
 KEY_MATRIX = {
     "README.md": ["一档一档", "两档触发", "工时 ≠ 机时", "25p", "aliases.csv",
-                  "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv"],
+                  "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
+                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
     "AI_INSTRUCTIONS.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
-                           "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv"],
+                           "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
+                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
     "AI_PACK.md": ["一档一档", "工时 ≠ 机时", "25p", "让客户自己选",
-                   "超时补盘", "允许误差", "§3.2"],
+                   "超时补盘", "允许误差", "§3.2", "104.8 GB/h",
+                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
     "START_HERE.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
-                      "让客户自己选", "specs_25p.csv", "超时补盘", "七条硬规则"],
+                      "让客户自己选", "specs_25p.csv", "超时补盘", "八条硬规则",
+                      "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3"],
     "index.md": ["当前版本", "aliases.csv", "specs_25p.csv", "resolution_ladders.csv",
-                 "business_notes.md", "check_rules.py", "regression_qa.md"],
+                 "business_notes.md", "check_rules.py", "regression_qa.md", "八条硬规则"],
 }
 
 BANNED = [
@@ -60,11 +66,12 @@ BANNED = [
     "10.8 TB → 18 TB", "2 块 8 TB", "三份共 6 块",
     "三件一起给，缺一不可", "5 TB 最划算", "自有供货商",
     "只有2个2TB硬盘，能拍什么格式",
-    # jsDelivr 主域名对 .md/.jpg 会 301 跳回 raw（国内不稳），对外链接一律走 gcore 节点
+    # 规则文本走短缓存的 ghproxy / raw；jsDelivr @main 有 12 小时边缘缓存会发旧版
     "https://cdn.jsdelivr.net/gh/",
 ]
 
-ALIAS_WHITELIST = ["A7S3", "悟3", "威尼斯2", "猛禽X", "狗13", "科莫多-X", "FX6", "阿莱", "小飞机"]
+ALIAS_WHITELIST = ["A7S3", "f叉3", "悟3", "威尼斯2", "猛禽X", "狗13",
+                   "科莫多-X", "FX6", "阿莱", "小飞机"]
 
 
 class Report:
@@ -283,6 +290,44 @@ def check_links_and_nav(rep, texts):
             print(f"  ✓ 回归集 {n} 条")
 
 
+def check_v15(rep, texts):
+    """v15 新增口径：1/2 TB 档、机械·固态、FX3 时长直算、口语别名、示范。"""
+    for fn in ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "START_HERE.md", "hdd_prices.md"]:
+        t = texts.get(fn) or read(fn)
+        for k in ["1 TB", "2 TB", "固态"]:
+            if k not in t:
+                rep.h(f"[v15] {fn} 缺新口径「{k}」")
+    prices = texts.get("hdd_prices.md") or read("hdd_prices.md")
+    for cap in ["1 TB", "2 TB", "4 TB", "5 TB", "8 TB", "10 TB",
+                "12 TB", "14 TB", "16 TB", "18 TB", "20 TB"]:
+        if f"| {cap} |" not in prices and f"**{cap}**" not in prices:
+            rep.w(f"[v15] hdd_prices.md 主用档可能缺 {cap} 行")
+    with open(os.path.join(BASE, "hdd_prices.csv"), encoding="utf-8-sig") as f:
+        prows = list(csv.DictReader(f))
+    got = {(r["category"], r["capacity_tb"]) for r in prows}
+    want = {("机械移动盘", "1"), ("机械移动盘", "2"),
+            ("固态移动盘", "1"), ("固态移动盘", "2")}
+    if want - got:
+        rep.h(f"[v15] hdd_prices.csv 缺 1/2 TB 机械或固态行：{sorted(want - got)}")
+    with open(os.path.join(BASE, "aliases.csv"), encoding="utf-8-sig") as f:
+        amap = {r["alias"]: r["canonical"] for r in csv.DictReader(f)}
+    # 注意：build_kb.py 按 lower 去重，「F叉3」与「f叉3」合并，只留小写那条
+    for a in ["f叉3", "f叉三", "艾福叉3"]:
+        if a not in amap:
+            rep.h(f"[v15] aliases.csv 缺口语别名「{a}」（请先跑 build_kb.py）")
+    if amap.get("f叉3") != "ILME-FX3 / FX3A":
+        rep.h("[v15] f叉3 的 canonical 不是 ILME-FX3 / FX3A")
+    with open(os.path.join(BASE, "specs_official.csv"), encoding="utf-8-sig") as f:
+        fx3 = [r for r in csv.DictReader(f) if "FX3" in r["model"] and r["fps"] == "25p"]
+    if not any(abs(float(r["gbh_binary"]) - 104.8) < 0.2 for r in fx3):
+        rep.h("[v15] specs_official.csv 找不到 FX3 25p ≈104.8 GB/h 的行")
+    if "正确示范 11" not in texts["README.md"]:
+        rep.h("[v15] README 缺正确示范 11（FX3 时长直算案例）")
+    if "f 叉 3" not in texts["AI_PACK.md"]:
+        rep.h("[v15] AI_PACK 缺 FX3 完整示范")
+    print("  ✓ 1/2 TB 档 / 机械·固态 / f叉3 别名 / FX3 104.8 GB/h / 示范 11")
+
+
 def main():
     rep = Report()
     texts = {}
@@ -313,6 +358,8 @@ def main():
     check_freshness(rep)
     print("== 8. 链接与导航 ==")
     check_links_and_nav(rep, texts)
+    print("== 9. v15 新口径 ==")
+    check_v15(rep, texts)
 
     print("\n================= 门禁摘要 =================")
     for m in rep.hard:
