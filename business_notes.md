@@ -19,4 +19,4 @@
 ## 3. 联系方式
 
 - 公众号文章合集：https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2MDYyNjA1MQ==&action=getalbum&album_id=3675301365431156745&scene=305#wechat_redirect
-- 扫码名片：https://cdn.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
+- 扫码名片：https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg
