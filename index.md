@@ -1,6 +1,6 @@
 # 索引 · 拍摄格式码率资料库
 
-本仓库是给 AI 索引的**公开拍摄格式 / 码率 / 数据量资料库**。**当前版本 v14 · 2026-11-14**。详见 [README.md](README.md)（含使用说明与客户回复口径）。
+本仓库是给 AI 索引的**公开拍摄格式 / 码率 / 数据量资料库**。**当前版本 v15 · 2026-11-15**。详见 [README.md](README.md)（含使用说明与客户回复口径）。
 
 ## 访问方式
 - **规则文本首选（短缓存，改完 5 分钟生效）**：`https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/<文件名>`
@@ -8,7 +8,7 @@
 - **不要用 jsDelivr 的 `@main` 链接发规则文本**：边缘缓存 12 小时（`s-maxage=43200`），实测 purge 后仍返回旧版，AI 会按旧口径回答。静态二维码图片不常变，可走 `https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/qrcode_wechat.jpg`（直出 200）。
 
 ## 文件导航
-- `START_HERE.md`：**接入入口（3 KB，优先发这个）**——版本号 + 七条硬规则 + 开场白 + 数据指路。AI 抓不到大文件时先读它。
+- `START_HERE.md`：**接入入口（3 KB，优先发这个）**——版本号 + 八条硬规则 + 开场白 + 数据指路。AI 抓不到大文件时先读它。
 - `aliases.csv`：**别名单一真源**（口语机型 → 规范机型，品牌词 / 家族词单独标记不映射具体机型）。
 - `specs_25p.csv`：**25p 基准换算表**（由 `build_kb.py` 从官方表生成，24p / 25p / 50p 三档预换算 + 对外十进制 TB 约数）。
 - `resolution_ladders.csv`：机型 → 官方分辨率档位按像素降序（容量受限降档逐级向下、16:9 优先用）。
