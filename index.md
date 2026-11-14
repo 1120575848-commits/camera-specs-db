@@ -5,7 +5,7 @@
 ## 访问方式
 - 库地址（raw 直读）：`https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
 - 国内网络常抓不到 raw（时断时续），用镜像：
-  - jsDelivr（推荐）：`https://cdn.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/`
+  - jsDelivr gcore 节点（直出 200，推荐）：`https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/`（`cdn.jsdelivr.net` 主域名对 `.md` / `.jpg` 会 301 回 raw，勿用）
   - 代理：`https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
 
 ## 文件导航
