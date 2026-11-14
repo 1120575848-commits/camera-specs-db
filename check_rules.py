@@ -243,15 +243,28 @@ def check_freshness(rep):
 
 
 def check_links_and_nav(rep, texts):
+    # 静态二维码图片：走 gcore 直出 200（图片不常变，长缓存无害）
     for fn in ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "business_notes.md"]:
         t = texts.get(fn) or read(fn)
         for m in re.finditer(r"https?://[^\s)]*qrcode_wechat\.jpg", t):
             if "gcore.jsdelivr.net" not in m.group(0):
-                rep.h(f"[链接] {fn} 二维码不是 gcore 直出地址（会 301 回 raw）：{m.group(0)[:70]}")
-    # 主转发话术必须用直出 200 的 gcore 地址，不许退回 301 的主域名
+                rep.h(f"[链接] {fn} 二维码不是 gcore 直出地址：{m.group(0)[:70]}")
+    # 规则文本：禁止 jsDelivr @main（边缘缓存 12 小时，purge 后实测仍发旧版）
+    for fn in ["README.md", "AI_INSTRUCTIONS.md", "index.md", "AI_PACK.md",
+               "hdd_prices.md", "business_notes.md", "START_HERE.md"]:
+        t = texts.get(fn) or read(fn)
+        for m in re.finditer(r"https?://[^\s)`\]]*jsdelivr\.net/gh/[^\s)`\]]+", t):
+            url = m.group(0).rstrip(".,;")
+            if url.endswith(".md") or url.endswith(".csv"):
+                rep.h(f"[链接] {fn} 规则文本用了 jsDelivr @main（12 小时缓存会发旧版）：{url[:80]}")
+    # 主转发话术必须用短缓存的 ghproxy 短入口页
     sec5 = texts["README.md"].split("### 正常转发", 1)[-1].split("### 备用地址", 1)[0]
-    if "https://gcore.jsdelivr.net/gh/" not in sec5 or "START_HERE.md" not in sec5:
-        rep.h("[链接] README §五 主转发话术没有用 gcore 直出的 START_HERE.md")
+    if "ghproxy.net" not in sec5 or "START_HERE.md" not in sec5 or "jsdelivr.net" in sec5:
+        rep.h("[链接] README §五 主转发话术没用 ghproxy 的 START_HERE.md 短入口页")
+    # 运维知识（为什么不能用 jsDelivr @main）不许被删掉
+    for fn in ["README.md", "AI_INSTRUCTIONS.md", "index.md"]:
+        if "12 小时" not in (texts.get(fn) or read(fn)):
+            rep.h(f"[链接] {fn} 缺少 jsDelivr 12 小时缓存会发旧版的说明")
     idx = texts["index.md"]
     for fn in ["START_HERE.md", "aliases.csv", "specs_25p.csv",
                "resolution_ladders.csv", "business_notes.md",
