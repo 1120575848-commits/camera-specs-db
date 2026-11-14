@@ -60,6 +60,8 @@ BANNED = [
     "10.8 TB → 18 TB", "2 块 8 TB", "三份共 6 块",
     "三件一起给，缺一不可", "5 TB 最划算", "自有供货商",
     "只有2个2TB硬盘，能拍什么格式",
+    # jsDelivr 主域名对 .md/.jpg 会 301 跳回 raw（国内不稳），对外链接一律走 gcore 节点
+    "https://cdn.jsdelivr.net/gh/",
 ]
 
 ALIAS_WHITELIST = ["A7S3", "悟3", "威尼斯2", "猛禽X", "狗13", "科莫多-X", "FX6", "阿莱", "小飞机"]
@@ -241,10 +243,15 @@ def check_freshness(rep):
 
 
 def check_links_and_nav(rep, texts):
-    for fn in ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md"]:
-        for m in re.finditer(r"https?://[^\s)]*qrcode_wechat\.jpg", texts[fn]):
-            if "cdn.jsdelivr.net" not in m.group(0):
-                rep.h(f"[链接] {fn} 二维码仍是 raw 直链：{m.group(0)[:70]}")
+    for fn in ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "business_notes.md"]:
+        t = texts.get(fn) or read(fn)
+        for m in re.finditer(r"https?://[^\s)]*qrcode_wechat\.jpg", t):
+            if "gcore.jsdelivr.net" not in m.group(0):
+                rep.h(f"[链接] {fn} 二维码不是 gcore 直出地址（会 301 回 raw）：{m.group(0)[:70]}")
+    # 主转发话术必须用直出 200 的 gcore 地址，不许退回 301 的主域名
+    sec5 = texts["README.md"].split("### 正常转发", 1)[-1].split("### 备用地址", 1)[0]
+    if "https://gcore.jsdelivr.net/gh/" not in sec5 or "START_HERE.md" not in sec5:
+        rep.h("[链接] README §五 主转发话术没有用 gcore 直出的 START_HERE.md")
     idx = texts["index.md"]
     for fn in ["START_HERE.md", "aliases.csv", "specs_25p.csv",
                "resolution_ladders.csv", "business_notes.md",
