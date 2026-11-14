@@ -79,9 +79,9 @@ if os.path.exists(DEV_CSV):
     print("设备品牌分片重生成完成，品牌数:", len(dgroups),
           "| 各品牌:", {b: len(v) for b, v in dgroups.items()})
 
-# === v14：派生数据（25p 基准 / 别名 / 分辨率档位 / AI_PACK §3 数据区）===
+# === 派生数据（25p 基准 / 别名 / 分辨率档位 / AI_PACK §3 数据区）===
 # 规则手写、数据自动生成：改完 CSV 只跑这一条，四份规则就不会漂移。
-print("\n--- 生成 v14 派生数据 ---")
+print("\n--- 生成派生数据 ---")
 _rc = subprocess.run([sys.executable, os.path.join(BASE, "build_kb.py")], cwd=BASE).returncode
 if _rc != 0:
     raise SystemExit("build_kb.py 失败，派生数据未同步")
