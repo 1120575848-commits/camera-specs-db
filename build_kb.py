@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_kb.py — 由 specs_official.csv 生成 v14 派生数据（单一真源，杜绝手工漂移）
+build_kb.py — 由 specs_official.csv 生成派生数据（单一真源，杜绝手工漂移）
 =====================================================================
 运行：python3 build_kb.py
 
@@ -192,6 +192,10 @@ EXTRA_ALIASES = [
     ("M3", "ILCE-7M3", "model"),
     ("FX6", "ILME-FX6V", "model"),
     ("FX3", "ILME-FX3 / FX3A", "model"),
+    ("f叉3", "ILME-FX3 / FX3A", "model"),
+    ("F叉3", "ILME-FX3 / FX3A", "model"),
+    ("艾福叉3", "ILME-FX3 / FX3A", "model"),
+    ("f叉三", "ILME-FX3 / FX3A", "model"),
     ("阿莱", "", "brand"),
     ("ARRI", "", "brand"),
     ("Sony", "", "brand"),
