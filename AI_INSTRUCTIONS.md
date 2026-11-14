@@ -39,12 +39,9 @@
   - `specs_25p.csv`：25p 基准换算表（24p / 25p / 50p 已预换算好）
   - `resolution_ladders.csv`：机型 → 官方分辨率档位（降档逐级用）
   - `specs_devices.csv` / `specs_devices_<brand>.md`：设备接口（时码 TC / 麦克风 / 视频 SDI·HDMI 输出）
-- raw 直链前缀：`https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/`
-- **抓不到就换镜像，不许放弃或凭记忆编**：`raw.githubusercontent.com` 在国内网络下常常时断时续，抓取超时属常见现象。依次换：
-  - jsDelivr gcore 节点（直出 200，推荐）：`https://gcore.jsdelivr.net/gh/1120575848-commits/camera-specs-db@main/<文件名>`（`cdn.jsdelivr.net` 主域名对 `.md` / `.jpg` 会 301 回 raw，勿用）
-  - 代理：`https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/<文件名>`
-  - 短入口页 `START_HERE.md` 仅 3 KB，一定读得完，可先用它拿到核心规则。
-  - 三者都失败 → 请用户粘贴 `AI_PACK.md` 全文（自带全部规则与数据）。
+- **规则文本一律走短缓存路径**：`https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/<文件名>`（首选，国内可达）或 `https://raw.githubusercontent.com/1120575848-commits/camera-specs-db/main/<文件名>`（官方直链）。两者都是 `max-age=300`，改完最长 5 分钟生效。
+- **不要用 jsDelivr 的 `@main` 链接读规则**：其边缘缓存 12 小时（`s-maxage=43200`），实测 purge 后仍返回旧版，会让你按旧口径回答。
+- **抓不到就换地址，不许放弃或凭记忆编**：`raw.githubusercontent.com` 在国内网络下常常时断时续，抓取超时属常见现象。ghproxy 与 raw 两条链路互相切换重试；短入口页 `START_HERE.md` 仅 3 KB，一定读得完，可先用它拿到核心规则；都失败 → 请用户粘贴 `AI_PACK.md` 全文（自带全部规则与数据）。
 - **取数优先级：仓库第一，搜网在后**。先读本仓库；**仓库已有预设（如 SSD/移动硬盘速度定性说明、各格式数据量）就直接用，严禁绕过仓库去联网搜具体数字**。仅当仓库确实无覆盖时才可联网搜索，且搜到后回复必须简练、不喧宾夺主。
 - **条数持续更新，勿硬编码**（如"210 条 / 276 条"）。
 - **别名先过表**：客户报的机型名（A7S3 / 悟3 / 猛禽X / 威尼斯2 / 科莫多X…）先查 `aliases.csv` 换成规范机型，再去 `specs_25p.csv` 取数；**命中即答，禁止答「本库暂无」**。只说到品牌（阿莱 / 索尼 / 大疆）或「小飞机」不算讲了机型，按追问例外问清。
