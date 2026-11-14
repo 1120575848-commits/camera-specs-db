@@ -1,0 +1,273 @@
+brand,model,alias,codec,resolution,fps_src,gbh_24p,gbh_25p,gbh_50p,tb_h_25p,tb_30min_25p,basis
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,1920×1080,25p,15.3,15.9,31.8,0.02,0.01,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,1920×1080,25p,34.2,35.6,71.2,0.04,0.02,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,1920×1080,25p,49.1,51.1,102.2,0.05,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,1920×1080,25p,74.0,77.1,154.2,0.08,0.04,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,1920×1080,25p,110.7,115.3,230.6,0.12,0.06,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,1920×1080,25p,166.2,173.1,346.2,0.17,0.09,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,1920×1080,50p,15.3,16.0,31.9,0.02,0.01,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,1920×1080,50p,34.2,35.6,71.2,0.04,0.02,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,1920×1080,50p,49.3,51.4,102.7,0.05,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,1920×1080,50p,73.8,76.9,153.8,0.08,0.04,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,1920×1080,50p,110.8,115.5,230.9,0.12,0.06,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,1920×1080,50p,166.2,173.1,346.2,0.17,0.09,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,2048×1080,25p,17.3,18.0,36.0,0.02,0.01,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,2048×1080,25p,39.1,40.7,81.4,0.04,0.02,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,2048×1080,25p,56.4,58.7,117.4,0.06,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,2048×1080,25p,84.5,88.0,176.0,0.09,0.04,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,2048×1080,25p,126.7,132.0,264.0,0.13,0.07,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,2048×1080,25p,189.9,197.8,395.6,0.20,0.10,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,3840×2160,25p,60.8,63.3,126.6,0.06,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,3840×2160,25p,137.6,143.3,286.6,0.14,0.07,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,3840×2160,25p,198.0,206.2,412.4,0.21,0.10,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,3840×2160,25p,296.5,308.9,617.8,0.31,0.15,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,3840×2160,25p,445.0,463.5,927.0,0.46,0.23,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,3840×2160,25p,667.5,695.3,1390.6,0.70,0.35,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,3840×2160,50p,61.0,63.5,127.0,0.06,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,3840×2160,50p,137.6,143.3,286.7,0.14,0.07,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,3840×2160,50p,197.8,206.0,412.0,0.21,0.10,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,3840×2160,50p,296.7,309.1,618.2,0.31,0.15,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,3840×2160,50p,445.0,463.5,927.0,0.46,0.23,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,3840×2160,50p,667.5,695.3,1390.6,0.70,0.35,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,4096×2160,24p,65.0,67.7,135.4,0.07,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,4096×2160,24p,146.7,152.8,305.6,0.15,0.08,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,4096×2160,24p,210.8,219.6,439.2,0.22,0.11,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,4096×2160,24p,316.0,329.2,658.3,0.33,0.16,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,4096×2160,24p,474.0,493.8,987.5,0.49,0.25,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,4096×2160,24p,711.2,740.8,1481.7,0.74,0.37,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,4096×2160,25p,65.2,67.9,135.8,0.07,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,4096×2160,25p,146.9,153.0,306.0,0.15,0.08,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,4096×2160,25p,210.8,219.6,439.2,0.22,0.11,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,4096×2160,25p,316.2,329.4,658.8,0.33,0.16,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,4096×2160,25p,474.7,494.5,989.0,0.49,0.25,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,4096×2160,25p,711.7,741.4,1482.8,0.74,0.37,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,5120×2700,25p,101.8,106.0,212.0,0.11,0.05,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,5120×2700,25p,229.3,238.9,477.8,0.24,0.12,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,5120×2700,25p,329.5,343.2,686.4,0.34,0.17,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,5120×2700,25p,494.5,515.1,1030.2,0.52,0.26,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,5120×2700,25p,741.5,772.4,1544.8,0.77,0.39,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,5120×2700,25p,1112.4,1158.8,2317.6,1.16,0.58,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,6144×3240,25p,146.9,153.0,306.0,0.15,0.08,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,6144×3240,25p,330.3,344.1,688.2,0.34,0.17,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,6144×3240,25p,474.7,494.5,989.0,0.49,0.25,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,6144×3240,25p,711.7,741.4,1482.8,0.74,0.37,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,6144×3240,25p,1067.8,1112.3,2224.6,1.11,0.56,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,6144×3240,25p,1601.7,1668.4,3336.8,1.67,0.83,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 Proxy,8192×4320,25p,261.1,272.0,544.0,0.27,0.14,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 LT,8192×4320,25p,587.4,611.9,1223.8,0.61,0.31,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422,8192×4320,25p,843.6,878.8,1757.6,0.88,0.44,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 422 HQ,8192×4320,25p,1265.8,1318.5,2637.0,1.32,0.66,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444,8192×4320,25p,1898.6,1977.7,3955.4,1.98,0.99,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 机内录制 / 外录 / 代理,ProRes 4444 XQ,8192×4320,25p,2847.7,2966.4,5932.8,2.97,1.48,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 Proxy,1920×1080,29.97p,15.1,15.8,31.5,0.02,0.01,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 LT,1920×1080,29.97p,34.2,35.6,71.2,0.04,0.02,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422,1920×1080,29.97p,49.3,51.3,102.7,0.05,0.03,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 422 HQ,1920×1080,29.97p,73.8,76.8,153.7,0.08,0.04,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444,1920×1080,29.97p,110.6,115.3,230.5,0.12,0.06,derived_fps
+Apple,Apple ProRes（通用编码规范）,通用 · 官方支持页 102207,ProRes 4444 XQ,1920×1080,29.97p,167.6,174.6,349.2,0.17,0.09,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 3:2 Open Gate (OG),4608×3164,24p,1995.7,2078.9,4157.7,2.08,1.04,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4.6K 16:9,4608×2592,24p,1643.5,1712.0,3424.0,1.71,0.86,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 4K 16:9,4096×2304,24p,1299.5,1353.6,2707.3,1.35,0.68,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW 未压缩 3.8K UHD,3840×2160,24p,1140.4,1187.9,2375.8,1.19,0.59,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4.6K 3:2 Open Gate (OG),4608×3164,24p,931.3,970.1,1940.2,0.97,0.49,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 4K UHD,3840×2160,24p,527.2,549.2,1098.3,0.55,0.27,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ProRes 4444 HD,1920×1080,24p,137.3,143.0,286.0,0.14,0.07,derived_fps
+ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRICORE,4608×3164,24p,865.8,901.9,1803.7,0.90,0.45,derived_fps
+ARRI,ALEXA 35 Xtreme,艾丽莎 35 Xtreme / 极限版,ARRIRAW 4.6K Open Gate (OG),4608×3164,24p,1907.1,1986.6,3973.1,1.99,0.99,derived_fps
+ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 4.5K LF 3:2 Open Gate (OG),4448×3096,24p,1746.2,1819.0,3637.9,1.82,0.91,derived_fps
+ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ARRIRAW 3.8K LF UHD,3840×2160,24p,1054.3,1098.2,2196.5,1.10,0.55,derived_fps
+ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 4.5K LF Open Gate (OG),4448×3096,24p,798.3,831.6,1663.1,0.83,0.42,derived_fps
+ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 UHD,3840×2160,24p,461.8,481.0,962.1,0.48,0.24,derived_fps
+ARRI,ALEXA Mini LF,阿莱 Mini LF / 迷你 LF,ProRes 4444 HD,1920×1080,24p,115.7,120.5,241.0,0.12,0.06,derived_fps
+ARRI,ALEXA 65,阿莱 65 / 艾丽莎 65,ARRIRAW 6.5K Open Gate,6560×3100,24p,2660.9,2771.8,5543.5,2.77,1.39,derived_fps
+ARRI,ALEXA LF,阿莱 LF / 大画幅 LF,ARRIRAW LF Open Gate,4448×3096,24p,1681.7,1751.8,3503.5,1.75,0.88,derived_fps
+ARRI,ALEXA 265,阿莱 265 / A265,ARRIRAW 6.5K Open Gate,6560×3100,24p,2660.9,2771.8,5543.5,2.77,1.39,derived_fps
+ARRI,AMIRA / ALEXA Mini,阿莱 Amira / Mini,ProRes 4444 UHD,3840×2160,24p,517.4,539.0,1077.9,0.54,0.27,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 8.6K 3:2,8640×5760,24p,2240.1,2333.4,4666.9,2.33,1.17,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN ST 8.6K 3:2,8640×5760,24p,1533.1,1597.0,3194.0,1.60,0.80,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN LT 8.6K 3:2,8640×5760,24p,903.2,940.8,1881.7,0.94,0.47,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 8.2K 17:9,8192×4320,24p,1618.1,1685.5,3371.0,1.69,0.84,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN ST 8.2K 17:9,8192×4320,24p,1107.2,1153.3,2306.7,1.15,0.58,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN LT 8.2K 17:9,8192×4320,24p,652.1,679.3,1358.5,0.68,0.34,derived_fps
+Sony,MPC-3628 / CineAlta VENICE 2 8K,威尼斯2 / CineAltaV 2 / VENICE 2,X-OCN XT 5.8K 6:5,5800×4860,24p,1274.0,1327.1,2654.2,1.33,0.66,derived_fps
+Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN XT 6K 3:2,6048×4032,24p,1102.6,1148.5,2297.1,1.15,0.57,derived_fps
+Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN ST 6K 3:2,6048×4032,24p,754.4,785.8,1571.7,0.79,0.39,derived_fps
+Sony,MPC-3626 / CineAlta VENICE 2 6K,威尼斯2 6K / VENICE 2 6K,X-OCN LT 6K 3:2,6048×4032,24p,444.7,463.2,926.5,0.46,0.23,derived_fps
+Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,X-OCN XT 4K 17:9,4096×2160,24p,404.4,421.2,842.5,0.42,0.21,derived_fps
+Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,X-OCN ST 4K 17:9,4096×2160,24p,276.6,288.1,576.2,0.29,0.14,derived_fps
+Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,Sony RAW 3.8K 16:9,3840×2160,24p,395.2,411.7,823.3,0.41,0.21,derived_fps
+Sony,MPC-3610 / CineAltaV (VENICE),威尼斯1 / VENICE 1 / CineAltaV,XAVC Class480 / Class300 4K,4096×2160,24p,160.9,167.6,335.2,0.17,0.08,derived_fps
+Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,X-OCN LT 8.6K 16:9,8632×4856,24p,759.4,791.0,1582.1,0.79,0.40,derived_fps
+Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,XAVC H-I HQ 8K,7680×4320,30p,402.3,419.1,838.2,0.42,0.21,derived_fps
+Sony,MPC-3660 / BURANO,布拉诺 / BURANO / 威尼斯小机,XAVC H-I SQ 8K,7680×4320,30p,268.2,279.4,558.8,0.28,0.14,derived_fps
+Sony,PXW-FX9,FX9,XAVC-I DCI 4K,4096×2160,59.94p,100.6,104.8,209.6,0.10,0.05,derived_fps
+Sony,PXW-FX9,FX9,XAVC-L QFHD,3840×2160,25p,40.2,41.9,83.8,0.04,0.02,derived_fps
+Sony,ILME-FX6V,FX6,XAVC-I DCI 4K,4096×2160,50p,100.6,104.8,209.5,0.10,0.05,derived_fps
+Sony,ILME-FX6V,FX6,XAVC-I QFHD,3840×2160,25p,100.6,104.8,209.6,0.10,0.05,derived_fps
+Sony,ILME-FX3 / FX3A,FX3,XAVC S 4K,3840×2160,50p,40.2,41.9,83.8,0.04,0.02,derived_fps
+Sony,ILME-FX3 / FX3A,FX3,XAVC S-I 4K,3840×2160,50p,100.6,104.8,209.5,0.10,0.05,derived_fps
+Sony,ILME-FX30,FX30,XAVC HS 4K,3840×2160,50p,40.2,41.9,83.8,0.04,0.02,derived_fps
+Sony,ILME-FX2,FX2,XAVC S-I 4K,3840×2160,25p,100.6,104.8,209.6,0.10,0.05,derived_fps
+Sony,ILCE-7SM3,A7S III / S3 / A7S3,XAVC S-I 4K,3840×2160,59.94p,100.6,104.8,209.6,0.10,0.05,derived_fps
+Sony,ILCE-7SM3,A7S III / S3 / A7S3,XAVC HS 4K,3840×2160,59.94p,25.2,26.2,52.4,0.03,0.01,derived_fps
+Sony,ILCE-7M4,A7 IV / A7M4 / M4,XAVC S 4K 4:2:2,3840×2160,25p,56.4,58.7,117.4,0.06,0.03,derived_fps
+Sony,ILCE-7M3,A7 III / A7M3 / M3,XAVC S 4K,3840×2160,25p,40.2,41.9,83.8,0.04,0.02,derived_fps
+Sony,ILCE-1,A1 / α1,XAVC HS 8K 4:2:2,7680×4320,29.97p,174.3,181.6,363.2,0.18,0.09,derived_fps
+Sony,ILCE-7RM5,A7R V / A7R5,XAVC HS 8K,7680×4320,24p,167.6,174.6,349.2,0.17,0.09,derived_fps
+Sony,ZV-E1,ZV-E1,XAVC S-I 4K,3840×2160,50p,100.6,104.8,209.5,0.10,0.05,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW HQ 8K 17:9,8192×4320,24p,1424.9,1484.3,2968.5,1.48,0.74,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW MQ 8K 17:9,8192×4320,24p,999.1,1040.7,2081.5,1.04,0.52,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW LQ 8K 17:9,8192×4320,24p,623.6,649.6,1299.2,0.65,0.32,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW ELQ 8K 17:9,8192×4320,24p,335.3,349.3,698.5,0.35,0.17,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW HQ 6K 17:9,6144×3240,24p,801.3,834.7,1669.4,0.83,0.42,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW MQ 6K 17:9,6144×3240,24p,563.3,586.8,1173.5,0.59,0.29,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW LQ 6K 17:9,6144×3240,24p,352.0,366.7,733.3,0.37,0.18,derived_fps
+RED,V-RAPTOR [X] 8K VV,猛禽 X / V-RAPTOR X,REDCODE RAW ELQ 6K 17:9,6144×3240,24p,217.9,227.0,454.0,0.23,0.11,derived_fps
+RED,KOMODO 6K,科莫多 6K / KOMODO,REDCODE RAW HQ 6K 17:9,6144×3240,23.98p,938.8,977.9,1955.8,0.98,0.49,derived_fps
+RED,DSMC2 HELIUM 8K S35,氦 8K / HELIUM 8K,REDCODE 5:1 8K FF,8192×4320,24p,868.4,904.6,1809.2,0.90,0.45,derived_fps
+RED,DSMC2 HELIUM 8K S35,氦 8K / HELIUM 8K,REDCODE 8:1 8K FF,8192×4320,24p,543.1,565.7,1131.5,0.57,0.28,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 3:1,6144×3456,30p,866.3,902.4,1804.8,0.90,0.45,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 5:1,6144×3456,30p,520.3,542.0,1084.0,0.54,0.27,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 8:1,6144×3456,30p,324.6,338.1,676.2,0.34,0.17,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 12:1,6144×3456,30p,217.3,226.3,452.7,0.23,0.11,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 3:1,4096×2160,30p,364.8,380.0,760.0,0.38,0.19,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 5:1,4096×2160,30p,219.9,229.1,458.2,0.23,0.11,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 8:1,4096×2160,30p,136.8,142.5,285.0,0.14,0.07,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,BRAW 12:1,4096×2160,30p,93.8,97.7,195.5,0.10,0.05,derived_fps
+Blackmagic,Pocket Cinema Camera 6K Pro,口袋机 6K Pro / BMPCC 6K Pro,ProRes 422 HQ,4096×2160,30p,316.2,329.3,658.7,0.33,0.16,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 5:1,12288×6480,24p,1937.9,2018.6,4037.3,2.02,1.01,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 8:1,12288×6480,24p,1210.3,1260.7,2521.5,1.26,0.63,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 12:1,12288×6480,24p,808.0,841.7,1683.3,0.84,0.42,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 18:1,12288×6480,24p,536.4,558.8,1117.5,0.56,0.28,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 5:1,8192×4320,24p,861.7,897.6,1795.2,0.90,0.45,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 8:1,8192×4320,24p,539.8,562.3,1124.6,0.56,0.28,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 12:1,8192×4320,24p,358.7,373.6,747.3,0.37,0.19,derived_fps
+Blackmagic,URSA Mini Pro 12K OLPF,BMD 12K / URSA 12K,BRAW 18:1,8192×4320,24p,238.0,247.9,495.8,0.25,0.12,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 3:1,6048×4032,30p,992.4,1033.8,2067.5,1.03,0.52,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 5:1,6048×4032,30p,598.2,623.1,1246.2,0.62,0.31,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 8:1,6048×4032,30p,375.5,391.2,782.3,0.39,0.20,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 12:1,6048×4032,30p,252.2,262.7,525.3,0.26,0.13,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 3:1,4096×2160,30p,364.8,380.0,760.0,0.38,0.19,derived_fps
+Blackmagic,PYXIS 6K,PYXIS 6K / 盒子机,BRAW 5:1,4096×2160,30p,219.9,229.1,458.2,0.23,0.11,derived_fps
+Canon,EOS R5 C,R5C,Cinema RAW Light ST 8K,8192×4320,29.97p,663.8,691.5,1383.0,0.69,0.35,derived_fps
+Canon,EOS R5 C,R5C,Cinema RAW Light LT 8K,8192×4320,29.97p,432.5,450.5,901.0,0.45,0.23,derived_fps
+Canon,EOS R5 C,R5C,Cinema RAW Light LT 8K 高帧率,8192×4320,59.94p,430.8,448.8,897.6,0.45,0.22,derived_fps
+Canon,EOS R5 C,R5C,MP4 HEVC 10bit 8K,8192×4320,29.97p,181.0,188.6,377.2,0.19,0.09,derived_fps
+Canon,EOS R5 C,R5C,XF-AVC Intra-frame 4K,4096×2160,59.94p,135.8,141.5,282.9,0.14,0.07,derived_fps
+Canon,EOS R5 C,R5C,XF-AVC Long GOP 4K,4096×2160,59.94p,43.6,45.4,90.8,0.05,0.02,derived_fps
+Canon,EOS C70,C70,Cinema RAW Light 4K,4096×2160,59.94p,108.1,112.6,225.2,0.11,0.06,derived_fps
+Canon,EOS C70,C70,XF-AVC Intra-frame 4K,4096×2160,59.94p,100.6,104.8,209.6,0.10,0.05,derived_fps
+Canon,EOS C70,C70,MP4 HEVC Long GOP 4K,3840×2160,59.94p,37.7,39.3,78.6,0.04,0.02,derived_fps
+Canon,EOS C300 Mark III,C300 III / C300三代,Cinema RAW Light 4K 10bit,4096×2160,59.94p,167.6,174.6,349.2,0.17,0.09,derived_fps
+Canon,EOS C300 Mark III,C300 III / C300三代,XF-AVC Intra-frame 4K,4096×2160,59.94p,135.8,141.5,282.9,0.14,0.07,derived_fps
+Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light HQ 5.9K,5952×3140,29.97p,710.8,740.4,1480.8,0.74,0.37,derived_fps
+Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light ST 5.9K,5952×3140,29.97p,352.0,366.7,733.3,0.37,0.18,derived_fps
+Canon,EOS C500 Mark II,C500 II / C500二代,Cinema RAW Light LT 5.9K,5952×3140,29.97p,227.7,237.2,474.3,0.24,0.12,derived_fps
+Canon,EOS C500 Mark II,C500 II / C500二代,XF-AVC Intra-frame 4K,4096×2160,59.94p,135.8,141.5,282.9,0.14,0.07,derived_fps
+DJI,Ronin 4D,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192×4320,24p,1357.9,1414.5,2829.0,1.41,0.71,derived_fps
+DJI,Ronin 4D,大疆如影4D / R4D,ProRes RAW 8K Full Frame,8192×4320,60p,1357.9,1414.5,2828.9,1.41,0.71,derived_fps
+DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 8K Full Frame,8192×4320,25p,1207.0,1257.3,2514.6,1.26,0.63,derived_fps
+DJI,Ronin 4D X9-8K,大疆如影4D / R4D,ProRes 422 HQ 4K Full Frame,3840×2160,25p,289.6,301.7,603.4,0.30,0.15,derived_fps
+DJI,Ronin 4D X9-8K,大疆如影4D / R4D,H.264 4K Full Frame,3840×2160,25p,57.9,60.3,120.6,0.06,0.03,derived_fps
+DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes RAW 6K Full Frame,6008×3168,25p,730.7,761.1,1522.2,0.76,0.38,derived_fps
+DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 4444 XQ 6K Full Frame,6008×3168,25p,1458.0,1518.8,3037.6,1.52,0.76,derived_fps
+DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 422 HQ 6K Full Frame,6008×3168,25p,650.2,677.3,1354.6,0.68,0.34,derived_fps
+DJI,Ronin 4D X9-6K,大疆如影4D 6K / R4D-6K,ProRes 422 LT 6K Full Frame,6008×3168,25p,302.6,315.2,630.4,0.32,0.16,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,CinemaDNG 8.1K Full Frame,8192×4320,25p,2716.5,2829.7,5659.4,2.83,1.41,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes RAW 8.1K Full Frame,8192×4320,25p,1358.3,1414.9,2829.8,1.41,0.71,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes 422 HQ 8.1K Full Frame,8192×4320,25p,1207.0,1257.3,2514.6,1.26,0.63,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,H.264 4.1K Full Frame,4096×2160,25p,57.9,60.3,120.6,0.06,0.03,derived_fps
+Nikon,ZR,ZR / 尼康 ZR（RED 血统）,R3D NE / N-RAW 高品質 6K,6048×3402,59.94p,633.7,660.1,1320.2,0.66,0.33,derived_fps
+Nikon,ZR,ZR / 尼康 ZR（RED 血统）,R3D NE / N-RAW 高品質 6K,6048×3402,23.97p,637.0,663.5,1327.1,0.66,0.33,derived_fps
+Nikon,ZR,ZR / 尼康 ZR（RED 血统）,ProRes RAW HQ 6K,6048×3402,29.97p,1676.4,1746.2,3492.5,1.75,0.87,derived_fps
+Nikon,ZR,ZR / 尼康 ZR（RED 血统）,ProRes 422 HQ 5.4K,5376×3024,29.97p,643.8,670.6,1341.2,0.67,0.34,derived_fps
+Nikon,ZR,ZR / 尼康 ZR（RED 血统）,H.265 10bit 4K,3840×2160,59.94p,57.0,59.4,118.8,0.06,0.03,derived_fps
+Nikon,Z9,Z9,N-RAW 高品質 8.3K,8256×4644,60p,969.0,1009.3,2018.7,1.01,0.50,derived_fps
+Nikon,Z9,Z9,H.265 10bit 8K UHD,7680×4320,30p,134.1,139.7,279.3,0.14,0.07,derived_fps
+Nikon,Z8,Z8,N-RAW 高品質 8.3K,8256×4644,60p,969.0,1009.3,2018.7,1.01,0.50,derived_fps
+Panasonic,LUMIX S1H,S1H,H.265 6K 3:2,5952×3968,23.98p,83.8,87.3,174.6,0.09,0.04,derived_fps
+Panasonic,LUMIX S1H,S1H,H.264 ALL-Intra C4K/4K,4096×2160,29.97p,134.1,139.7,279.3,0.14,0.07,derived_fps
+Panasonic,LUMIX S1H,S1H,H.264 ALL-Intra FHD,1920×1080,59.94p,33.5,34.9,69.8,0.03,0.02,derived_fps
+Panasonic,LUMIX GH6,GH6,H.264 ALL-Intra 4K,3840×2160,24p,167.6,174.6,349.2,0.17,0.09,derived_fps
+Panasonic,LUMIX GH6,GH6,H.265 LongGOP 4K,3840×2160,24p,62.9,65.5,131.0,0.07,0.03,derived_fps
+Panasonic,LUMIX GH6,GH6,ProRes 422 HQ 5.7K（最高档）,5728×3024,30p,637.0,663.6,1327.2,0.66,0.33,derived_fps
+GoPro,HERO13 Black,狗13 / HERO13,HEVC 10-bit 4K 高帧率,3840×2160,119.88p,10.1,10.5,21.0,0.01,0.01,derived_fps
+GoPro,HERO13 Black,狗13 / HERO13,HEVC 10-bit 5.3K,5312×2988,59.94p,20.1,21.0,41.9,0.02,0.01,derived_fps
+Atomos,Ninja / Ninja Phone,阿童木 Ninja / 将军,ProRes 422 1080p,1920×1080,60p,49.3,51.3,102.7,0.05,0.03,derived_fps
+Atomos,Ninja / Ninja Phone,阿童木 Ninja / 将军,ProRes 422 LT 1080p,1920×1080,60p,34.2,35.6,71.2,0.04,0.02,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,CinemaDNG 8K Full Frame,8192×4324,25p,2545.9,2652.0,5304.0,2.65,1.33,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes RAW 8K Full Frame,8192×4324,25p,1274.6,1327.7,2655.4,1.33,0.66,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes 422 HQ 8K Full Frame,8192×4324,25p,1081.4,1126.5,2253.0,1.13,0.56,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,CinemaDNG 5.5K S35,5568×2952,25p,1261.7,1314.3,2628.6,1.31,0.66,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes RAW 5.5K S35,5568×2952,25p,630.8,657.1,1314.2,0.66,0.33,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,CinemaDNG 4K Full Frame,4096×2160,25p,634.1,660.5,1321.0,0.66,0.33,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes RAW 4K Full Frame,4096×2160,25p,318.6,331.9,663.8,0.33,0.17,derived_fps
+DJI,Inspire 3 / X9-8K Air,悟3 / 大疆 Inspire 3,ProRes 422 HQ 4K Full Frame,4096×2160,25p,283.2,295.0,590.0,0.29,0.15,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ARRIRAW Open Gate 3.4K,3424×2202,25p,958.1,998.0,1996.0,1.00,0.50,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ARRIRAW 16:9 2.8K,2880×1620,25p,592.8,617.5,1235.0,0.62,0.31,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ARRIRAW 4:3 2.8K,2880×2160,25p,790.4,823.3,1646.6,0.82,0.41,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ 4K UHD,3840×2160,25p,787.8,820.6,1641.2,0.82,0.41,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 4K UHD,3840×2160,25p,524.8,546.7,1093.4,0.55,0.27,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ 4K UHD,3840×2160,25p,349.7,364.3,728.6,0.36,0.18,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 4K UHD,3840×2160,25p,233.2,242.9,485.8,0.24,0.12,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT 4K UHD,3840×2160,25p,162.4,169.2,338.4,0.17,0.08,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ 3.2K,3200×1800,25p,546.4,569.2,1138.4,0.57,0.28,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 3.2K,3200×1800,25p,364.2,379.4,758.8,0.38,0.19,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ 3.2K,3200×1800,25p,242.9,253.0,506.0,0.25,0.13,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 3.2K,3200×1800,25p,161.9,168.6,337.2,0.17,0.08,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT 3.2K,3200×1800,25p,112.7,117.4,234.8,0.12,0.06,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ 2K,2048×1152,25p,223.8,233.1,466.2,0.23,0.12,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 2K,2048×1152,25p,149.2,155.4,310.8,0.16,0.08,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ 2K,2048×1152,25p,99.5,103.6,207.2,0.10,0.05,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 2K,2048×1152,25p,66.3,69.1,138.2,0.07,0.03,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT 2K,2048×1152,25p,46.2,48.1,96.2,0.05,0.02,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ HD,1920×1080,25p,196.7,204.9,409.8,0.20,0.10,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 HD,1920×1080,25p,131.1,136.6,273.2,0.14,0.07,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ HD,1920×1080,25p,87.5,91.1,182.2,0.09,0.05,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HD,1920×1080,25p,58.3,60.7,121.4,0.06,0.03,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT HD,1920×1080,25p,40.6,42.3,84.6,0.04,0.02,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ 4:3 2.8K,2880×2160,25p,603.2,628.3,1256.6,0.63,0.31,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 4:3 2.8K,2880×2160,25p,402.3,419.1,838.2,0.42,0.21,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ 4:3 2.8K,2880×2160,25p,268.2,279.4,558.8,0.28,0.14,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 4:3 2.8K,2880×2160,25p,178.8,186.2,372.4,0.19,0.09,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT 4:3 2.8K,2880×2160,25p,124.5,129.7,259.4,0.13,0.06,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 XQ 2.39:1 Ana,2048×858,25p,166.8,173.7,347.4,0.17,0.09,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 4444 2.39:1 Ana,2048×858,25p,111.2,115.8,231.6,0.12,0.06,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 HQ 2.39:1 Ana,2048×858,25p,74.1,77.2,154.4,0.08,0.04,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 2.39:1 Ana,2048×858,25p,49.3,51.4,102.8,0.05,0.03,derived_fps
+ARRI,ALEXA Mini,阿莱 Mini / 迷你,ProRes 422 LT 2.39:1 Ana,2048×858,25p,34.4,35.8,71.6,0.04,0.02,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,X-OCN XT 6K 3:2,6048×4032,24p,1102.6,1148.5,2297.1,1.15,0.57,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,X-OCN ST 6K 3:2,6048×4032,24p,754.4,785.8,1571.7,0.79,0.39,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,X-OCN LT 6K 3:2,6048×4032,24p,444.7,463.2,926.5,0.46,0.23,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,X-OCN ST 6K 17:9,6054×3192,24p,599.7,624.7,1249.4,0.62,0.31,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,X-OCN LT 6K 17:9,6054×3192,24p,353.3,368.0,736.0,0.37,0.18,derived_fps
+Sony,Sony VENICE 1,威尼斯一代 / VENICE 1,ProRes 422 HQ 4K 17:9,4096×2160,24p,73.8,76.9,153.8,0.08,0.04,derived_fps
+Sony,Sony BURANO,布拉诺 / BURANO,X-OCN LT 8K 17:9,8192×4320,25p,872.6,909.0,1818.0,0.91,0.45,derived_fps
+Sony,Sony BURANO,布拉诺 / BURANO,X-OCN LT 8K 16:9,7680×4320,25p,936.2,975.2,1950.4,0.98,0.49,derived_fps
+Sony,Sony BURANO,布拉诺 / BURANO,XAVC H-I HQ 8K 17:9,8192×4320,25p,495.3,515.9,1031.8,0.52,0.26,derived_fps
+Sony,Sony BURANO,布拉诺 / BURANO,XAVC H-I SQ 8K 17:9,8192×4320,25p,332.4,346.2,692.4,0.35,0.17,derived_fps
+Canon,EOS C200,C200,Cinema RAW Light 4K,4096×2160,25p,402.3,419.1,838.2,0.42,0.21,derived_fps
+Canon,EOS C200,C200,XF-AVC Intra 4K,4096×2160,25p,60.4,62.9,125.8,0.06,0.03,derived_fps
+Canon,EOS C400,C400,Cinema RAW Light HQ FF 6K,6000×3164,25p,696.0,725.0,1450.0,0.72,0.36,derived_fps
+Canon,EOS C400,C400,Cinema RAW Light ST FF 6K,6000×3164,25p,356.4,371.3,742.6,0.37,0.19,derived_fps
+Canon,EOS C400,C400,Cinema RAW Light LT FF 6K,6000×3164,25p,231.7,241.4,482.8,0.24,0.12,derived_fps
+Canon,EOS C400,C400,Cinema RAW Light ST S35 4K,4368×2304,25p,189.1,197.0,394.0,0.20,0.10,derived_fps
+Canon,EOS C400,C400,XF-AVC Intra 4K,4096×2160,25p,201.1,209.5,419.0,0.21,0.10,derived_fps
+Blackmagic,Pocket Cinema Camera 4K,口袋机 4K / BMPCC 4K,BRAW 3:1 4K DCI,4096×2160,30p,364.8,380.0,760.0,0.38,0.19,derived_fps
+Blackmagic,Pocket Cinema Camera 4K,口袋机 4K / BMPCC 4K,BRAW 5:1 4K DCI,4096×2160,30p,219.9,229.1,458.2,0.23,0.11,derived_fps
+Blackmagic,Pocket Cinema Camera 4K,口袋机 4K / BMPCC 4K,BRAW 3:1 6K,6144×3456,30p,866.3,902.4,1804.8,0.90,0.45,derived_fps
+Blackmagic,Pocket Cinema Camera 4K,口袋机 4K / BMPCC 4K,ProRes 422 HQ 4K DCI,4096×2160,30p,316.2,329.3,658.7,0.33,0.16,derived_fps
+Blackmagic,Pocket Cinema Camera 6K,口袋机 6K / BMPCC 6K,BRAW 3:1 6K,6144×3456,30p,866.3,902.4,1804.8,0.90,0.45,derived_fps
+Blackmagic,Pocket Cinema Camera 6K,口袋机 6K / BMPCC 6K,BRAW 5:1 6K,6144×3456,30p,520.3,542.0,1084.0,0.54,0.27,derived_fps
+Blackmagic,Pocket Cinema Camera 6K,口袋机 6K / BMPCC 6K,ProRes 422 HQ 4K DCI,4096×2160,30p,316.2,329.3,658.7,0.33,0.16,derived_fps
+DJI,Ronin 4D,如影 4D / Ronin 4D,ProRes RAW 8K FF,8192×4320,24p,1357.9,1414.5,2829.0,1.41,0.71,derived_fps
+DJI,Ronin 4D,如影 4D / Ronin 4D,ProRes 422 HQ 8K FF,8192×4320,24p,1207.0,1257.3,2514.6,1.26,0.63,derived_fps
+DJI,Ronin 4D,如影 4D / Ronin 4D,ProRes RAW 4K FF,4096×2160,24p,338.6,352.7,705.4,0.35,0.18,derived_fps
+Nikon,Z8,Z8,N-RAW HQ 8.3K,8256×4644,24p,1165.1,1213.6,2427.3,1.21,0.61,derived_fps
+Nikon,Z8,Z8,N-RAW Normal 8.3K,8256×4644,24p,582.5,606.8,1213.5,0.61,0.30,derived_fps
+Nikon,Z8,Z8,ProRes RAW HQ 8.3K,8256×4644,24p,598.9,623.9,1247.7,0.62,0.31,derived_fps
+Nikon,Z9,Z9,N-RAW HQ 8.3K,8256×4644,24p,1165.1,1213.6,2427.3,1.21,0.61,derived_fps
+Nikon,Z9,Z9,N-RAW Normal 8.3K,8256×4644,24p,582.5,606.8,1213.5,0.61,0.30,derived_fps
+Nikon,Z9,Z9,ProRes RAW HQ 8.3K,8256×4644,24p,598.9,623.9,1247.7,0.62,0.31,derived_fps
+Sony,FX3,FX3,XAVC S-I 4K,3840×2160,25p,100.6,104.8,209.6,0.10,0.05,derived_fps
+ARRI,ALEXA 35,阿莱 · 艾丽莎 35 / A35,ARRIRAW HDE（高密度编码）,4608×3164,25p,1097.7,1143.4,2286.8,1.14,0.57,estimated_hde
