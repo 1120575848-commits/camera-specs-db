@@ -26,6 +26,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OFFICIAL = os.path.join(HERE, "specs_official.csv")
 MEASURED = os.path.join(HERE, "specs_measured.csv")
 DEVICES = os.path.join(HERE, "specs_devices.csv")
+ALIASES = os.path.join(HERE, "aliases.csv")
+SPECS_25P = os.path.join(HERE, "specs_25p.csv")
 
 DEC = 0.953674  # 十进制 MB/s -> 二进制 MB/s
 
@@ -121,6 +123,58 @@ def load_measured():
                 "samples": to_num(r.get("样本数", "")),
             })
     return rows
+
+
+# ---------- 别名解析（v14）----------
+def load_aliases():
+    """aliases.csv：口语机型 → 规范机型名；brand / family 不指向具体型号。"""
+    if not os.path.exists(ALIASES):
+        return {}
+    out = {}
+    with open(ALIASES, encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            key = (r.get("alias") or "").lower().replace(" ", "")
+            if key:
+                out[key] = (r.get("canonical") or "", r.get("kind") or "model")
+    return out
+
+
+def resolve_model(name, aliases):
+    """返回 (规范机型名, 提示语, 是否只是品牌/家族词)。"""
+    key = (name or "").strip().lower().replace(" ", "")
+    hit = aliases.get(key)
+    if not hit:
+        return name, None, False
+    canonical, kind = hit
+    if kind in ("brand", "family") or not canonical:
+        return name, (f"✗ 「{name}」只说到品牌 / 类别，没给具体机型；"
+                      f"请先问清型号再查（库内不做猜测）。"), True
+    if canonical.lower().replace(" ", "") != key:
+        return canonical, f"ℹ 别名「{name}」→ 规范机型「{canonical}」", False
+    return canonical, None, False
+
+
+# ---------- 25p 基准查询（v14：客户没说帧率就用这张）----------
+def load_25p():
+    if not os.path.exists(SPECS_25P):
+        return []
+    with open(SPECS_25P, encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
+def render_25p(model, rows, count):
+    hits = [r for r in rows if model.lower() in (r["model"] or "").lower()]
+    if not hits:
+        return None
+    print(f"\n=== 25p 基准（默认帧率，{count} 台）===\n")
+    print(f"{'编码':<38} {'分辨率':<12} {'25p GB/h':>10} {'对外TB/h':>9} {'50p倍率':>8}")
+    print("-" * 82)
+    for r in sorted(hits, key=lambda x: -float(x["gbh_25p"] or 0))[:20]:
+        g25 = float(r["gbh_25p"] or 0)
+        print(f"{r['codec'][:37]:<38} {r['resolution']:<12} {g25:>10.1f} "
+              f"{g25/1000:>9.2f} {'×2':>8}")
+    print("\n  50p = 25p × 2；24p = 25p × 24/25；1 TB = 10¹² B ≈ 1000 GB（取约数，允许误差）。")
+    return hits
 
 
 # ---------- 匹配 ----------
@@ -263,7 +317,29 @@ def main():
     ap.add_argument("--fps", type=int, help="帧率过滤，如 25")
     ap.add_argument("--device", action="store_true",
                     help="查设备接口（时码 TC / 麦克风 / SDI·HDMI 输出）")
+    ap.add_argument("--fps25", action="store_true",
+                    help="输出 25p 基准表（客户没说帧率时用；50p = ×2、24p = ×24/25）")
     args = ap.parse_args()
+
+    # 先过别名表：口语机型 → 规范机型；品牌/家族词不猜型号
+    aliases = load_aliases()
+    resolved, note, ambiguous = resolve_model(args.model, aliases)
+    if ambiguous:
+        print(note)
+        return 2
+    if note:
+        print(note)
+    args.model = resolved
+
+    if args.fps25:
+        rows25 = load_25p()
+        if not rows25:
+            print("✗ 找不到 specs_25p.csv，请先运行 python3 build_kb.py", file=sys.stderr)
+            return 3
+        if not render_25p(args.model, rows25, args.count):
+            print(f"✗ 25p 基准表里没有「{args.model}」。")
+            return 2
+        return 0
 
     if args.device:
         if not os.path.exists(DEVICES):
