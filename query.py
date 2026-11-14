@@ -125,7 +125,7 @@ def load_measured():
     return rows
 
 
-# ---------- 别名解析（v14）----------
+# ---------- 别名解析 ----------
 def load_aliases():
     """aliases.csv：口语机型 → 规范机型名；brand / family 不指向具体型号。"""
     if not os.path.exists(ALIASES):
@@ -154,7 +154,7 @@ def resolve_model(name, aliases):
     return canonical, None, False
 
 
-# ---------- 25p 基准查询（v14：客户没说帧率就用这张）----------
+# ---------- 25p 基准查询（客户没说帧率就用这张）----------
 def load_25p():
     if not os.path.exists(SPECS_25P):
         return []
