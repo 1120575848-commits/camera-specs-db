@@ -1,0 +1,200 @@
+alias,canonical,kind
+ARRI,,brand
+ARRI（品牌,,brand
+DJI,,brand
+RED,,brand
+Sony,,brand
+大疆,,brand
+索尼,,brand
+阿莱,,brand
+小飞机,,family
+航拍小飞机,,family
+A265,ALEXA 265,model
+ALEXA 265,ALEXA 265,model
+阿莱 265,ALEXA 265,model
+35,ALEXA 35,model
+A35,ALEXA 35,model
+ALEXA 35,ALEXA 35,model
+ARRI ALEXA 35,ALEXA 35,model
+艾丽莎 35,ALEXA 35,model
+阿莱 A35,ALEXA 35,model
+ALEXA 35 Xtreme,ALEXA 35 Xtreme,model
+极限版,ALEXA 35 Xtreme,model
+艾丽莎 35 Xtreme,ALEXA 35 Xtreme,model
+ALEXA 65,ALEXA 65,model
+艾丽莎 65,ALEXA 65,model
+阿莱 65,ALEXA 65,model
+ALEXA LF,ALEXA LF,model
+大画幅 LF,ALEXA LF,model
+阿莱 LF,ALEXA LF,model
+ALEXA Mini,ALEXA Mini,model
+AM,ALEXA Mini,model
+ARRI ALEXA Mini,ALEXA Mini,model
+迷你,ALEXA Mini,model
+阿莱 Mini,ALEXA Mini,model
+ALEXA Mini LF,ALEXA Mini LF,model
+ARRI ALEXA Mini LF,ALEXA Mini LF,model
+MLF,ALEXA Mini LF,model
+大画幅 Mini,ALEXA Mini LF,model
+迷你 LF,ALEXA Mini LF,model
+阿莱 Mini LF,ALEXA Mini LF,model
+AMIRA / ALEXA Mini,AMIRA / ALEXA Mini,model
+Mini,AMIRA / ALEXA Mini,model
+阿莱 Amira,AMIRA / ALEXA Mini,model
+Apple ProRes（通用编码规范,Apple ProRes（通用编码规范）,model
+ProRes RAW,Apple ProRes（通用编码规范）,model
+RAW HQ,Apple ProRes（通用编码规范）,model
+代理,Apple ProRes（通用编码规范）,model
+外录,Apple ProRes（通用编码规范）,model
+机内录制,Apple ProRes（通用编码规范）,model
+通用,Apple ProRes（通用编码规范）,model
+DSMC2 GEMINI 5K S35,DSMC2 GEMINI 5K S35,model
+GEMINI,DSMC2 GEMINI 5K S35,model
+GEMINI 5K,DSMC2 GEMINI 5K S35,model
+RED Gemini 5K S35,DSMC2 GEMINI 5K S35,model
+双子座,DSMC2 GEMINI 5K S35,model
+双子座 5K,DSMC2 GEMINI 5K S35,model
+DSMC2 HELIUM 8K S35,DSMC2 HELIUM 8K S35,model
+HELIUM 8K,DSMC2 HELIUM 8K S35,model
+氦 8K,DSMC2 HELIUM 8K S35,model
+C200,EOS C200,model
+EOS C200,EOS C200,model
+C300 III,EOS C300 Mark III,model
+C300三代,EOS C300 Mark III,model
+EOS C300 Mark III,EOS C300 Mark III,model
+C400,EOS C400,model
+EOS C400,EOS C400,model
+C500 II,EOS C500 Mark II,model
+C500二代,EOS C500 Mark II,model
+EOS C500 Mark II,EOS C500 Mark II,model
+C70,EOS C70,model
+EOS C70,EOS C70,model
+EOS R5 C,EOS R5 C,model
+R5C,EOS R5 C,model
+GoPro 13,HERO13 Black,model
+HERO13,HERO13 Black,model
+HERO13 Black,HERO13 Black,model
+狗13,HERO13 Black,model
+A1,ILCE-1,model
+ILCE-1,ILCE-1,model
+α1,ILCE-1,model
+A7 III,ILCE-7M3,model
+A7M3,ILCE-7M3,model
+ILCE-7M3,ILCE-7M3,model
+M3,ILCE-7M3,model
+α7 III,ILCE-7M3,model
+A7 IV,ILCE-7M4,model
+A7M4,ILCE-7M4,model
+ILCE-7M4,ILCE-7M4,model
+M4,ILCE-7M4,model
+α7 IV,ILCE-7M4,model
+A7R V,ILCE-7RM5,model
+A7R5,ILCE-7RM5,model
+ILCE-7RM5,ILCE-7RM5,model
+A7S III,ILCE-7SM3,model
+A7S3,ILCE-7SM3,model
+ILCE-7SM3,ILCE-7SM3,model
+S3,ILCE-7SM3,model
+α7S III,ILCE-7SM3,model
+FX2,ILME-FX2,model
+ILME-FX2,ILME-FX2,model
+FX3,ILME-FX3 / FX3A,model
+FX3A,ILME-FX3 / FX3A,model
+ILME-FX3,ILME-FX3 / FX3A,model
+ILME-FX3 / FX3A,ILME-FX3 / FX3A,model
+ILME-FX3A,ILME-FX3 / FX3A,model
+Sony FX3,ILME-FX3 / FX3A,model
+FX30,ILME-FX30,model
+ILME-FX30,ILME-FX30,model
+FX5,ILME-FX5,model
+ILME-FX5,ILME-FX5,model
+FX6,ILME-FX6V,model
+ILME-FX6V,ILME-FX6V,model
+Sony FX6,ILME-FX6V,model
+Inspire 3,Inspire 3 / X9-8K Air,model
+Inspire 3 / X9-8K Air,Inspire 3 / X9-8K Air,model
+大疆 Inspire 3,Inspire 3 / X9-8K Air,model
+悟3,Inspire 3 / X9-8K Air,model
+KOMODO,KOMODO 6K,model
+KOMODO 6K,KOMODO 6K,model
+科莫多 6K,KOMODO 6K,model
+6K S35,KOMODO-X 6K S35,model
+KOMODO-X,KOMODO-X 6K S35,model
+KOMODO-X 6K S35,KOMODO-X 6K S35,model
+Komodo X,KOMODO-X 6K S35,model
+科莫多-X,KOMODO-X 6K S35,model
+科莫多X,KOMODO-X 6K S35,model
+GH6,LUMIX GH6,model
+LUMIX GH6,LUMIX GH6,model
+LUMIX S1H,LUMIX S1H,model
+S1H,LUMIX S1H,model
+CineAltaV,MPC-3610 / CineAltaV (VENICE),model
+MPC-3610 / CineAltaV (VENICE,MPC-3610 / CineAltaV (VENICE),model
+VENICE 1,MPC-3610 / CineAltaV (VENICE),model
+威尼斯1,MPC-3610 / CineAltaV (VENICE),model
+MPC-3626 / CineAlta VENICE 2 6K,MPC-3626 / CineAlta VENICE 2 6K,model
+VENICE 2 6K,MPC-3626 / CineAlta VENICE 2 6K,model
+威尼斯2 6K,MPC-3626 / CineAlta VENICE 2 6K,model
+8.6K 全画幅,MPC-3628 / CineAlta VENICE 2 8K,model
+CineAlta VENICE 2 8K,MPC-3628 / CineAlta VENICE 2 8K,model
+CineAltaV 2,MPC-3628 / CineAlta VENICE 2 8K,model
+CineAltaV 2 8K,MPC-3628 / CineAlta VENICE 2 8K,model
+MPC-3628,MPC-3628 / CineAlta VENICE 2 8K,model
+MPC-3628 / CineAlta VENICE 2 8K,MPC-3628 / CineAlta VENICE 2 8K,model
+VENICE 2,MPC-3628 / CineAlta VENICE 2 8K,model
+VENICE 2 8K,MPC-3628 / CineAlta VENICE 2 8K,model
+威尼斯,MPC-3628 / CineAlta VENICE 2 8K,model
+威尼斯2,MPC-3628 / CineAlta VENICE 2 8K,model
+威尼斯二代,MPC-3628 / CineAlta VENICE 2 8K,model
+BURANO,MPC-3660 / BURANO,model
+MPC-3660 / BURANO,MPC-3660 / BURANO,model
+威尼斯小机,MPC-3660 / BURANO,model
+布拉诺,MPC-3660 / BURANO,model
+Ninja / Ninja Phone,Ninja / Ninja Phone,model
+将军,Ninja / Ninja Phone,model
+阿童木 Ninja,Ninja / Ninja Phone,model
+FX9,PXW-FX9,model
+PXW-FX9,PXW-FX9,model
+PYXIS 6K,PYXIS 6K,model
+盒子机,PYXIS 6K,model
+BMPCC 4K,Pocket Cinema Camera 4K,model
+Pocket Cinema Camera 4K,Pocket Cinema Camera 4K,model
+口袋机 4K,Pocket Cinema Camera 4K,model
+BMPCC 6K,Pocket Cinema Camera 6K,model
+Pocket Cinema Camera 6K,Pocket Cinema Camera 6K,model
+口袋机 6K,Pocket Cinema Camera 6K,model
+BMPCC 6K Pro,Pocket Cinema Camera 6K Pro,model
+Pocket Cinema Camera 6K Pro,Pocket Cinema Camera 6K Pro,model
+口袋机 6K Pro,Pocket Cinema Camera 6K Pro,model
+R4D,Ronin 4D,model
+Ronin 4D,Ronin 4D,model
+大疆如影4D,Ronin 4D,model
+如影 4D,Ronin 4D,model
+禅思 X9,Ronin 4D,model
+R4D-6K,Ronin 4D X9-6K,model
+Ronin 4D X9-6K,Ronin 4D X9-6K,model
+大疆如影4D 6K,Ronin 4D X9-6K,model
+Ronin 4D X9-8K,Ronin 4D X9-8K,model
+Sony BURANO,Sony BURANO,model
+Sony VENICE 1,Sony VENICE 1,model
+威尼斯一代,Sony VENICE 1,model
+BMD 12K,URSA Mini Pro 12K OLPF,model
+URSA 12K,URSA Mini Pro 12K OLPF,model
+URSA Mini Pro 12K OLPF,URSA Mini Pro 12K OLPF,model
+V-RAPTOR XL,V-RAPTOR XL [X] 8K VV,model
+V-RAPTOR XL [X] 8K VV,V-RAPTOR XL [X] 8K VV,model
+猛禽 XL,V-RAPTOR XL [X] 8K VV,model
+8K VV,V-RAPTOR [X] 8K VV,model
+RED 猛禽 X,V-RAPTOR [X] 8K VV,model
+Raptor X 8K VV,V-RAPTOR [X] 8K VV,model
+V-RAPTOR X,V-RAPTOR [X] 8K VV,model
+V-RAPTOR [X] 8K VV,V-RAPTOR [X] 8K VV,model
+猛禽 X,V-RAPTOR [X] 8K VV,model
+Z8,Z8,model
+Z9,Z9,model
+NIKON ZR,ZR,model
+Nikon ZR 电影机,ZR,model
+ZR,ZR,model
+尼康 ZR,ZR,model
+尼康 ZR（RED 血统,ZR,model
+ZV-E1,ZV-E1,model
