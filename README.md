@@ -546,9 +546,9 @@ https://ghproxy.net/https://raw.githubusercontent.com/1120575848-commits/camera-
   ```bash
   python3 check_rules.py
   ```
-  断言：四份规则的关键句一致、开场白逐字一致、版本号一致、示范数字与 CSV/25p 表一致、别名表与 AI_PACK 内嵌双向无差异、派生文件未过期。任一不符退出码 1。
+  断言：五份规则版本号一致（真源 = README 顶部版本戳）、开场白逐字一致、关键口径同步矩阵、旧口径残留、九档价格、`AI_PACK §3.3` 与 `specs_official.csv` 逐行一致、别名 canonical 可解析、派生文件新鲜度、二维码走 gcore 直出、规则文本禁用 jsDelivr `@main`、导航与 20 条回归集。任一不符退出码 1。
 
-- **推送门禁**：`gh_push_curl.py`（仓库外）推送前自动调用 `validate_db.py` + `check_rules.py`，任一 HARD 错误即中止，并自动 bump 版本号、清 jsDelivr 缓存，确保带 bug 的数据**物理上无法上线**。
+- **推送门禁**：仓库外的 `gh_push_v14.py` 推送前自动跑 `validate_db.py` + `check_rules.py`，任一 HARD 错误即中止；推送后按 git blob SHA 逐字节核验远端全库文件，并核验文本入口（ghproxy）内容与本地一致。可选 `--bump v15` 自动改写五份规则的版本戳（门禁版本真源跟着 README 走）。**规则文本走 5 分钟缓存的 ghproxy / raw，不要用 jsDelivr `@main`**（12 小时缓存会发旧版）。带 bug 的数据物理上无法上线。
 
 > 命名口径：库内 "OG" = "Open Gate"。**实测表慢动作行**（传感器帧率 ≠ 素材帧率、异模式降数据）**不要按单帧×帧率外推**；除此之外，同编码同分辨率的帧率换算按 `specs_25p.csv` 比例进行，允许误差。
 
