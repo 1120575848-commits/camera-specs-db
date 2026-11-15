@@ -36,29 +36,33 @@ def current_version(texts):
     m = re.search(r"本文件版本：(v\d+)", texts.get("README.md", ""))
     return m.group(1) if m else None
 
+# v16：1 TB 机械档取消，¥779 降级为内部参考（只在 hdd_prices.md 以删除线留档）
 EXPECT_PRICES = {
-    "¥779": "1 TB 机械", "¥999": "1 TB 固态",
-    "¥829": "2 TB 机械", "¥1583": "2 TB 固态",
+    "¥999": "1 TB 固态", "¥829": "2 TB 机械", "¥1583": "2 TB 固态",
     "¥1229": "4 TB", "¥3619": "4 TB 固态", "¥1349": "5 TB", "¥2489": "8 TB",
     "¥3099": "10 TB", "¥3599": "12 TB", "¥3899": "14 TB",
     "¥3699": "16 TB", "¥5270": "18 TB", "¥6143": "20 TB",
 }
 
+V16_KEYS = ["并列选择表", "读写速度", "不做判断", "表格下方"]
+
 KEY_MATRIX = {
     "README.md": ["一档一档", "两档触发", "工时 ≠ 机时", "25p", "aliases.csv",
                   "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
+                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
     "AI_INSTRUCTIONS.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
                            "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
+                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
     "AI_PACK.md": ["一档一档", "工时 ≠ 机时", "25p", "让客户自己选",
                    "超时补盘", "允许误差", "§3.2", "104.8 GB/h",
-                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"],
+                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
     "START_HERE.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
                       "让客户自己选", "specs_25p.csv", "超时补盘", "八条硬规则",
-                      "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3"],
+                      "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3",
+                      "4 列选择表", "读写速度", "不做判断"],
     "index.md": ["当前版本", "aliases.csv", "specs_25p.csv", "resolution_ladders.csv",
-                 "business_notes.md", "check_rules.py", "regression_qa.md", "八条硬规则"],
+                 "business_notes.md", "check_rules.py", "regression_qa.md", "八条硬规则",
+                 "并列选择表"],
 }
 
 BANNED = [
@@ -290,42 +294,87 @@ def check_links_and_nav(rep, texts):
             print(f"  ✓ 回归集 {n} 条")
 
 
-def check_v15(rep, texts):
-    """v15 新增口径：1/2 TB 档、机械·固态、FX3 时长直算、口语别名、示范。"""
-    for fn in ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "START_HERE.md", "hdd_prices.md"]:
+def check_v16(rep, texts):
+    """v16：1 TB 机械档取消、< 4 TB 并列选择表、表格下方一段、DIT 工作流。
+
+    沿用 v15 的 FX3 时长直算、口语别名、禁联网 / 禁反问 / 禁认错复读断言。
+    """
+    rule_files = ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "hdd_prices.md"]
+
+    # 1. 对外档位表不许再有 1 TB 机械行（旧版形态），只查表格行，不查说明文字
+    for fn in rule_files:
         t = texts.get(fn) or read(fn)
-        for k in ["1 TB", "2 TB", "固态"]:
+        for bad in ["| ≤ 1 TB | **1 TB**", "| ≤ 1 TB | 1 TB", "0.63 TB → 1 TB 档"]:
+            if bad in t:
+                rep.h(f"[v16] {fn} 对外档位 / 示范仍含 1 TB 机械旧行「{bad}」")
+    hp = texts.get("hdd_prices.md") or read("hdd_prices.md")
+    if "¥779" in hp and "~~¥779~~" not in hp:
+        rep.h("[v16] hdd_prices.md 的 1 TB 机械价没标成内部参考删除线")
+
+    # 2. 并列选择表四列 / 不做判断 / 只报闪迪·三星 / 表格下方一段
+    for fn in rule_files:
+        t = texts.get(fn) or read(fn)
+        for k in ["型号 | 容量 | 读写速度 | 价格", "不做判断", "闪迪、三星", "表格下方"]:
             if k not in t:
-                rep.h(f"[v15] {fn} 缺新口径「{k}」")
-    prices = texts.get("hdd_prices.md") or read("hdd_prices.md")
-    for cap in ["1 TB", "2 TB", "4 TB", "5 TB", "8 TB", "10 TB",
-                "12 TB", "14 TB", "16 TB", "18 TB", "20 TB"]:
-        if f"| {cap} |" not in prices and f"**{cap}**" not in prices:
-            rep.w(f"[v15] hdd_prices.md 主用档可能缺 {cap} 行")
+                rep.h(f"[v16] {fn} 缺并列选择表口径「{k}」")
+
+    # 3. 「表格下方这段照常给客户」不能被写成「整段不许输出」
+    old_bans = ["不许输出「表外补充」这类字眼", "不要输出「表外补充」这类字眼"]
+    for fn in rule_files:
+        t = texts.get(fn) or read(fn)
+        if any(b in t for b in old_bans):
+            rep.h(f"[v16] {fn} 仍有易误读的旧措辞（会被当成整段不许给客户）")
+        if "这段照常给客户" not in t:
+            rep.h(f"[v16] {fn} 没写明「表格下方这段照常给客户」")
+    if "不加任何表外补充" in texts["AI_PACK.md"]:
+        rep.h("[v16] AI_PACK 示范旁白仍用「表外补充」字眼")
+
+    # 4. 2–4 TB 段的 DIT 工作流关键句
+    for fn in rule_files + ["START_HERE.md"]:
+        t = texts.get(fn) or read(fn)
+        for k in ["8 TB 固态硬盘", "2 份临时备份", "2–3 周"]:
+            if k not in t:
+                rep.w(f"[v16] {fn} 缺 DIT 工作流关键句「{k}」")
+
+    # 5. CSV：1 TB 机械只能内部参考；2 TB 机械与 1/2 TB 固态仍对外
     with open(os.path.join(BASE, "hdd_prices.csv"), encoding="utf-8-sig") as f:
         prows = list(csv.DictReader(f))
+    mech1 = [r for r in prows
+             if r["category"] == "机械移动盘" and r["capacity_tb"] == "1"]
+    if mech1 and any("内部参考" not in r["channel"] for r in mech1):
+        rep.h("[v16] hdd_prices.csv 的 1 TB 机械行仍标对外渠道")
     got = {(r["category"], r["capacity_tb"]) for r in prows}
-    want = {("机械移动盘", "1"), ("机械移动盘", "2"),
-            ("固态移动盘", "1"), ("固态移动盘", "2")}
+    want = {("机械移动盘", "2"), ("固态移动盘", "1"), ("固态移动盘", "2")}
     if want - got:
-        rep.h(f"[v15] hdd_prices.csv 缺 1/2 TB 机械或固态行：{sorted(want - got)}")
+        rep.h(f"[v16] hdd_prices.csv 缺 2 TB 机械或 1/2 TB 固态行：{sorted(want - got)}")
+
+    # 6. v15 沿用断言
     with open(os.path.join(BASE, "aliases.csv"), encoding="utf-8-sig") as f:
         amap = {r["alias"]: r["canonical"] for r in csv.DictReader(f)}
     # 注意：build_kb.py 按 lower 去重，「F叉3」与「f叉3」合并，只留小写那条
     for a in ["f叉3", "f叉三", "艾福叉3"]:
         if a not in amap:
-            rep.h(f"[v15] aliases.csv 缺口语别名「{a}」（请先跑 build_kb.py）")
+            rep.h(f"[v16] aliases.csv 缺口语别名「{a}」（请先跑 build_kb.py）")
     if amap.get("f叉3") != "ILME-FX3 / FX3A":
-        rep.h("[v15] f叉3 的 canonical 不是 ILME-FX3 / FX3A")
+        rep.h("[v16] f叉3 的 canonical 不是 ILME-FX3 / FX3A")
     with open(os.path.join(BASE, "specs_official.csv"), encoding="utf-8-sig") as f:
         fx3 = [r for r in csv.DictReader(f) if "FX3" in r["model"] and r["fps"] == "25p"]
     if not any(abs(float(r["gbh_binary"]) - 104.8) < 0.2 for r in fx3):
-        rep.h("[v15] specs_official.csv 找不到 FX3 25p ≈104.8 GB/h 的行")
-    if "正确示范 11" not in texts["README.md"]:
-        rep.h("[v15] README 缺正确示范 11（FX3 时长直算案例）")
+        rep.h("[v16] specs_official.csv 找不到 FX3 25p ≈104.8 GB/h 的行")
+
+    # 7. 示范与回归集
+    for k in ["正确示范 11", "正确示范 12"]:
+        if k not in texts["README.md"]:
+            rep.h(f"[v16] README 缺 {k}")
     if "f 叉 3" not in texts["AI_PACK.md"]:
-        rep.h("[v15] AI_PACK 缺 FX3 完整示范")
-    print("  ✓ 1/2 TB 档 / 机械·固态 / f叉3 别名 / FX3 104.8 GB/h / 示范 11")
+        rep.h("[v16] AI_PACK 缺 FX3 完整示范")
+    qa = read("regression_qa.md")
+    if "v16 · 30 条" not in qa:
+        rep.h("[v16] regression_qa.md 标题不是「v16 · 30 条」")
+    for k in ["为什么不推荐 1 TB", "表格下方那段照常给客户", "8 TB 固态"]:
+        if k not in qa:
+            rep.w(f"[v16] regression_qa.md 可能缺 v16 检查点「{k}」")
+    print("  ✓ 1 TB 机械档取消 / 并列选择表 / 表格下方一段 / DIT 工作流 / 回归集 30 条")
 
 
 def main():
@@ -358,8 +407,8 @@ def main():
     check_freshness(rep)
     print("== 8. 链接与导航 ==")
     check_links_and_nav(rep, texts)
-    print("== 9. v15 新口径 ==")
-    check_v15(rep, texts)
+    print("== 9. v16 新口径 ==")
+    check_v16(rep, texts)
 
     print("\n================= 门禁摘要 =================")
     for m in rep.hard:
