@@ -45,28 +45,30 @@ EXPECT_PRICES = {
 }
 
 V16_KEYS = ["并列选择表", "读写速度", "不做判断", "表格下方"]
-V18_KEYS = ["硬盘类型 | 数量 | 单价 | 价格", "全列居中", "分三行",
+V19_KEYS = ["硬盘类型 | 数量 | 单价 | 价格", "全列居中", "分三行",
             "到货时间需要咨询确认", "硬盘采购的账面上就是节省",
             "逐字", "16.4 TB → 18 TB", "不编劳务报价",
-            "合计 < 8 TB", "请注意甄别假冒伪劣商品"]
+            "合计 < 8 TB", "请注意甄别假冒伪劣商品",
+            "单价<br>（以实时报价为准）", "六槽位", "FLOW.md",
+            "双备份总价", "零渠道", "工作室不销售硬盘", "> 10 天"]
 
 KEY_MATRIX = {
     "README.md": ["一档一档", "两档触发", "工时 ≠ 机时", "25p", "aliases.csv",
                   "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V18_KEYS,
+                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V19_KEYS,
     "AI_INSTRUCTIONS.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
                            "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V18_KEYS,
+                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V19_KEYS,
     "AI_PACK.md": ["一档一档", "工时 ≠ 机时", "25p", "让客户自己选",
                    "超时补盘", "允许误差", "§3.2", "104.8 GB/h",
-                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V18_KEYS,
+                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V19_KEYS,
     "START_HERE.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
-                      "让客户自己选", "specs_25p.csv", "超时补盘", "九条硬规则",
+                      "让客户自己选", "specs_25p.csv", "超时补盘", "六槽位",
                       "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3",
                       "4 列选择表", "读写速度", "不做判断"],
     "index.md": ["当前版本", "aliases.csv", "specs_25p.csv", "resolution_ladders.csv",
-                 "business_notes.md", "check_rules.py", "regression_qa.md", "九条硬规则",
-                 "并列选择表"],
+                 "business_notes.md", "check_rules.py", "regression_qa.md", "六槽位",
+                 "并列选择表", "FLOW.md", "ROLLBACK.md"],
 }
 
 BANNED = [
@@ -281,7 +283,7 @@ def check_links_and_nav(rep, texts):
         if "12 小时" not in (texts.get(fn) or read(fn)):
             rep.h(f"[链接] {fn} 缺少 jsDelivr 12 小时缓存会发旧版的说明")
     idx = texts["index.md"]
-    for fn in ["START_HERE.md", "aliases.csv", "specs_25p.csv",
+    for fn in ["START_HERE.md", "FLOW.md", "ROLLBACK.md", "aliases.csv", "specs_25p.csv",
                "resolution_ladders.csv", "business_notes.md",
                "regression_qa.md", "build_kb.py", "check_rules.py", "AI_PACK.md"]:
         if fn not in idx:
@@ -298,8 +300,9 @@ def check_links_and_nav(rep, texts):
             print(f"  ✓ 回归集 {n} 条")
 
 
-def check_v18(rep, texts):
-    """v18：< 8 TB 短版话术 / 4 列三行配置表 / v18 逐字句 / 一轮给全 / DIT 分支 / 档位上界。
+def check_v19(rep, texts):
+    """v19：六槽位主线 / 单价表头免责 / 无 ≈ / 大项目双表零渠道 / > 10 天不提省钱公式 /
+    < 8 TB 短版话术 / 4 列三行单价表 / 逐字句 / 一轮给全 / DIT 分支 / 档位上界 / 回溯快照。
 
     沿用 v16 的 1 TB 机械档取消、< 4 TB 并列选择表、表格下方一段、DIT 工作流，
     以及 v15 的 FX3 时长直算、口语别名、禁联网 / 禁反问 / 禁认错复读断言。
@@ -374,8 +377,8 @@ def check_v18(rep, texts):
     if "f 叉 3" not in texts["AI_PACK.md"]:
         rep.h("[v16] AI_PACK 缺 FX3 完整示范")
     qa = read("regression_qa.md")
-    if "v18 · 44 条" not in qa:
-        rep.h("[v18] regression_qa.md 标题不是「v18 · 44 条」")
+    if "v19 · 50 条" not in qa:
+        rep.h("[v19] regression_qa.md 标题不是「v19 · 50 条」")
     for k in ["为什么不推荐 1 TB", "表格下方那段照常给客户", "8 TB 固态",
               "硬盘采购的账面上就是节省", "到货时间需要咨询确认"]:
         if k not in qa:
@@ -397,16 +400,22 @@ def check_v18(rep, texts):
         for i, s in enumerate(fixed, 1):
             if s not in t:
                 rep.h(f"[v18] {fn} 缺逐字话术第 {i} 段（或已被改写）")
-        if "| 硬盘类型 | 数量 | 单价 | 价格 |\n|:---:|:---:|:---:|:---:|" not in t:
-            rep.h(f"[v18] {fn} 配置表不是 4 列 / 没全列居中")
+        if "| 硬盘类型 | 数量 | 单价<br>（以实时报价为准） | 价格 |\n|:---:|:---:|:---:|:---:|" not in t:
+            rep.h(f"[v19] {fn} 单价表不是 4 列 / 免责没写在单价表头 / 没全列居中")
         if "| 硬盘类型 | 容量 | 数量 | 单价 | 价格 |" in t:
             rep.h(f"[v18] {fn} 仍残留 5 列配置表（容量列已删）")
         if "8TB<br>希捷睿翼<br>桌面硬盘" not in t:
             rep.h(f"[v18] {fn} 缺三行硬盘类型样板")
-        if "¥2489<br>（以实时报价为准）" not in t:
-            rep.h(f"[v18] {fn} 缺 7.4 TB 样板的单价单元格")
-        if "¥3599<br>（以实时报价为准）" not in t:
-            rep.h(f"[v18] {fn} 「（以实时报价为准）」没挂在单价下方")
+        if "| 8TB<br>希捷睿翼<br>桌面硬盘 | 2 块 | ¥2489 | ¥4,978 |" not in t:
+            rep.h(f"[v19] {fn} 缺 7.4 TB 样板的纯数字单价单元格")
+        if "| 12TB<br>希捷睿翼<br>桌面硬盘 | 3 块 | ¥3599 | ¥10,797 |" not in t:
+            rep.h(f"[v19] {fn} 缺 11.5 TB 样板的纯数字单价单元格")
+        # 免责只写在表头；剥开顶部元信息区（自检行本来就要引用旧句）再扫
+        body = t.split("\n---\n", 1)[-1]
+        if "¥2489<br>（以实时报价为准）" in body or "¥3599<br>（以实时报价为准）" in body:
+            rep.h(f"[v19] {fn} 单元格里仍挂着「（以实时报价为准）」（应只在单价表头）")
+        if "≈¥" in body:
+            rep.h(f"[v19] {fn} 仍用 ≈ 报价（v19 起一律纯数字）")
         if "到货时间需要咨询确认" not in t:
             rep.h(f"[v18] {fn} 缺「我们这边」渠道的到货条件话术")
         if "16.4 TB → 18 TB" not in t and fn != "hdd_prices.md":
@@ -421,7 +430,37 @@ def check_v18(rep, texts):
         for bad in ["拍摄 30 分钟，5天合计是 11.5 TB", "建议采购 3 块 12 TB",
                     "交付 2 个完整备份。"]:
             if bad in t:
-                rep.h(f"[v18] {fn} 出现被润色的逐字话术「{bad}」")
+                rep.h(f"[v19] {fn} 出现被润色的逐字话术「{bad}」")
+
+    # ---------------- v19 专项：六槽位 / 大项目双表 / 零渠道 / > 10 天 ----------------
+    for fn in rule_files:
+        t = texts.get(fn) or read(fn)
+        for k in ["单份 > 20 TB", "双备份总价", "三备份总价",
+                  "上面那张是每份的价格，这张才是整个项目的硬盘预算。",
+                  "存储硬盘如果买到伪劣假冒产品，会给整个项目带来灾难性的打击，采买和配置建议直接联系逃避梦 DIT 工作室咨询。",
+                  "工作室不销售硬盘", "零渠道", "> 10 天", "43.5 TB"]:
+            if k not in t:
+                rep.h(f"[v19] {fn} 缺 v19 大项目口径「{k}」")
+        if "六槽位" not in t:
+            rep.h(f"[v19] {fn} 缺六槽位主线指路")
+    # FLOW / ROLLBACK 必须存在且被 index 导航列出
+    for fn in ["FLOW.md", "ROLLBACK.md"]:
+        if not os.path.exists(os.path.join(BASE, fn)):
+            rep.h(f"[v19] 缺少 {fn}（主流程 / 回溯页）")
+        if fn not in texts["index.md"]:
+            rep.h(f"[v19] index.md 没有列出 {fn}")
+    flow = read("FLOW.md") if os.path.exists(os.path.join(BASE, "FLOW.md")) else ""
+    for k in ["六个槽位", "决策表", "四条铁律", "单价<br>（以实时报价为准）",
+              "双备份总价", "零渠道", "v19"]:
+        if k not in flow:
+            rep.h(f"[v19] FLOW.md 缺关键内容「{k}」")
+    roll = read("ROLLBACK.md") if os.path.exists(os.path.join(BASE, "ROLLBACK.md")) else ""
+    for k in ["v18-backup-20261115", "camera-specs-db_v18_backup_20261115", "ghproxy"]:
+        if k not in roll:
+            rep.h(f"[v19] ROLLBACK.md 缺回溯路径「{k}」")
+    # 43.5 TB 不许再配 2 块 20 TB
+    if "43.5 TB 一份，按双备份准备 2 块 20 TB 就够" in texts["README.md"]:
+        rep.h("[v19] README 仍残留「43.5 TB → 2 块 20 TB 就够」的错误示范正文")
 
     # 示范区块不许出现判断依据 / 工作盘另算
     demo = texts["README.md"].split("### ✅ 正确示范 0", 1)[-1].split("### ❌ 错误示范", 1)[0]
@@ -432,7 +471,7 @@ def check_v18(rep, texts):
                 "按容量建议：", "工作盘另算", "净省"]:
         if bad in demo:
             rep.h(f"[v18] README 示范区仍含判断依据 / 多余话术「{bad}」")
-    for k in ["正确示范 13", "正确示范 14", "正确示范 15"]:
+    for k in ["正确示范 13", "正确示范 14", "正确示范 15", "正确示范 16"]:
         if k not in texts["README.md"]:
             rep.h(f"[v18] README 缺 {k}")
     # 正确示范 15 是 < 8 TB 短版：对客正文不许带完整版补盘句或 DIT 段
@@ -445,7 +484,7 @@ def check_v18(rep, texts):
             rep.h(f"[v18] README 正确示范 15（< 8 TB）仍含完整版话术「{bad}」")
     if "不要发 GitHub 仓库主页" not in texts["README.md"]:
         rep.h("[v18] README 缺「主转发只发 ghproxy/raw，不发 GitHub 主页」说明")
-    print("  ✓ < 8 TB 短版 / 4 列三行配置表 / v18 逐字句 / 判断逻辑不外露 / DIT 分支 / 档位上界 / 回归集 44 条")
+    print("  ✓ 六槽位主线 / 单价表头免责 / 无 ≈ / 大项目双表零渠道 / > 10 天不提省钱公式 / FLOW+ROLLBACK / 回归集 50 条")
 
 
 def main():
@@ -478,8 +517,8 @@ def main():
     check_freshness(rep)
     print("== 8. 链接与导航 ==")
     check_links_and_nav(rep, texts)
-    print("== 9. v18 新口径 ==")
-    check_v18(rep, texts)
+    print("== 9. v19 新口径 ==")
+    check_v19(rep, texts)
 
     print("\n================= 门禁摘要 =================")
     for m in rep.hard:
