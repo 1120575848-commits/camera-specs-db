@@ -45,23 +45,26 @@ EXPECT_PRICES = {
 }
 
 V16_KEYS = ["并列选择表", "读写速度", "不做判断", "表格下方"]
+V17_KEYS = ["硬盘类型 | 容量 | 数量 | 单价 | 价格", "全列居中",
+            "到货时间需要咨询确认", "硬盘采购的账面上就是节省",
+            "逐字", "16.4 TB → 18 TB", "不编劳务报价"]
 
 KEY_MATRIX = {
     "README.md": ["一档一档", "两档触发", "工时 ≠ 机时", "25p", "aliases.csv",
                   "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
+                  "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V17_KEYS,
     "AI_INSTRUCTIONS.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
                            "让客户自己选", "超时补盘", "允许误差", "specs_25p.csv",
-                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
+                           "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V17_KEYS,
     "AI_PACK.md": ["一档一档", "工时 ≠ 机时", "25p", "让客户自己选",
                    "超时补盘", "允许误差", "§3.2", "104.8 GB/h",
-                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS,
+                   "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V17_KEYS,
     "START_HERE.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
-                      "让客户自己选", "specs_25p.csv", "超时补盘", "八条硬规则",
+                      "让客户自己选", "specs_25p.csv", "超时补盘", "九条硬规则",
                       "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3",
                       "4 列选择表", "读写速度", "不做判断"],
     "index.md": ["当前版本", "aliases.csv", "specs_25p.csv", "resolution_ladders.csv",
-                 "business_notes.md", "check_rules.py", "regression_qa.md", "八条硬规则",
+                 "business_notes.md", "check_rules.py", "regression_qa.md", "九条硬规则",
                  "并列选择表"],
 }
 
@@ -294,10 +297,11 @@ def check_links_and_nav(rep, texts):
             print(f"  ✓ 回归集 {n} 条")
 
 
-def check_v16(rep, texts):
-    """v16：1 TB 机械档取消、< 4 TB 并列选择表、表格下方一段、DIT 工作流。
+def check_v17(rep, texts):
+    """v17：一轮给全 / 5 列配置表 / 逐字话术锁定 / 判断逻辑不外露 / DIT 分支 / 档位上界。
 
-    沿用 v15 的 FX3 时长直算、口语别名、禁联网 / 禁反问 / 禁认错复读断言。
+    沿用 v16 的 1 TB 机械档取消、< 4 TB 并列选择表、表格下方一段、DIT 工作流，
+    以及 v15 的 FX3 时长直算、口语别名、禁联网 / 禁反问 / 禁认错复读断言。
     """
     rule_files = ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "hdd_prices.md"]
 
@@ -369,12 +373,53 @@ def check_v16(rep, texts):
     if "f 叉 3" not in texts["AI_PACK.md"]:
         rep.h("[v16] AI_PACK 缺 FX3 完整示范")
     qa = read("regression_qa.md")
-    if "v16 · 30 条" not in qa:
-        rep.h("[v16] regression_qa.md 标题不是「v16 · 30 条」")
-    for k in ["为什么不推荐 1 TB", "表格下方那段照常给客户", "8 TB 固态"]:
+    if "v17 · 38 条" not in qa:
+        rep.h("[v17] regression_qa.md 标题不是「v17 · 38 条」")
+    for k in ["为什么不推荐 1 TB", "表格下方那段照常给客户", "8 TB 固态",
+              "硬盘采购的账面上就是节省", "到货时间需要咨询确认"]:
         if k not in qa:
-            rep.w(f"[v16] regression_qa.md 可能缺 v16 检查点「{k}」")
-    print("  ✓ 1 TB 机械档取消 / 并列选择表 / 表格下方一段 / DIT 工作流 / 回归集 30 条")
+            rep.w(f"[v17] regression_qa.md 可能缺检查点「{k}」")
+
+    # ---------------- v17 专项 ----------------
+    fixed = [
+        "按照每日每个机位拍摄30分钟，5天合计是11.5TB，数据量比较大，我们这边建议是采购 3 块 12TB 的硬盘，制作交付 3 个备份，如果实际拍下来存在超时、素材量增加，我们再补充一个硬盘也还可以，也能及时制作交付2个完整备份。",
+        "3 块 12 TB 希捷睿翼桌面硬盘，京东自营下单、基本都是次日达，如果实际拍下来超时、素材量涨了，再及时补盘即可。",
+        "如果项目请了 DIT，一般DIT 会额外保存一份完整素材 2–3 周，我们这边准备2 个备份的存储硬盘就可以了，硬盘采购上面就买两块这样的硬盘就可以了，费用是 ¥7,198，硬盘采购的账面上就是节省 ¥3,599。",
+    ]
+    for fn in rule_files:
+        t = texts.get(fn) or read(fn)
+        for i, s in enumerate(fixed, 1):
+            if s not in t:
+                rep.h(f"[v17] {fn} 缺逐字话术第 {i} 段（或已被改写）")
+        if "| 硬盘类型 | 容量 | 数量 | 单价 | 价格 |\n|:---:|:---:|:---:|:---:|:---:|" not in t:
+            rep.h(f"[v17] {fn} 配置表不是 5 列 / 没全列居中")
+        if "¥3599<br>（以实时报价为准）" not in t:
+            rep.h(f"[v17] {fn} 「（以实时报价为准）」没挂在单价下方")
+        if "到货时间需要咨询确认" not in t:
+            rep.h(f"[v17] {fn} 缺「我们这边」渠道的到货条件话术")
+        if "16.4 TB → 18 TB" not in t and fn != "hdd_prices.md":
+            rep.h(f"[v17] {fn} 缺档位上界示例（16.4 TB → 18 TB）")
+        # 逐字话术不许被润色
+        for bad in ["拍摄 30 分钟，5天合计是 11.5 TB", "建议采购 3 块 12 TB",
+                    "交付 2 个完整备份。"]:
+            if bad in t:
+                rep.h(f"[v17] {fn} 出现被润色的逐字话术「{bad}」")
+
+    # 示范区块不许出现判断依据 / 工作盘另算
+    demo = texts["README.md"].split("### ✅ 正确示范 0", 1)[-1].split("### ❌ 错误示范", 1)[0]
+    # 「> 要点」是写给我们自己看的验收说明，里面本来就要引用禁词；只扫对客输出
+    demo = "\n".join(l for l in demo.splitlines()
+                     if not l.lstrip().startswith("> 要点"))
+    for bad in ["已 ≥ 8 TB", "按档位取", "一档一档，不跳", "一份一块",
+                "按容量建议：", "工作盘另算", "净省"]:
+        if bad in demo:
+            rep.h(f"[v17] README 示范区仍含判断依据 / 多余话术「{bad}」")
+    for k in ["正确示范 13", "正确示范 14"]:
+        if k not in texts["README.md"]:
+            rep.h(f"[v17] README 缺 {k}")
+    if "不要发 GitHub 仓库主页" not in texts["README.md"]:
+        rep.h("[v17] README 缺「主转发只发 ghproxy/raw，不发 GitHub 主页」说明")
+    print("  ✓ 一轮给全 / 5 列配置表居中 / 逐字话术 / 判断逻辑不外露 / DIT 分支 / 档位上界 / 回归集 38 条")
 
 
 def main():
@@ -407,8 +452,8 @@ def main():
     check_freshness(rep)
     print("== 8. 链接与导航 ==")
     check_links_and_nav(rep, texts)
-    print("== 9. v16 新口径 ==")
-    check_v16(rep, texts)
+    print("== 9. v17 新口径 ==")
+    check_v17(rep, texts)
 
     print("\n================= 门禁摘要 =================")
     for m in rep.hard:
