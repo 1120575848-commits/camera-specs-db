@@ -49,7 +49,7 @@ V19_KEYS = ["硬盘类型 | 数量 | 单价 | 价格", "全列居中", "分三�
             "到货时间需要咨询确认", "硬盘采购的账面上就是节省",
             "逐字", "16.4 TB → 18 TB", "不编劳务报价",
             "合计 < 8 TB", "请注意甄别假冒伪劣商品",
-            "单价<br>（以实时报价为准）", "六槽位", "FLOW.md",
+            "单价<br>（以实时报价为准）",
             "双备份总价", "零渠道", "工作室不销售硬盘", "> 10 天"]
 
 KEY_MATRIX = {
@@ -63,12 +63,12 @@ KEY_MATRIX = {
                    "超时补盘", "允许误差", "§3.2", "104.8 GB/h",
                    "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列"] + V16_KEYS + V19_KEYS,
     "START_HERE.md": ["一档一档", "工时 ≠ 机时", "25p", "aliases.csv",
-                      "让客户自己选", "specs_25p.csv", "超时补盘", "六槽位",
+                      "让客户自己选", "specs_25p.csv", "超时补盘", "九条硬规则",
                       "联网", "第一轮", "认错", "每机 4 小时", "希捷简系列", "f叉3",
                       "4 列选择表", "读写速度", "不做判断"],
     "index.md": ["当前版本", "aliases.csv", "specs_25p.csv", "resolution_ladders.csv",
-                 "business_notes.md", "check_rules.py", "regression_qa.md", "六槽位",
-                 "并列选择表", "FLOW.md", "ROLLBACK.md"],
+                 "business_notes.md", "check_rules.py", "regression_qa.md",
+                 "并列选择表", "FLOW.md", "ROLLBACK.md", "可选速查"],
 }
 
 BANNED = [
@@ -300,7 +300,7 @@ def check_links_and_nav(rep, texts):
             print(f"  ✓ 回归集 {n} 条")
 
 
-def check_v19(rep, texts):
+def check_v20(rep, texts):
     """v19：六槽位主线 / 单价表头免责 / 无 ≈ / 大项目双表零渠道 / > 10 天不提省钱公式 /
     < 8 TB 短版话术 / 4 列三行单价表 / 逐字句 / 一轮给全 / DIT 分支 / 档位上界 / 回溯快照。
 
@@ -377,8 +377,8 @@ def check_v19(rep, texts):
     if "f 叉 3" not in texts["AI_PACK.md"]:
         rep.h("[v16] AI_PACK 缺 FX3 完整示范")
     qa = read("regression_qa.md")
-    if "v19 · 50 条" not in qa:
-        rep.h("[v19] regression_qa.md 标题不是「v19 · 50 条」")
+    if "v20 · 54 条" not in qa:
+        rep.h("[v20] regression_qa.md 标题不是「v20 · 54 条」")
     for k in ["为什么不推荐 1 TB", "表格下方那段照常给客户", "8 TB 固态",
               "硬盘采购的账面上就是节省", "到货时间需要咨询确认"]:
         if k not in qa:
@@ -441,8 +441,8 @@ def check_v19(rep, texts):
                   "工作室不销售硬盘", "零渠道", "> 10 天", "43.5 TB"]:
             if k not in t:
                 rep.h(f"[v19] {fn} 缺 v19 大项目口径「{k}」")
-        if "六槽位" not in t:
-            rep.h(f"[v19] {fn} 缺六槽位主线指路")
+        if "可选速查" not in t:
+            rep.h(f"[v20] {fn} 缺 FLOW 可选速查定位（不是唯一真源）")
     # FLOW / ROLLBACK 必须存在且被 index 导航列出
     for fn in ["FLOW.md", "ROLLBACK.md"]:
         if not os.path.exists(os.path.join(BASE, fn)):
@@ -451,11 +451,11 @@ def check_v19(rep, texts):
             rep.h(f"[v19] index.md 没有列出 {fn}")
     flow = read("FLOW.md") if os.path.exists(os.path.join(BASE, "FLOW.md")) else ""
     for k in ["六个槽位", "决策表", "四条铁律", "单价<br>（以实时报价为准）",
-              "双备份总价", "零渠道", "v19"]:
+              "双备份总价", "零渠道", "v20"]:
         if k not in flow:
             rep.h(f"[v19] FLOW.md 缺关键内容「{k}」")
     roll = read("ROLLBACK.md") if os.path.exists(os.path.join(BASE, "ROLLBACK.md")) else ""
-    for k in ["v18-backup-20261115", "camera-specs-db_v18_backup_20261115", "ghproxy"]:
+    for k in ["v18-backup-20261115", "v19-backup-20261117", "camera-specs-db_v18_backup_20261115", "ghproxy"]:
         if k not in roll:
             rep.h(f"[v19] ROLLBACK.md 缺回溯路径「{k}」")
     # 43.5 TB 不许再配 2 块 20 TB
@@ -484,7 +484,50 @@ def check_v19(rep, texts):
             rep.h(f"[v18] README 正确示范 15（< 8 TB）仍含完整版话术「{bad}」")
     if "不要发 GitHub 仓库主页" not in texts["README.md"]:
         rep.h("[v18] README 缺「主转发只发 ghproxy/raw，不发 GitHub 主页」说明")
-    print("  ✓ 六槽位主线 / 单价表头免责 / 无 ≈ / 大项目双表零渠道 / > 10 天不提省钱公式 / FLOW+ROLLBACK / 回归集 50 条")
+    print("  ✓ 九条硬规则入口 / 表外话术照常给 / 固定句一轮一次 / 内部元词禁外泄 / 单价表头免责 / 大项目双表零渠道 / 回归集 54 条")
+
+
+
+def check_v20_expr(rep, texts):
+    """v20 体验修复专项：表外话术照常给 / 固定句一轮一次 / 内部元词禁外泄 / 九条入口。"""
+    rule_files = ["README.md", "AI_INSTRUCTIONS.md", "AI_PACK.md", "hdd_prices.md"]
+    # 1. 四份规则 + START_HERE 都要有三条表达基线
+    for fn in rule_files + ["START_HERE.md"]:
+        t = texts.get(fn) or read(fn)
+        # 表外话术：接受「表外话术照常给」或「表外补充说明照常给」两种措辞
+        if "表外话术照常给" not in t and "表外补充说明照常给" not in t:
+            rep.h(f"[v20] {fn} 缺表达基线「表外话术照常给客户」")
+        for k in ["固定收尾句一轮只出一次", "内部规则词永不对客说"]:
+            if k not in t:
+                rep.h(f"[v20] {fn} 缺表达基线「{k}」")
+        if "零渠道 / 不报 DIT" not in t and "不报 DIT / 不外露判断逻辑" not in t:
+            rep.h(f"[v20] {fn} 缺内部元词清单（零渠道 / 不报 DIT / 不外露判断逻辑）")
+    # 2. START_HERE 必须是九条硬规则入口、v20，且 FLOW 降级
+    sh = texts.get("START_HERE.md", "")
+    for k in ["九条硬规则", "版本 v20", "不是唯一真源", "可选速查页"]:
+        if k not in sh:
+            rep.h(f"[v20] START_HERE.md 缺「{k}」（入口应回 v18 九条结构）")
+    if "## 1. 六槽位" in sh or "### 六槽位主线" in sh:
+        rep.h("[v20] START_HERE.md 仍把六槽位当主线")
+    # 3. FLOW 必须自称可选速查、不再唯一真源
+    flow = read("FLOW.md") if os.path.exists(os.path.join(BASE, "FLOW.md")) else ""
+    for k in ["可选速查页", "不是唯一真源", "v20"]:
+        if k not in flow:
+            rep.h(f"[v20] FLOW.md 缺降级说明「{k}」")
+    if "唯一导航真源" in flow.split("\n---\n")[-1]:
+        rep.h("[v20] FLOW.md 正文仍残留「唯一导航真源」")
+    # 4. 回归集 51-54
+    qa = read("regression_qa.md")
+    for k in ["| 51 |", "| 52 |", "| 53 |", "| 54 |", "固定句一轮一次", "内部元词不外泄"]:
+        if k not in qa:
+            rep.h(f"[v20] 回归集缺第 51-54 条修复场景「{k}」")
+    # 5. 内部元词不许出现在对客示范区正文（剥掉「> 要点」元信息行）
+    demo = texts["README.md"].split("### ✅ 正确示范 0", 1)[-1].split("### ❌ 错误示范", 1)[0]
+    demo = "\n".join(l for l in demo.splitlines() if not l.lstrip().startswith("> 要点"))
+    for bad in ["零渠道", "不报 DIT", "不外露判断逻辑", "按规则不写", "六槽位", "决策表"]:
+        if bad in demo:
+            rep.h(f"[v20] README 对客示范区正文出现内部元词「{bad}」")
+    print("  ✓ v20 表达基线：表外话术照常给 / 固定句一轮一次 / 内部元词禁外泄 / 九条入口")
 
 
 def main():
@@ -517,8 +560,10 @@ def main():
     check_freshness(rep)
     print("== 8. 链接与导航 ==")
     check_links_and_nav(rep, texts)
-    print("== 9. v19 新口径 ==")
-    check_v19(rep, texts)
+    print("== 9. v20 口径 ==")
+    check_v20(rep, texts)
+    print("== 10. v20 表达基线 ==")
+    check_v20_expr(rep, texts)
 
     print("\n================= 门禁摘要 =================")
     for m in rep.hard:
